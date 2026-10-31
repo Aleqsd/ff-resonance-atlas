@@ -1,8 +1,24 @@
-# ffrs-atlas
+# FF Resonance Atlas: missing tablet shards, chests and achievement counter for FINAL FANTASY RESONANCE
 
-A completion helper for **FINAL FANTASY RESONANCE** (Steam). It reads your own copy of the game and
-your own save, then builds a single offline HTML page (`work/atlas.html`) that lists **only what you
-are still missing**:
+Free, open-source **100% completion helper for FINAL FANTASY RESONANCE** (FF Resonance, FFRS) on
+Steam / PC and Steam Deck. It reads your own game files and your own save, and tells you exactly what
+is left:
+
+- **Atlas** (`atlas.py`): a map of your **missing Tablet Shards** (*Fragments de tablette*, 99 in
+  total) and **missing treasure chests**, on the game's own map plans.
+- **Live achievement counter** (`counter.py`): how many **Resonances** you have used for the
+  *Resonance Rapid Fire* achievement (400), how many **staggers** for *Keep Them on Their Toes* (1000),
+  and your gil totals for *Gil Comes and Goes* and *Making Lid Proud*, updated every second while you
+  play.
+
+Quick answers: [How many Resonances have I used?](#live-achievement-counter) ·
+[Where are my missing tablet shards?](#usage) · [Is it safe for my save and achievements?](#safety) ·
+[En français](#en-français)
+
+## Atlas of missing tablet shards and chests
+
+`atlas.py` builds a single offline HTML page (`work/atlas.html`) that lists **only what you are still
+missing**:
 
 - **Tablet shards** (*Fragments de tablette*) and **treasure chests** not yet picked up,
 - grouped island by island, place by place, on the game's own **map plans** with numbered markers,
@@ -22,8 +38,12 @@ the game's official French text).
 - **Read-only.** Game files and saves are only opened for reading. Each save is first copied into the
   work folder, and only that copy is decrypted and parsed (then deleted). Nothing is ever written to the
   game folder, the Steam folder or the save folder.
-- No mod, no injection, no memory reading, and the game is never launched. Steam achievements and
-  cloud saves are not affected.
+- No mod, no injection, and the game is never launched. Steam achievements and cloud saves are not
+  affected.
+- The atlas never touches the running game. Only the live counter looks at it, and only by **reading**
+  its memory: the process is opened with "read memory" and "query information" rights only, so it
+  cannot write, inject code or create threads in the game. It does not stop the game from unlocking
+  achievements.
 - Everything happens locally. Nothing is uploaded. (The atlas page only fetches web fonts from
   Google Fonts when you open it; without a connection it falls back to system fonts.)
 
@@ -72,6 +92,37 @@ paths under `~/.var/app/com.valvesoftware.Steam/`.
 The atlas page embeds map images decoded from your copy of the game. Keep it for your own use;
 please do not redistribute it.
 
+## Live achievement counter
+
+`counter.py` shows your progress on the four count-based achievements of FINAL FANTASY RESONANCE:
+
+| Achievement | French name | Goal | Counter |
+|---|---|---|---|
+| Resonance Rapid Fire | Adepte des résonances | Use Resonances 400 times | Resonances |
+| Keep Them on Their Toes | Quel choc ! | Stagger enemies 1000 times | Staggers |
+| Gil Comes and Goes | Ça s'en va et ça revient | Spend a total of 100,000 gil | Gil spent |
+| Making Lid Proud | Rendre Lid fière | Gain a total of 1,000,000 gil | Gil earned |
+
+```
+pythonw counter.py           # small always-on-top window, live while you play (Windows)
+python counter.py --once     # print the live values once in the console (Windows)
+python counter.py --save     # values stored in your newest save (Windows, Linux, Steam Deck)
+```
+
+- **Live mode** (Windows) needs only Python 3.10+ and `numpy`: no game data extraction, no Rust tools.
+  Start it while the game is running (or before: it waits for the game). It finds the game's player
+  statistics in about 2 seconds, then refreshes every second. The game must be in windowed or
+  borderless mode for the window to show on top. Drag it with the left mouse button; right-click for
+  *Search again* / *Close*. A Windows sound plays when a goal is reached.
+- **Save mode** reads the newest `GameSaveData*.sav` the same way as the atlas (needs the setup above,
+  or `FFRS_SAVE_KEY`). It only changes when the game saves.
+- Labels follow your Windows display language (English or French); force one with `--lang en` or
+  `--lang fr`.
+- The values come from the game's own statistics block (`SaveData_Player`: `finishblowCount`,
+  `breakCount`, `spentMoney`, `earnedMoney`). Resonances are called *finish blows* inside the game.
+- Task Manager may show the game's memory use go up after the first search: those are pages of the
+  game being read once, nothing is allocated in the game.
+
 ## How it works
 
 1. **IoStore / Zen reader** (`utoc.py`, `zen.py`, `extract.py`): reads the `.utoc` / `.ucas` container
@@ -106,7 +157,7 @@ floor labels, how to reach each place, streamed sub-levels per map, and a few ma
   estimated position**.
 - Chests that only existed in prologue or past-story versions of a map are **probably no longer
   obtainable**; they are listed separately in a collapsed section instead of being counted as missing.
-- The UI and place names are French only.
+- The atlas UI and place names are French only (the counter is in English or French).
 
 ## Optional late-game to-do
 
@@ -150,10 +201,24 @@ Square Enix Holdings Co., Ltd. Use at your own risk.
 
 ## En français
 
-**ffrs-atlas** génère une page HTML hors ligne (`work/atlas.html`) qui liste les **Fragments de
-tablette** et les **coffres** qu'il te reste à trouver dans FINAL FANTASY RESONANCE, île par île, sur
-les plans de carte du jeu avec des repères numérotés. La sauvegarde la plus récente est choisie
-automatiquement. Attention : la page contient des noms de lieux de tout le jeu (spoilers).
+Aide pour finir **FINAL FANTASY RESONANCE à 100 %** (FF Resonance, Steam / PC et Steam Deck).
+
+**Atlas** : `atlas.py` génère une page HTML hors ligne (`work/atlas.html`) qui liste les **Fragments
+de tablette manquants** (99 au total) et les **coffres manquants**, île par île, sur les plans de carte
+du jeu avec des repères numérotés. La sauvegarde la plus récente est choisie automatiquement.
+Attention : la page contient des noms de lieux de tout le jeu (spoilers).
+
+**Compteur de hauts faits en direct** : `pythonw counter.py` affiche une petite fenêtre toujours au
+premier plan, mise à jour chaque seconde pendant que tu joues :
+
+- **Résonances** pour le haut fait *Adepte des résonances* (400),
+- **Chocs** pour *Quel choc !* (1000),
+- **Gils dépensés** pour *Ça s'en va et ça revient* (100 000) et **gils gagnés** pour *Rendre Lid
+  fière* (1 000 000).
+
+Le compteur en direct ne demande que Python et `numpy` (Windows). Il **lit seulement** la mémoire du
+jeu : il n'écrit rien, n'injecte rien et ne touche pas à la sauvegarde. `python counter.py --save` donne
+les mêmes chiffres depuis ta dernière sauvegarde, y compris sur Linux et Steam Deck.
 
 - **Lecture seule** : les fichiers du jeu et les sauvegardes ne sont jamais modifiés (la sauvegarde est
   copiée puis lue), aucun mod, le jeu n'est pas lancé, les hauts faits Steam ne sont pas concernés.

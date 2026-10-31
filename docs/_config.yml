@@ -1,0 +1,11 @@
+title: FF Resonance Atlas
+description: >-
+  FINAL FANTASY RESONANCE completion helper: map of your missing tablet shards and treasure chests,
+  and a live counter for the Resonance Rapid Fire (400 Resonances), stagger and gil achievements.
+theme: jekyll-theme-cayman
+lang: en
+url: https://aleqsd.github.io
+baseurl: /ff-resonance-atlas
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
