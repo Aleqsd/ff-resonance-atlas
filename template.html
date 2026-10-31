@@ -1,0 +1,620 @@
+<meta charset="utf-8">
+<title>Atlas des fragments</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: a play-session companion. Sticky finder (tabs, search, filter, island jump), then island chapters: world map in a sticky side column, place cards made of plan blocks (plan + its own tickable list). Second tab: late-game todo. */
+:root {
+  --bg: #10131a; --panel: #171b25; --panel2: #1e2330; --line: #2a3142; --line2: #39415a;
+  --fg: #e9ebf2; --muted: #9ba4b7; --faint: #848ca1;
+  --shard: #f0509e; --chest: #f4b631; --found: #6fca9c; --info: #8fa6ff;
+  --map: #141720; --ink: #12141b;
+  --f-display: "Marcellus", "Palatino Linotype", Palatino, Georgia, serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+  --fh: 120px;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #edf0f5; --panel: #ffffff; --panel2: #f3f5f9; --line: #d5dbe6; --line2: #bcc5d4;
+  --fg: #192030; --muted: #566174; --faint: #646c7e;
+  --shard: #c81f76; --chest: #a46c05; --found: #2b8559; --info: #3550c4; color-scheme: light; } }
+:root[data-theme="light"] {
+  --bg: #edf0f5; --panel: #ffffff; --panel2: #f3f5f9; --line: #d5dbe6; --line2: #bcc5d4;
+  --fg: #192030; --muted: #566174; --faint: #646c7e;
+  --shard: #c81f76; --chest: #a46c05; --found: #2b8559; --info: #3550c4; color-scheme: light; }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--f-body); margin: 0; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 20px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 400; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(26px, 4.6vw, 38px); line-height: 1.1; }
+h2 { font-size: 23px; line-height: 1.2; }
+h3 { font-size: 19px; line-height: 1.25; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--info); outline-offset: 2px; }
+.meta { color: var(--muted); font-size: 14px; }
+
+/* header */
+.top { display: grid; gap: 6px; }
+.big { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 10px; align-items: baseline; }
+.big .n { font: 700 32px/1 var(--f-mono); font-variant-numeric: tabular-nums; }
+.big .l { color: var(--muted); font-size: 14px; margin-left: 6px; }
+.big .k-late { cursor: pointer; } .big .k-late:hover .l { color: var(--fg); text-decoration: underline; }
+.big .k-shard .n { color: var(--shard); } .big .k-chest .n { color: var(--chest); } .big .k-late .n { color: var(--info); }
+.big .done { color: var(--faint); font-size: 13px; }
+@media (max-width: 600px) {
+  .big { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .big .n { font-size: 26px; }
+  .big .l { display: block; margin: 2px 0 0; font-size: 13px; line-height: 1.25; }
+  .big .done { font-size: 11.5px; line-height: 1.3; margin-top: 2px; }
+}
+.collector { font-size: 14px; color: var(--muted); }
+.collector b { color: var(--fg); }
+details.help { font-size: 14px; color: var(--muted); }
+details.help summary { cursor: pointer; width: fit-content; }
+details.help p { margin: 6px 0 0; max-width: 75ch; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.legend span { display: inline-flex; gap: 6px; align-items: center; }
+
+/* sticky finder */
+.finder { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  margin: 14px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0; padding: 10px max(16px, env(safe-area-inset-right, 0px)) 8px max(16px, env(safe-area-inset-left, 0px));
+  border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.tabs { display: inline-flex; gap: 4px; }
+.tabs button { background: none; border: 1px solid transparent; border-radius: 10px; padding: 6px 12px; cursor: pointer; color: var(--muted); font-weight: 700; }
+.tabs button[aria-selected="true"] { background: var(--panel); border-color: var(--line); color: var(--fg); }
+.tabs .c { font: 700 12px var(--f-mono); margin-left: 6px; color: var(--muted); }
+.search { flex: 1 1 200px; min-width: 0; display: flex; align-items: center; gap: 8px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 0 10px; }
+.search input { flex: 1; min-width: 0; border: 0; background: none; color: var(--fg); font: inherit; padding: 8px 0; outline: none; }
+.search:focus-within { border-color: var(--info); }
+.kbd { font: 700 11px/1 var(--f-mono); color: var(--faint); border: 1px solid var(--line2); border-radius: 5px; padding: 3px 6px; }
+.search:focus-within .kbd { display: none; }
+@media (hover: none) { .kbd { display: none; } }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--panel); }
+.seg button { background: none; border: 0; padding: 7px 11px; cursor: pointer; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
+.seg button[aria-pressed="true"] { background: var(--panel2); color: var(--fg); box-shadow: inset 0 -2px 0 currentColor; }
+.tog { display: inline-flex; gap: 7px; align-items: center; color: var(--muted); cursor: pointer; font-size: 14px; user-select: none; }
+.tog input { accent-color: var(--found); width: 16px; height: 16px; }
+.jump { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+@media (min-width: 900px) { .jump { flex-wrap: wrap; overflow: visible; } }
+.jump a { flex: none; text-decoration: none; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: 13px; white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+.jump a .c { font: 700 12px var(--f-mono); color: var(--muted); display: inline-flex; gap: 3px; align-items: center; }
+@media (max-width: 600px) { .finder.compact .row { display: none; } }
+
+/* glyphs */
+.g { display: inline-grid; place-items: center; width: 22px; height: 22px; font: 700 11px/1 var(--f-mono); color: var(--ink); border: 2px solid var(--ink); flex: none; position: relative; }
+.g.shard { background: #f0509e; border-radius: 50%; }
+.g.chest { background: #f4b631; border-radius: 5px; }
+.g.sm { width: 12px; height: 12px; border-width: 1.5px; }
+.dotf { width: 9px; height: 9px; border-radius: 50%; background: #2b8559; box-shadow: 0 0 0 1.5px #fff, 0 0 0 3px #12141b; display: inline-block; }
+
+/* island */
+.island { margin-top: 30px; scroll-margin-top: calc(var(--fh) + 12px); }
+.ihead { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 8px; grid-column: 1 / -1; }
+.ihead .cnt { color: var(--muted); font-size: 14px; display: inline-flex; gap: 12px; align-items: center; }
+.ihead .cnt span { display: inline-flex; gap: 6px; align-items: center; }
+details.wmap { margin: 12px 0 4px; }
+details.wmap summary { cursor: pointer; color: var(--muted); font-size: 14px; width: fit-content; }
+.world { position: relative; width: min(100%, 420px); aspect-ratio: 1; background: var(--map); border-radius: 12px; border: 1px solid var(--line); overflow: hidden; margin-top: 8px; }
+.world img { width: 100%; height: 100%; display: block; }
+.wpin { position: absolute; transform: translate(-50%, -50%); min-width: 28px; height: 28px; padding: 0 6px; border-radius: 14px; background: #eef0f6; color: #10131a;
+  font: 700 12px/28px var(--f-mono); text-align: center; text-decoration: none; box-shadow: 0 0 0 2px #10131a, 0 2px 6px #0008; }
+.wpin::before { content: ""; position: absolute; inset: -8px; }
+.wpin:hover, .wpin.hot { background: #f0509e; color: #fff; }
+.places { display: grid; gap: 14px; margin-top: 14px; min-width: 0; }
+@media (min-width: 1000px) {
+  .island { display: grid; grid-template-columns: 300px minmax(0, 1fr); column-gap: 20px; align-items: start; }
+  .island > details.wmap { grid-column: 1; position: sticky; top: calc(var(--fh) + 12px); margin-top: 14px; }
+  .island > details.wmap summary { pointer-events: none; list-style: none; }
+  .island > details.wmap summary::-webkit-details-marker { display: none; }
+  .island > .places { grid-column: 2; }
+  .world { width: 100%; }
+}
+
+/* place card */
+.place { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 12px; min-width: 0; scroll-margin-top: calc(var(--fh) + 12px); }
+.place:target { outline: 2px solid var(--info); outline-offset: 2px; }
+.phead { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; align-items: start; }
+.pnum { grid-row: span 3; width: 28px; height: 28px; border-radius: 50%; background: var(--fg); color: var(--bg); font: 700 13px/28px var(--f-mono); text-align: center; margin-top: 1px; }
+.ptitle { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.qual { color: var(--muted); font-size: 15px; }
+.crumb { color: var(--muted); font-size: 13.5px; }
+.tip { color: var(--info); font-size: 13.5px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 12.5px; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line2); color: var(--muted); white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+.chip.warn { color: var(--info); border-color: color-mix(in srgb, var(--info) 50%, transparent); }
+.pblock { display: grid; grid-template-columns: minmax(0, var(--pw, 340px)) minmax(0, 1fr); gap: 14px; align-items: start; border-top: 1px dashed var(--line); padding-top: 12px; }
+.pblock:first-of-type { border-top: 0; padding-top: 0; }
+@media (max-width: 700px) { .pblock { grid-template-columns: minmax(0, 1fr); } }
+.plan { margin: 0; display: grid; gap: 5px; min-width: 0; }
+.pimg { position: relative; aspect-ratio: var(--ar, 1); background: var(--map); border-radius: 10px; overflow: hidden; border: 1px solid var(--line); cursor: zoom-in; padding: 0; width: 100%; display: block; }
+.pimg img { width: 100%; height: 100%; display: block; }
+.plan figcaption { font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.plan figcaption b { color: var(--fg); font-weight: 700; }
+.mk { position: absolute; transform: translate(-50%, -50%); pointer-events: none; }
+.mk.found { width: 8px; height: 8px; border-radius: 50%; background: #2b8559; box-shadow: 0 0 0 1.5px #fff, 0 0 0 3px #12141b; }
+.mk.g { transition: transform .15s, opacity .15s; }
+.mk.g.ticked { opacity: .25; }
+.mk.g.approx { border-style: dashed; }
+.mk.g.approx::after { content: "?"; position: absolute; right: -9px; top: -9px; width: 14px; height: 14px; border-radius: 50%; background: #8fa6ff; color: #10131a; font: 700 10px/14px var(--f-mono); text-align: center; }
+.mk.hot { transform: translate(-50%, -50%) scale(1.5); z-index: 2; }
+@media (prefers-reduced-motion: reduce) { .mk.g { transition: none; } }
+.ctx { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); }
+.ctx .cimg { position: relative; width: 84px; aspect-ratio: 1; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); background: var(--map); }
+.ctx .cimg img { width: 100%; height: 100%; display: block; }
+.ctx .cbox { position: absolute; border: 2px solid #f4b631; box-shadow: 0 0 0 1px #12141b; min-width: 5px; min-height: 5px; }
+
+/* checklist */
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; min-width: 0; align-content: start; }
+.list li { display: grid; grid-template-columns: auto auto minmax(0, 1fr); gap: 10px; align-items: center; padding: 8px 9px; border-radius: 10px; background: var(--panel2); border: 1px solid transparent; cursor: pointer; }
+.list li.hot { border-color: var(--line2); }
+.list li .what { min-width: 0; overflow-wrap: anywhere; display: grid; }
+.list li .what small { color: var(--muted); font-size: 12.5px; }
+.list li.ticked .what > span { text-decoration: line-through; color: var(--faint); }
+.list li.ticked .g { opacity: .35; }
+.box { width: 20px; height: 20px; border-radius: 6px; border: 2px solid var(--line2); display: grid; place-items: center; background: var(--panel); flex: none; }
+li.ticked .box { background: var(--found); border-color: var(--found); }
+li.ticked .box::after { content: ""; width: 9px; height: 5px; border: solid #10131a; border-width: 0 0 2.5px 2.5px; transform: translateY(-1px) rotate(-45deg); }
+.hint { font-size: 12.5px; color: var(--faint); }
+
+/* groups */
+details.group { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 14px; }
+details.group > summary { cursor: pointer; list-style: none; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+details.group > summary::-webkit-details-marker { display: none; }
+details.group > summary h2::before { content: "▸ "; color: var(--muted); }
+details.group[open] > summary h2::before { content: "▾ "; }
+details.group > summary .sub { color: var(--muted); font-size: 14px; }
+.empty { color: var(--muted); padding: 30px 0; text-align: center; }
+
+/* late-game tab */
+.gotos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.goto { font-size: 12.5px; color: var(--info); background: none; border: 1px solid color-mix(in srgb, var(--info) 45%, transparent); border-radius: 999px; padding: 2px 9px; cursor: pointer; }
+.goto:hover { background: color-mix(in srgb, var(--info) 12%, transparent); }
+.place.flash { outline: 2px solid var(--info); outline-offset: 2px; }
+.late { display: grid; gap: 22px; margin-top: 18px; }
+.late .intro { color: var(--muted); max-width: 75ch; margin: 0; }
+.lcat h2 { margin-bottom: 8px; }
+.lcat .what small.det { color: var(--faint); margin-top: 4px; }
+.order { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.order h2 { margin-bottom: 6px; }
+.order ol { margin: 0; padding-left: 22px; display: grid; gap: 4px; }
+.order li::marker { font: 700 13px var(--f-mono); color: var(--info); }
+.lcat .list li { grid-template-columns: auto minmax(0, 1fr) auto; align-items: start; }
+.prio { font: 700 11px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; padding: 2px 7px; border-radius: 6px; border: 1px solid var(--line2); color: var(--muted); white-space: nowrap; }
+.prio.haute { color: var(--shard); border-color: color-mix(in srgb, var(--shard) 50%, transparent); }
+.prio.moyenne { color: var(--chest); border-color: color-mix(in srgb, var(--chest) 50%, transparent); }
+
+/* zoom dialog */
+dialog { border: 1px solid var(--line); border-radius: 14px; background: var(--panel); color: var(--fg); padding: 0; width: min(96vw, 1000px); max-height: 94vh; }
+dialog::backdrop { background: #000b; }
+.dz { display: grid; gap: 10px; padding: 12px; }
+.dz header { display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+.dz .nav { display: inline-flex; gap: 6px; }
+.dz .zscroll { overflow: auto; border-radius: 10px; }
+.dz .pimg { cursor: default; }
+.x { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.x[disabled] { opacity: .4; cursor: default; }
+@media (min-width: 900px) {
+  .dz { grid-template-columns: minmax(0, 1fr) 300px; align-items: start; }
+  .dz header { grid-column: 1 / -1; }
+  .dz .pimg { width: min(100%, calc((94vh - 110px) * var(--ar, 1))); }
+  .dz .mk.g { width: 28px; height: 28px; font-size: 12px; }
+}
+@media (max-width: 899px) {
+  dialog#zoom { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border-radius: 0; }
+  .dz .zscroll { max-height: 66dvh; touch-action: pan-x pan-y pinch-zoom; }
+  .dz .zscroll .pimg { width: calc(1.7 * min(100vw - 24px, 60dvh * var(--ar, 1))); max-width: none; }
+  .dz .mk.g { width: 26px; height: 26px; }
+}
+
+.toast { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); border-radius: 10px; padding: 8px 12px; display: flex; gap: 12px; align-items: center; z-index: 20; box-shadow: 0 4px 16px #0008; }
+.toast button { background: none; border: 0; color: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; }
+.notes { margin-top: 46px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: 14px; display: grid; gap: 8px; max-width: 78ch; }
+.notes h3 { color: var(--fg); }
+.notes p { margin: 0; }
+.reset { background: none; border: 1px solid var(--line2); border-radius: 8px; padding: 5px 10px; cursor: pointer; color: var(--muted); width: fit-content; }
+.reset.armed { border-color: var(--shard); color: var(--shard); }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Fragments et coffres restants</h1>
+    <div class="meta" id="meta"></div>
+    <div class="big" id="big"></div>
+    <div class="collector" id="collector"></div>
+    <details class="help" id="help">
+      <summary>Comment lire la page</summary>
+      <p class="legend"><span><i class="g shard sm"></i> fragment de tablette</span><span><i class="g chest sm"></i> coffre</span><span><i class="dotf"></i> déjà ramassé</span><span><i class="g shard sm" style="border-style:dashed"></i> position hors du plan</span></p>
+      <p>Seul ce qui te manque est listé, île par île dans l'ordre du jeu. Le numéro d'un lieu correspond à son épingle sur la carte du monde, le numéro d'un objet à son repère sur le plan. Touche un plan pour l'agrandir.</p>
+      <p>« Niveau 1 » = le plus bas. Les mots nord, sud, est, ouest suivent le menu Carte du jeu (nord en haut).</p>
+      <p>Coche ce que tu ramasses en jouant : les compteurs baissent et les coches restent dans ce navigateur.</p>
+    </details>
+  </header>
+
+  <div class="finder" id="finder">
+    <div class="row">
+      <div class="tabs" role="tablist" aria-label="Vue">
+        <button type="button" role="tab" id="t-items" aria-selected="true">À ramasser<span class="c" id="tc-items"></span></button>
+        <button type="button" role="tab" id="t-late" aria-selected="false">Fin de jeu<span class="c" id="tc-late"></span></button>
+      </div>
+      <label class="search" for="q"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Lieu ou objet (ex. Zoldaad, phénix)" autocomplete="off"><kbd class="kbd" title="Raccourci clavier">/</kbd></label>
+    </div>
+    <div class="row" id="row-filters">
+      <div class="seg" role="group" aria-label="Type d'objet">
+        <button type="button" id="f-all" aria-pressed="true">Tout</button>
+        <button type="button" id="f-shard" aria-pressed="false"><i class="g shard sm"></i>Fragments</button>
+        <button type="button" id="f-chest" aria-pressed="false"><i class="g chest sm"></i>Coffres</button>
+      </div>
+      <label class="tog"><input type="checkbox" id="hide-ticked"> Masquer ce que j'ai coché</label>
+    </div>
+    <nav class="jump" id="jump" aria-label="Aller à une île"></nav>
+  </div>
+
+  <main id="main"></main>
+  <section id="late" class="late" hidden></section>
+
+  <section class="notes">
+    <h3>D'où viennent ces infos</h3>
+    <p id="n-save"></p>
+    <p>Les positions et contenus viennent des fichiers du jeu (cartes, tables de trésors, textes français officiels), croisés avec ta sauvegarde. Après une nouvelle session de jeu, relance <code>python atlas.py</code> pour repartir de ta dernière sauvegarde.</p>
+    <p>Lecture seule : la sauvegarde a été copiée puis lue. Rien n'a été modifié, aucun mod n'est installé, les hauts faits Steam ne sont pas concernés.</p>
+    <button class="reset" type="button" id="reset">Effacer mes coches</button>
+  </section>
+</div>
+
+<dialog id="zoom" aria-label="Plan agrandi"><div class="dz" id="dz"></div></dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const PAGE = __DATA__;
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v; else if (k === 'style') el.style.cssText = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v); else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of kids.flat(Infinity)) if (c != null && c !== false) el.append(c.nodeType ? c : document.createTextNode(String(c)));
+  return el;
+}
+const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
+
+// ---------- state ----------
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+const KEY = 'atlas-ffrs-v3';
+const saved = store.get(KEY, {});
+const ticks = new Set(saved.save === PAGE.save_id ? (saved.ticks || []) : []);
+const lateTicks = new Set(saved.late || []);
+let filter = saved.filter || 'all', hideTicked = !!saved.hide, query = '', tab = saved.tab === 'late' && PAGE.late ? 'late' : 'items', pastOpen = false;
+const persist = () => store.set(KEY, { save: PAGE.save_id, ticks: [...ticks], late: [...lateTicks], filter, hide: hideTicked, tab });
+
+const ALL = [];
+for (const g of PAGE.groups) for (const isl of g.islands) for (const pl of isl.places) {
+  for (const plan of pl.plans) for (const it of plan.items) ALL.push({ it, plan, pl, isl, g });
+  for (const it of pl.loose || []) ALL.push({ it, plan: null, pl, isl, g });
+}
+const LATE = [];
+if (PAGE.late) PAGE.late.categories.forEach((c, ci) => c.items.forEach((it, ii) => LATE.push({ c, it, id: 'late:' + norm(c.name + '|' + it.title) })));
+// late-game tasks link to the atlas places they name (skipped when a task names many places)
+const PLACES = PAGE.groups.filter(g => g.key === 'todo').flatMap(g => g.islands.flatMap(i => i.places)).map(pl => ({ pl, key: norm(pl.name) }));
+for (const x of LATE) {
+  const txt = norm([x.it.title, x.it.where].join(' '));
+  const hit = PLACES.filter(p => txt.includes(p.key)).map(p => p.pl);
+  x.places = hit.length <= 3 ? hit : [];
+}
+function gotoPlace(pl) {
+  setTab('items');
+  if (!document.getElementById(pl.anchor)) { filter = 'all'; hideTicked = false; query = ''; $('#q').value = ''; persist(); render(); }
+  const el = document.getElementById(pl.anchor);
+  if (!el) return;
+  el.scrollIntoView({ block: 'start' });
+  el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1800);
+}
+
+// ---------- header ----------
+$('#meta').textContent = `Sauvegarde du ${PAGE.save_label} · ${PAGE.playtime_h} h de jeu`;
+$('#n-save').textContent = PAGE.save_note;
+function renderHeader() {
+  const left = k => ALL.filter(x => x.it.k === k && x.g.key !== 'past' && !ticks.has(x.it.id)).length;
+  const S = PAGE.summary;
+  const lateLeft = LATE.filter(x => !lateTicks.has(x.id)).length;
+  $('#big').replaceChildren(...[
+    h('div', { class: 'k-shard' }, h('span', { class: 'n' }, left('shard')), h('span', { class: 'l' }, 'fragments à trouver'),
+      h('div', { class: 'done' }, `${S.shards[0]} / ${S.shards[1]} récupérés d'après ta sauvegarde`)),
+    h('div', { class: 'k-chest' }, h('span', { class: 'n' }, left('chest')), h('span', { class: 'l' }, 'coffres à ouvrir'),
+      h('div', { class: 'done' }, `${S.chests[0]} / ${S.chests[1]} ouverts · ${S.chests_past} autres probablement perdus`)),
+    PAGE.late ? h('div', { class: 'k-late', role: 'button', tabindex: '0', title: 'Ouvrir l’onglet Fin de jeu', onclick: () => { setTab('late'); $('#finder').scrollIntoView(); }, onkeydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setTab('late'); } } }, h('span', { class: 'n' }, lateLeft), h('span', { class: 'l' }, 'choses de fin de jeu'),
+      h('div', { class: 'done' }, 'voir l\'onglet « Fin de jeu »')) : null].filter(Boolean));
+  const c = S.collector || [];
+  if (c.length) {
+    // have = picked up so far (save + what is ticked here); given = already handed to the princess
+    const have = S.shards[0] + ALL.filter(x => x.it.k === 'shard' && ticks.has(x.it.id)).length;
+    const given = S.turned_in, bag = given == null ? null : have - given;
+    const ready = c.filter(x => x.at <= have), later = c.filter(x => x.at > have);
+    const main = ready.length
+      ? `${ready.map(x => `${x.what} (${x.at})`).join(' + ')} à récupérer : remets-lui ${plural(bag ?? 0, 'fragment')}`
+      : `prochaine récompense à ${later[0].at} fragments (${later[0].what}) : encore ${later[0].at - have} à trouver`;
+    const rest = (ready.length ? later : later.slice(1)).map(x => `${x.at} ${x.what}`).join(', ');
+    $('#collector').replaceChildren('Princesse du Palais de l\'Oubli : ', h('b', {}, main),
+      given == null ? ` · tu en as ${have}.` : ` · ${given} remis, ${bag} dans ton sac.`,
+      rest ? ` Ensuite : ${rest}.` : '');
+  }
+  $('#tc-items').textContent = left('shard') + left('chest');
+  $('#tc-late').textContent = PAGE.late ? lateLeft : '';
+  if (!PAGE.late) $('#t-late').hidden = true;
+}
+
+// ---------- filtering ----------
+function visible(x) {
+  if (filter !== 'all' && x.it.k !== filter) return false;
+  if (hideTicked && ticks.has(x.it.id)) return false;
+  if (query) {
+    const kw = x.it.k === 'shard' ? 'fragment tablette' : 'coffre tresor';
+    const pl = x.plan ? x.plan.label : '';
+    const hay = norm([x.pl.name, x.pl.qual, x.pl.crumb, x.isl.name, x.isl.short, x.it.what, pl, pl.replace(/Niveau/g, 'etage'), x.it.note, kw].join(' '));
+    if (!query.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+// ---------- rendering ----------
+function itemRow(x, withPlan) {
+  const { it } = x;
+  const t = ticks.has(it.id);
+  const sub = [withPlan && x.plan && x.plan.label, it.note].filter(Boolean).join(' · ');
+  return h('li', { 'data-id': it.id, class: t ? 'ticked' : '', role: 'checkbox', 'aria-checked': String(t), tabindex: '0',
+    onclick: () => toggle(it.id), onkeydown: e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(it.id); } } },
+    h('span', { class: 'box', 'aria-hidden': 'true' }),
+    h('span', { class: 'g ' + it.k }, it.n),
+    h('span', { class: 'what' },
+      h('span', {}, it.k === 'shard' ? 'Fragment de tablette' : (it.what ? `Coffre : ${it.what}` : 'Coffre (contenu non répertorié)')),
+      sub ? h('small', {}, sub) : null));
+}
+function planImage(pl, plan, ids, big) {
+  const st = `--ar:${plan.ar || 1}`;
+  const box = h(big ? 'div' : 'button', big ? { class: 'pimg', style: st } : { class: 'pimg', style: st, type: 'button', 'aria-label': `Agrandir le plan ${plan.label || ''} — ${pl.name}`, onclick: () => openZoom(pl, plan) },
+    h('img', { src: plan.img, alt: `Plan ${plan.label || ''} de ${pl.name}`, loading: 'lazy' }));
+  for (const m of plan.marks) {
+    if (m.found) { box.append(h('i', { class: 'mk found', style: `left:${m.p[0]}%;top:${m.p[1]}%` })); continue; }
+    if (!ids.has(m.id)) continue;
+    box.append(h('span', { class: `mk g ${m.k}${m.approx ? ' approx' : ''}${ticks.has(m.id) ? ' ticked' : ''}`, 'data-id': m.id, style: `left:${m.p[0]}%;top:${m.p[1]}%` }, m.n));
+  }
+  return box;
+}
+function ctxBox(plan) {
+  if (!plan.ctx) return null;
+  const b = plan.ctx.box;
+  return h('div', { class: 'ctx' },
+    h('div', { class: 'cimg' }, h('img', { src: plan.ctx.img, alt: '', loading: 'lazy' }),
+      h('span', { class: 'cbox', style: `left:${b[0]}%;top:${b[1]}%;width:${b[2]}%;height:${b[3]}%` })),
+    h('span', {}, `Où se trouve cette pièce : cadre jaune sur le plan « ${plan.ctx.label} ».`));
+}
+function planBlock(pl, plan, vis) {
+  const mine = vis.filter(x => x.plan === plan);
+  const ids = new Set(mine.map(x => x.it.id));
+  const live = mine.filter(x => !ticks.has(x.it.id));
+  const ns = live.filter(x => x.it.k === 'shard').length, nc = live.length - ns;
+  const cap = live.length ? [ns ? plural(ns, 'fragment') : '', nc ? plural(nc, 'coffre') : ''].filter(Boolean).join(' · ') : '✓ tout coché';
+  const pw = Math.round(Math.min(500, Math.max(290, 330 * Math.sqrt(plan.ar || 1))));
+  return h('div', { class: 'pblock', style: `--pw:${pw}px` },
+    h('figure', { class: 'plan' }, planImage(pl, plan, ids, false),
+      h('figcaption', {}, h('b', {}, plan.label || 'Plan du lieu'), h('span', {}, cap)), ctxBox(plan)),
+    h('ul', { class: 'list' }, mine.map(x => itemRow(x, false))));
+}
+function placeCard(pl, vis) {
+  const live = vis.filter(x => !ticks.has(x.it.id));
+  const ns = live.filter(x => x.it.k === 'shard').length, nc = live.length - ns;
+  const plans = pl.plans.filter(p => vis.some(x => x.plan === p));
+  const loose = vis.filter(x => !x.plan);
+  return h('article', { class: 'place', id: pl.anchor, 'data-place': pl.anchor },
+    h('div', { class: 'phead' },
+      h('span', { class: 'pnum' }, pl.n),
+      h('div', { class: 'ptitle' }, h('h3', {}, pl.name), pl.qual ? h('span', { class: 'qual' }, pl.qual) : null),
+      pl.crumb ? h('div', { class: 'crumb' }, pl.crumb) : null,
+      pl.tip ? h('div', { class: 'tip' }, pl.tip) : null),
+    h('div', { class: 'chips' },
+      ns ? h('span', { class: 'chip' }, h('i', { class: 'g shard sm' }), plural(ns, 'fragment')) : null,
+      nc ? h('span', { class: 'chip' }, h('i', { class: 'g chest sm' }), plural(nc, 'coffre')) : null,
+      pl.flag ? h('span', { class: 'chip warn' }, pl.flag) : null),
+    plans.map(p => planBlock(pl, p, vis)),
+    loose.length ? h('ul', { class: 'list' }, loose.map(x => itemRow(x, true))) : null);
+}
+function worldMap(isl, places) {
+  if (!isl.world) return null;
+  const w = h('div', { class: 'world' }, h('img', { src: isl.world.img, alt: `Carte du monde : ${isl.name}`, loading: 'lazy' }));
+  const byPos = new Map();
+  for (const p of places) if (p.pl.world) {
+    const k = p.pl.world.map(v => Math.round(v)).join(',');
+    if (!byPos.has(k)) byPos.set(k, []);
+    byPos.get(k).push(p.pl);
+  }
+  for (const pls of byPos.values())
+    w.append(h('a', { class: 'wpin', href: '#' + pls[0].anchor, title: pls.map(x => `${x.n}. ${x.name}`).join(' / '),
+      'data-place': pls.map(x => x.anchor).join(' '), style: `left:${pls[0].world[0]}%;top:${pls[0].world[1]}%` }, pls.map(x => x.n).join('·')));
+  const wide = matchMedia('(min-width: 1000px)').matches;
+  const det = h('details', { class: 'wmap', open: (wide || store.get('wmap-' + isl.anchor, false)) ? true : null },
+    h('summary', { onclick: () => { det.dataset.user = '1'; } }, 'Carte du monde avec les entrées des lieux'), w);
+  det.addEventListener('toggle', () => { if (det.dataset.user) store.set('wmap-' + isl.anchor, det.open); });
+  return det;
+}
+function render() {
+  const main = $('#main'); main.replaceChildren();
+  const jump = $('#jump'); jump.replaceChildren();
+  let any = false;
+  for (const g of PAGE.groups) {
+    const islandsOut = []; let count = 0;
+    for (const isl of g.islands) {
+      const places = isl.places.map(pl => ({ pl, vis: ALL.filter(x => x.pl === pl && visible(x)) })).filter(p => p.vis.length);
+      if (!places.length) continue;
+      const live = places.flatMap(p => p.vis).filter(x => !ticks.has(x.it.id));
+      const ns = live.filter(x => x.it.k === 'shard').length, nc = live.length - ns;
+      count += places.reduce((a, p) => a + p.vis.length, 0);
+      const sec = h('section', { class: 'island', id: isl.anchor },
+        h('div', { class: 'ihead' }, h('h2', {}, isl.name),
+          h('div', { class: 'cnt' }, ns ? h('span', {}, h('i', { class: 'g shard sm' }), ns) : null, nc ? h('span', {}, h('i', { class: 'g chest sm' }), nc) : null)),
+        g.key === 'todo' ? worldMap(isl, places) : null,
+        h('div', { class: 'places' }, places.map(p => placeCard(p.pl, p.vis))));
+      islandsOut.push(sec);
+      if (g.key === 'todo') jump.append(h('a', { href: '#' + isl.anchor }, isl.short,
+        ns ? h('span', { class: 'c' }, h('i', { class: 'g shard sm' }), ns) : null, nc ? h('span', { class: 'c' }, h('i', { class: 'g chest sm' }), nc) : null));
+    }
+    if (!islandsOut.length) continue;
+    any = true;
+    if (g.key === 'todo') main.append(...islandsOut);
+    else {
+      const det = h('details', { class: 'group', open: (pastOpen || query) ? true : null },
+        h('summary', {}, h('h2', {}, g.title), h('span', { class: 'sub' }, `${plural(count, 'coffre')} · ${g.sub}`)), islandsOut);
+      det.addEventListener('toggle', () => { if (!query) pastOpen = det.open; });
+      main.append(det);
+    }
+  }
+  if (!any) main.append(h('p', { class: 'empty' }, query ? `Rien ne correspond à « ${$('#q').value} ».` : 'Tout est coché. Bravo !'));
+  for (const b of ['all', 'shard', 'chest']) $('#f-' + b).setAttribute('aria-pressed', String(filter === b));
+  $('#hide-ticked').checked = hideTicked;
+  renderHeader(); renderLate(); wireHover();
+}
+function renderLate() {
+  const el = $('#late'); el.replaceChildren();
+  if (!PAGE.late) return;
+  if (PAGE.late.intro && !query) {
+    // intro = "state. Déjà terminé : ... Ordre conseillé : 1) ... ; 2) ..." -> state line, numbered steps, collapsed "already done"
+    const [state, order] = PAGE.late.intro.split('Ordre conseillé :');
+    const cut = state.indexOf('Déjà terminé :');
+    el.append(h('p', { class: 'intro' }, (cut < 0 ? state : state.slice(0, cut)).trim()));
+    if (order) {
+      const steps = order.trim().replace(/^1[)] /, '').split(/ ?; [0-9][)] /).map(x => x.trim().replace(/[;.]$/, '').trim()).filter(Boolean)
+        .map(x => x[0].toUpperCase() + x.slice(1));
+      el.append(h('section', { class: 'order' }, h('h2', {}, 'Ordre conseillé'), h('ol', {}, steps.map(x => h('li', {}, x)))));
+    }
+    if (cut >= 0) el.append(h('details', { class: 'help' }, h('summary', {}, 'Déjà terminé'), h('p', {}, state.slice(cut + 'Déjà terminé :'.length).trim())));
+  }
+  for (const c of PAGE.late.categories) {
+    const rows = LATE.filter(x => x.c === c && (!query || norm([c.name, x.it.title, x.it.where, x.it.detail].join(' ')).includes(query)) && !(hideTicked && lateTicks.has(x.id)));
+    if (!rows.length) continue;
+    el.append(h('section', { class: 'lcat' }, h('h2', {}, c.name),
+      h('ul', { class: 'list' }, rows.map(x => {
+        const t = lateTicks.has(x.id);
+        return h('li', { class: t ? 'ticked' : '', role: 'checkbox', 'aria-checked': String(t), tabindex: '0', 'data-late': x.id,
+          onclick: () => toggleLate(x.id), onkeydown: e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggleLate(x.id); } } },
+          h('span', { class: 'box', 'aria-hidden': 'true' }),
+          h('span', { class: 'what' }, h('span', {}, x.it.title), x.it.where ? h('small', {}, x.it.where) : null,
+            x.it.detail ? h('small', { class: 'det' }, x.it.detail) : null,
+            x.places.length ? h('span', { class: 'gotos' }, x.places.map(pl => h('button', { type: 'button', class: 'goto',
+              onclick: e => { e.stopPropagation(); gotoPlace(pl); }, onkeydown: e => e.stopPropagation() }, `Voir sur l'atlas : ${pl.name} ›`))) : null),
+          x.it.priority ? h('span', { class: 'prio ' + norm(x.it.priority) }, x.it.priority) : null);
+      }))));
+  }
+  if (PAGE.late.caveats) el.append(h('p', { class: 'hint' }, PAGE.late.caveats));
+}
+function wireHover() {
+  $$('#main [data-id]').forEach(el => {
+    const id = el.getAttribute('data-id');
+    const on = v => $$(`[data-id="${CSS.escape(id)}"]`).forEach(x => x.classList.toggle('hot', v));
+    el.addEventListener('mouseenter', () => on(true)); el.addEventListener('mouseleave', () => on(false));
+  });
+  $$('.place').forEach(el => {
+    const k = el.getAttribute('data-place');
+    const on = v => $$(`.wpin[data-place~="${k}"]`).forEach(x => x.classList.toggle('hot', v));
+    el.addEventListener('mouseenter', () => on(true)); el.addEventListener('mouseleave', () => on(false));
+  });
+}
+let toastT;
+function showUndo(id) {
+  const t = $('#toast');
+  t.replaceChildren('Coché et masqué.', h('button', { type: 'button', onclick: () => { t.hidden = true; toggle(id); } }, 'Annuler'));
+  t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 5000);
+}
+function toggle(id) {
+  const inDlg = $('#zoom').open;
+  const was = ticks.has(id);
+  was ? ticks.delete(id) : ticks.add(id);
+  persist();
+  const y = window.scrollY; render(); window.scrollTo(0, y);
+  if (inDlg && zoomCtx) openZoom(zoomCtx.pl, zoomCtx.plan);
+  const scope = inDlg ? $('#dz') : $('#main');
+  const li = scope.querySelector(`li[data-id="${CSS.escape(id)}"]`);
+  if (li) li.focus({ preventScroll: true });
+  if (!was && hideTicked) showUndo(id);
+}
+function toggleLate(id) {
+  lateTicks.has(id) ? lateTicks.delete(id) : lateTicks.add(id);
+  persist(); const y = window.scrollY; renderLate(); renderHeader(); window.scrollTo(0, y);
+  const li = $(`li[data-late="${CSS.escape(id)}"]`); if (li) li.focus({ preventScroll: true });
+}
+let zoomCtx = null;
+function openZoom(pl, plan) {
+  zoomCtx = { pl, plan };
+  const vis = ALL.filter(x => x.pl === pl && visible(x));
+  const plans = pl.plans.filter(p => vis.some(x => x.plan === p));
+  const i = plans.indexOf(plan);
+  const mine = vis.filter(x => x.plan === plan);
+  $('#dz').replaceChildren(
+    h('header', {},
+      h('div', {}, h('h3', {}, pl.name), h('div', { class: 'crumb' }, plan.label || '')),
+      h('div', { class: 'nav' },
+        plans.length > 1 ? h('button', { class: 'x', type: 'button', disabled: i <= 0 ? true : null, onclick: () => openZoom(pl, plans[i - 1]) }, '‹ Plan précédent') : null,
+        plans.length > 1 ? h('button', { class: 'x', type: 'button', disabled: i >= plans.length - 1 ? true : null, onclick: () => openZoom(pl, plans[i + 1]) }, 'Plan suivant ›') : null,
+        h('button', { class: 'x', type: 'button', onclick: () => $('#zoom').close() }, 'Fermer'))),
+    h('div', { class: 'zscroll' }, planImage(pl, plan, new Set(mine.map(x => x.it.id)), true)),
+    h('div', {}, h('ul', { class: 'list' }, mine.map(x => itemRow(x, false))), ctxBox(plan)));
+  if (!$('#zoom').open) { try { $('#zoom').showModal(); } catch (e) { $('#zoom').setAttribute('open', ''); } }
+  // on phones the plan is wider than the screen: centre the view on the first missing item
+  requestAnimationFrame(() => {
+    const zs = $('#dz .zscroll'), mk = zs && zs.querySelector('.mk.g');
+    if (zs && mk && zs.scrollWidth > zs.clientWidth) {
+      zs.scrollLeft = mk.offsetLeft - zs.clientWidth / 2;
+      zs.scrollTop = mk.offsetTop - zs.clientHeight / 2;
+    }
+  });
+}
+$('#zoom').addEventListener('click', e => { if (e.target === $('#zoom')) $('#zoom').close(); });
+
+// ---------- tabs & controls ----------
+function setTab(t) {
+  tab = t; persist();
+  $('#t-items').setAttribute('aria-selected', String(t === 'items'));
+  $('#t-late').setAttribute('aria-selected', String(t === 'late'));
+  $('#main').hidden = t !== 'items'; $('#late').hidden = t !== 'late';
+  $('#row-filters').querySelector('.seg').hidden = t !== 'items';
+  $('#jump').hidden = t !== 'items';
+}
+$('#t-items').addEventListener('click', () => setTab('items'));
+$('#t-late').addEventListener('click', () => setTab('late'));
+for (const b of ['all', 'shard', 'chest']) $('#f-' + b).addEventListener('click', () => { filter = b; persist(); render(); });
+$('#hide-ticked').addEventListener('change', e => { hideTicked = e.target.checked; persist(); render(); });
+// "/" jumps to the search box, Escape clears it
+addEventListener('keydown', e => {
+  if (e.key === '/' && !e.ctrlKey && !e.metaKey && !/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName) && !$('#zoom').open) { e.preventDefault(); $('#q').focus(); }
+  else if (e.key === 'Escape' && document.activeElement === $('#q') && $('#q').value) { $('#q').value = ''; query = ''; render(); }
+});
+let qt; $('#q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { query = norm(e.target.value.trim()); render(); }, 120); });
+$('#reset').addEventListener('click', e => {
+  const b = e.currentTarget;
+  if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = `Confirmer : effacer ${ticks.size + lateTicks.size} coche(s)`; setTimeout(() => { b.classList.remove('armed'); b.textContent = 'Effacer mes coches'; }, 4000); return; }
+  ticks.clear(); lateTicks.clear(); persist(); b.classList.remove('armed'); b.textContent = 'Effacer mes coches'; render();
+});
+// finder height drives scroll offsets; compact finder while scrolling down on phones
+const fin = $('#finder');
+const setFh = () => document.documentElement.style.setProperty('--fh', fin.offsetHeight + 'px');
+try { new ResizeObserver(setFh).observe(fin); } catch (e) { setFh(); }
+let ly = window.scrollY;
+addEventListener('scroll', () => {
+  const y = window.scrollY;
+  fin.classList.toggle('compact', y > ly && y > 400 && !$('#q').value && document.activeElement !== $('#q'));
+  ly = y;
+}, { passive: true });
+if (location.hash === '#fin-de-jeu' && PAGE.late) tab = 'late';
+render(); setTab(tab);
+</script>

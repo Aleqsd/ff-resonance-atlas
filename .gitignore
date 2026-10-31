@@ -1,0 +1,13 @@
+# extracted game data, saves and outputs (never commit these)
+work/
+*.sav
+*.gvas
+save*.json
+atlas.html
+late_todo.json
+
+# build / tooling
+tools/*/target/
+__pycache__/
+*.pyc
+.venv/

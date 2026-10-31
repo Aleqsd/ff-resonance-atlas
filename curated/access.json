@@ -1,0 +1,7285 @@
+{
+ "1000": {
+  "name": "Carte du monde",
+  "from": [
+   2000,
+   2010,
+   2011,
+   2013,
+   2020,
+   2030,
+   2031,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2081,
+   2090,
+   2100,
+   2102,
+   2110,
+   2120,
+   2130,
+   2140,
+   2150,
+   2160,
+   2170,
+   2180,
+   2190,
+   3001,
+   3010,
+   3030,
+   3031,
+   3040,
+   3050,
+   3060,
+   3070,
+   3080,
+   3100,
+   3110,
+   3111,
+   3131,
+   3170,
+   3180,
+   3200,
+   3213,
+   3220,
+   3230,
+   3240,
+   3250,
+   3260,
+   3270,
+   3271,
+   3280,
+   3290,
+   5030,
+   5031,
+   10001,
+   10030,
+   10031,
+   10051,
+   10052,
+   10053,
+   10054,
+   10055,
+   10056,
+   10057,
+   10058,
+   10059,
+   10060,
+   10061,
+   10062,
+   10063,
+   10064,
+   10065,
+   10066,
+   10200,
+   10201,
+   10202,
+   10203,
+   10205,
+   10206,
+   10207,
+   10208,
+   10209,
+   10210,
+   10211,
+   10212,
+   10213,
+   10214,
+   10215,
+   10216,
+   10218,
+   10220,
+   10221,
+   10222,
+   10223,
+   10225,
+   10226,
+   10227,
+   10228,
+   10229,
+   10230,
+   10231,
+   10232,
+   10233,
+   10234,
+   10235,
+   10236,
+   11000,
+   20001
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10200,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_200_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10201,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_201_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10202,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_202_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10203,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_203_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10205,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_205_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10206,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_206_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10207,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_207_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10208,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_208_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10209,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_209_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10210,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_210_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10211,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_211_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10212,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_212_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10213,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_213_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10214,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_214_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10215,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_215_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10216,
+    "fromName": "Sanctuaire de la Lumière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_216_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10218,
+    "fromName": "Grotte du tourbillon",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_218_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10220,
+    "fromName": "Sanctuaire de Tidus",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_220_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10221,
+    "fromName": "Sanctuaire de Terra",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_221_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10222,
+    "fromName": "Sanctuaire de Noctis",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_222_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10223,
+    "fromName": "Sanctuaire du GdL",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_223_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10225,
+    "fromName": "Sanctuaire de Firion",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_225_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10226,
+    "fromName": "Sanctuaire de Djidane",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_226_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10227,
+    "fromName": "Sanctuaire du Chevalier Oignon",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_227_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10228,
+    "fromName": "Sanctuaire de Cloud",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_228_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10229,
+    "fromName": "Sanctuaire de Squall",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_229_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10230,
+    "fromName": "Sanctuaire de Shantotto",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_230_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10231,
+    "fromName": "Sanctuaire de Cécil",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_231_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10232,
+    "fromName": "Sanctuaire d’Y’shtola",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_232_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10233,
+    "fromName": "Sanctuaire de Bartz",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_233_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10234,
+    "fromName": "Sanctuaire de Lightning",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_234_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10235,
+    "fromName": "Sanctuaire de Vaan",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_235_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 10236,
+    "fromName": "Sanctuaire de Clive",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_236_GD.umap",
+    "loc": {
+     "X": 2081.902047,
+     "Y": -0.832744,
+     "Z": 64.808779
+    }
+   },
+   {
+    "from": 3010,
+    "fromName": "Gueule du dragon",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_41_GD.umap",
+    "loc": {
+     "X": 3549.852513283411,
+     "Y": -17750.0,
+     "Z": -144.5461068926503
+    }
+   },
+   {
+    "from": 3010,
+    "fromName": "Gueule du dragon",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_41_GD.umap",
+    "loc": {
+     "X": 1388.1894622217533,
+     "Y": 5700.0,
+     "Z": 1315.249191267942
+    }
+   },
+   {
+    "from": 3001,
+    "fromName": "Temple de la Terre",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_43_GD.umap",
+    "loc": {
+     "X": -8000.0,
+     "Y": 50.0,
+     "Z": -300.0
+    }
+   },
+   {
+    "from": 10001,
+    "fromName": "Grotte perdue",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_44_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10059,
+    "fromName": "Grotte du morbol Varietas",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_46_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3030,
+    "fromName": "Tour de Sirène",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_02Lan_40_01_GD.umap",
+    "loc": {
+     "X": -7000.0,
+     "Y": 0.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 10051,
+    "fromName": "Grotte du maraudeur",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_02Lan_42_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10062,
+    "fromName": "Grotte de la catacombe",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_02Lan_43_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3031,
+    "fromName": "Caverne des lames",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_02Lan_44_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3040,
+    "fromName": "Ruines de Kolobos",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_03Kol_40_11_GD.umap",
+    "loc": {
+     "X": -730.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3050,
+    "fromName": "Mont foudroyant",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_40_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3050,
+    "fromName": "Mont foudroyant",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_40_01_GD.umap",
+    "loc": {
+     "X": 2000.0,
+     "Y": -6850.0,
+     "Z": 1250.0
+    }
+   },
+   {
+    "from": 3050,
+    "fromName": "Mont foudroyant",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_40_01_GD.umap",
+    "loc": {
+     "X": -440.0,
+     "Y": -16700.0,
+     "Z": 50.0
+    }
+   },
+   {
+    "from": 3050,
+    "fromName": "Mont foudroyant",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_40_01_GD.umap",
+    "loc": {
+     "X": 5930.0,
+     "Y": -3900.0,
+     "Z": 2750.0
+    }
+   },
+   {
+    "from": 3050,
+    "fromName": "Mont foudroyant",
+    "cond": "{progress:0}!=2040",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_40_01_GD.umap",
+    "loc": {
+     "X": 11400.0,
+     "Y": -5800.0,
+     "Z": 2150.0
+    }
+   },
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_01_GD.umap",
+    "loc": {
+     "X": -700.0,
+     "Y": 0.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_02_GD.umap",
+    "loc": {
+     "X": -700.0,
+     "Y": 0.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 3070,
+    "fromName": "Temple du Vent",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_42_01_GD.umap",
+    "loc": {
+     "X": -700.0,
+     "Y": 37000.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 3290,
+    "fromName": "Chambre des armes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_45_01_GD.umap",
+    "loc": {
+     "X": -750.0,
+     "Y": 0.0,
+     "Z": 50.0
+    }
+   },
+   {
+    "from": 10052,
+    "fromName": "Grotte du shoggoth",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_46_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3080,
+    "fromName": "Grotte de l’eau",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_40_01_GD.umap",
+    "loc": {
+     "X": 3220.0,
+     "Y": -9200.0,
+     "Z": 1850.0
+    }
+   },
+   {
+    "from": 3080,
+    "fromName": "Grotte de l’eau",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_40_01_GD.umap",
+    "loc": {
+     "X": -780.0,
+     "Y": 0.0,
+     "Z": 50.0
+    }
+   },
+   {
+    "from": 3100,
+    "fromName": "Passage de la cascade",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_43_01_GD.umap",
+    "loc": {
+     "X": 30.0,
+     "Y": 20230.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 3100,
+    "fromName": "Passage de la cascade",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_43_01_GD.umap",
+    "loc": {
+     "X": -630.0,
+     "Y": 5470.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 3110,
+    "fromName": "Temple de l’Eau",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_44_01_GD.umap",
+    "loc": {
+     "X": -1080.0,
+     "Y": 22550.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3111,
+    "fromName": "Grotte aux rubis",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_45_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10053,
+    "fromName": "Grotte du rukh",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_46_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10054,
+    "fromName": "Grotte du flagelleur mental",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_47_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10061,
+    "fromName": "Grotte du tartarosaure",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_48_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10055,
+    "fromName": "Grotte de Gogmagog",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_49_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3131,
+    "fromName": "Usine d’armes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_45_01_GD.umap",
+    "loc": {
+     "X": -1050.0,
+     "Y": 50.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 10030,
+    "fromName": "Grotte des Enfers",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_46_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10031,
+    "fromName": "Grotte de la carrière",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_48_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10056,
+    "fromName": "Grotte de la pyrovipère",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_50_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 140.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3170,
+    "fromName": "グラース雪山",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_40_01_GD.umap",
+    "loc": {
+     "X": -300.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3180,
+    "fromName": "Vieux château sans nom",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_41_01_GD.umap",
+    "loc": {
+     "X": 400.0000034906585,
+     "Y": 700.0,
+     "Z": 500.0
+    }
+   },
+   {
+    "from": 3200,
+    "fromName": "Tour de Mysidia",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_43_01_GD.umap",
+    "loc": {
+     "X": -1700.0,
+     "Y": 0.0,
+     "Z": 250.0
+    }
+   },
+   {
+    "from": 10057,
+    "fromName": "Grotte de Salomé",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_47_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10058,
+    "fromName": "Grotte du jötunn",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_48_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3213,
+    "fromName": "Temple de Victoria",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_49_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3220,
+    "fromName": "Ruines du laboratoire",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_40_01_GD.umap",
+    "loc": {
+     "X": -710.0,
+     "Y": 0.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 3230,
+    "fromName": "Sentier de montagne escarpé",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_41_01_GD.umap",
+    "loc": {
+     "X": 400.0,
+     "Y": 750.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3230,
+    "fromName": "Sentier de montagne escarpé",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_41_01_GD.umap",
+    "loc": {
+     "X": 2400.0,
+     "Y": -13500.0,
+     "Z": 2640.0
+    }
+   },
+   {
+    "from": 3240,
+    "fromName": "Temple de Gronoa",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_42_01_GD.umap",
+    "loc": {
+     "X": -1450.0,
+     "Y": 15005.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 3250,
+    "fromName": "Temple de Sanctissimus",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_43_01_GD.umap",
+    "loc": {
+     "X": -1150.0,
+     "Y": 16050.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 10060,
+    "fromName": "Stèle du Pourfendeur de pluie",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_44_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 350.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10063,
+    "fromName": "Grotte du necromonarque",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_45_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10064,
+    "fromName": "Grotte d’humbaba",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_08Gro_46_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3260,
+    "fromName": "Mont Reizan",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_40_01_GD.umap",
+    "loc": {
+     "X": 52.46001699999988,
+     "Y": 5749.194008,
+     "Z": 20.0
+    }
+   },
+   {
+    "from": 3260,
+    "fromName": "Mont Reizan",
+    "cond": "{progress:0}!=7040",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_40_01_GD.umap",
+    "loc": {
+     "X": -1707.5399830000001,
+     "Y": 10739.194008,
+     "Z": 5120.0
+    }
+   },
+   {
+    "from": 3270,
+    "fromName": "Terres errantes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_41_01_GD.umap",
+    "loc": {
+     "X": -529.9999996210046,
+     "Y": 49999.14570654173,
+     "Z": 5260.409791944361
+    }
+   },
+   {
+    "from": 3271,
+    "fromName": "Sentier sylvestre",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_42_01_GD.umap",
+    "loc": {
+     "X": -2891.8137649883506,
+     "Y": -37912.908407630355,
+     "Z": 199.99998100004
+    }
+   },
+   {
+    "from": 3271,
+    "fromName": "Sentier sylvestre",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_42_01_GD.umap",
+    "loc": {
+     "X": 2214.6981913093987,
+     "Y": 39679.55015922639,
+     "Z": 200.0001649999891
+    }
+   },
+   {
+    "from": 10065,
+    "fromName": "Grotte du titanoraidos",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_44_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 10066,
+    "fromName": "Grotte du morbol menaçant",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_45_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3280,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_10Cry_40_01_GD.umap",
+    "loc": {
+     "X": -3570.0,
+     "Y": -171190.0,
+     "Z": 2980.0
+    }
+   },
+   {
+    "from": 3280,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_10Cry_40_01_GD.umap",
+    "loc": {
+     "X": 2755.0,
+     "Y": -168200.0,
+     "Z": 5679.999916894529
+    }
+   },
+   {
+    "from": 3280,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_10Cry_40_01_GD.umap",
+    "loc": {
+     "X": 2755.0,
+     "Y": -175445.0,
+     "Z": 5679.999917
+    }
+   },
+   {
+    "from": 5030,
+    "fromName": "砂浜(ディルナド)",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_81_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 0.0,
+     "Z": 150.0
+    }
+   },
+   {
+    "from": 5031,
+    "fromName": "砂浜(オルデリオン)",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_90_01_GD.umap",
+    "loc": {
+     "X": -100.0,
+     "Y": 0.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 20001,
+    "fromName": "Aéronef",
+    "cond": "{progress:0}>=5010 & !{flag:1196}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_00Com_01_GD.umap",
+    "loc": {
+     "X": 2580.0,
+     "Y": 0.0,
+     "Z": 330.0
+    }
+   },
+   {
+    "from": 20001,
+    "fromName": "Aéronef",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_00Com_01_GD.umap",
+    "loc": {
+     "X": 2580.0,
+     "Y": 0.0,
+     "Z": 330.0
+    }
+   },
+   {
+    "from": 2010,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_01_GD.umap",
+    "loc": {
+     "X": -7400.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2011,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_02_01_GD.umap",
+    "loc": {
+     "X": -7400.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2013,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_03_01_GD.umap",
+    "loc": {
+     "X": -7400.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2000,
+    "fromName": "Ville de Mitra",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_20_GD.umap",
+    "loc": {
+     "X": -1015.6357079999998,
+     "Y": 6100.0,
+     "Z": 60.35570434682489
+    }
+   },
+   {
+    "from": 2000,
+    "fromName": "Ville de Mitra",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_20_GD.umap",
+    "loc": {
+     "X": -225.0,
+     "Y": 960.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 2020,
+    "fromName": "Village de Kol",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_02Lan_20_01_GD.umap",
+    "loc": {
+     "X": 6600.0,
+     "Y": 9500.0,
+     "Z": 10.0
+    }
+   },
+   {
+    "from": 2020,
+    "fromName": "Village de Kol",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_02Lan_20_01_GD.umap",
+    "loc": {
+     "X": 7380.0,
+     "Y": 4120.0,
+     "Z": 10.0
+    }
+   },
+   {
+    "from": 2030,
+    "fromName": "Port de Grandport",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_02Lan_21_01_GD.umap",
+    "loc": {
+     "X": 400.0,
+     "Y": -600.0,
+     "Z": 400.0
+    }
+   },
+   {
+    "from": 2031,
+    "fromName": "Palais de l’Oubli",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_02Lan_22_01_GD.umap",
+    "loc": {
+     "X": -1410.0,
+     "Y": 80800.0,
+     "Z": 30.0
+    }
+   },
+   {
+    "from": 2040,
+    "fromName": "Ville de Felicitas",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_03Kol_20_01_GD.umap",
+    "loc": {
+     "X": -5600.0,
+     "Y": -600.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2060,
+    "fromName": "Dilmagia, ville mécanique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_04Dir_01_01_GD.umap",
+    "loc": {
+     "X": -1850.0,
+     "Y": -20.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 2050,
+    "fromName": "Forge naine",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_04Dir_20_01_GD.umap",
+    "loc": {
+     "X": -350.0,
+     "Y": 0.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 2050,
+    "fromName": "Forge naine",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_04Dir_20_01_GD.umap",
+    "loc": {
+     "X": 11200.0,
+     "Y": -3600.0,
+     "Z": -1800.0
+    }
+   },
+   {
+    "from": 2070,
+    "fromName": "Olderion, ville aquatique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_01_01_GD.umap",
+    "loc": {
+     "X": -2110.0,
+     "Y": 10.0,
+     "Z": 130.0
+    }
+   },
+   {
+    "from": 2080,
+    "fromName": "Lac Dorr",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_20_01_GD.umap",
+    "loc": {
+     "X": -47455.0,
+     "Y": 1015.0,
+     "Z": 30.0
+    }
+   },
+   {
+    "from": 2090,
+    "fromName": "Ville d’Amore",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_21_01_GD.umap",
+    "loc": {
+     "X": 790.0,
+     "Y": 210.0,
+     "Z": 90.0
+    }
+   },
+   {
+    "from": 2090,
+    "fromName": "Ville d’Amore",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_21_01_GD.umap",
+    "loc": {
+     "X": 7964.0,
+     "Y": 2610.0,
+     "Z": 150.0
+    }
+   },
+   {
+    "from": 11000,
+    "fromName": "Habitation isolée",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_22_01_GD.umap",
+    "loc": {
+     "X": -971.1288373831162,
+     "Y": -0.3829630050656334,
+     "Z": -61.54826432670404
+    }
+   },
+   {
+    "from": 2081,
+    "fromName": "Lac Dorr",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_23_GD.umap",
+    "loc": {
+     "X": -47455.0,
+     "Y": 1015.0,
+     "Z": 30.0
+    }
+   },
+   {
+    "from": 2110,
+    "fromName": "Zoldaad, capitale impériale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_01_01_GD.umap",
+    "loc": {
+     "X": -635.7106785488568,
+     "Y": -211.7106776884528,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2100,
+    "fromName": "Station de Mozul",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_20_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": 2100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2100,
+    "fromName": "Station de Mozul",
+    "cond": "{progress:0}>=4060",
+    "triggerCond": "{progress:0}>=4060",
+    "eventOnly": false,
+    "level": "Town_06Zol_20_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": -2175.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2120,
+    "fromName": "Base des rebelles",
+    "cond": "{progress:0}!=4120",
+    "triggerCond": "{progress:0}!=4120",
+    "eventOnly": false,
+    "level": "Town_06Zol_21_01_GD.umap",
+    "loc": {
+     "X": 2810.0,
+     "Y": 2350.0,
+     "Z": 600.0
+    }
+   },
+   {
+    "from": 2102,
+    "fromName": "Gare de la capitale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_23_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": 2100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2102,
+    "fromName": "Gare de la capitale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_23_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": -2100.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2130,
+    "fromName": "Mysidia, cité magique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_07Mys_01_01_GD.umap",
+    "loc": {
+     "X": 3680.0,
+     "Y": 0.0,
+     "Z": 250.0
+    }
+   },
+   {
+    "from": 2140,
+    "fromName": "Village de Sunioo",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_07Mys_20_GD.umap",
+    "loc": {
+     "X": 3400.0,
+     "Y": -3700.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 2140,
+    "fromName": "Village de Sunioo",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_07Mys_20_GD.umap",
+    "loc": {
+     "X": -200.0,
+     "Y": 0.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 2150,
+    "fromName": "Gaberada, ville souterraine",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_08Gro_01_01_GD.umap",
+    "loc": {
+     "X": -160.0,
+     "Y": -300.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2160,
+    "fromName": "Ville de Duggle",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_08Gro_20_01_GD.umap",
+    "loc": {
+     "X": -9.999999999999545,
+     "Y": -2546.356367129283,
+     "Z": 169.9999976500112
+    }
+   },
+   {
+    "from": 2170,
+    "fromName": "Ville de Sian",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_09Pha_01_01_GD.umap",
+    "loc": {
+     "X": -2500.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2180,
+    "fromName": "Lac Ryusei",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_09Pha_20_GD.umap",
+    "loc": {
+     "X": -47000.0,
+     "Y": 10.0,
+     "Z": 180.0
+    }
+   },
+   {
+    "from": 2190,
+    "fromName": "Cabane abandonnée",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_09Pha_21_01_GD.umap",
+    "loc": {
+     "X": -1590.0,
+     "Y": 13500.0,
+     "Z": 3895.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2000": "Ville de Mitra",
+   "2010": "Grandshelt, capitale royale",
+   "2011": "Grandshelt, capitale royale",
+   "2013": "Grandshelt, capitale royale",
+   "2020": "Village de Kol",
+   "2030": "Port de Grandport",
+   "2031": "Palais de l’Oubli",
+   "2040": "Ville de Felicitas",
+   "2050": "Forge naine",
+   "2060": "Dilmagia, ville mécanique",
+   "2070": "Olderion, ville aquatique",
+   "2080": "Lac Dorr",
+   "2081": "Lac Dorr",
+   "2090": "Ville d’Amore",
+   "2100": "Station de Mozul",
+   "2102": "Gare de la capitale",
+   "2110": "Zoldaad, capitale impériale",
+   "2120": "Base des rebelles",
+   "2130": "Mysidia, cité magique",
+   "2140": "Village de Sunioo",
+   "2150": "Gaberada, ville souterraine",
+   "2160": "Ville de Duggle",
+   "2170": "Ville de Sian",
+   "2180": "Lac Ryusei",
+   "2190": "Cabane abandonnée",
+   "3001": "Temple de la Terre",
+   "3010": "Gueule du dragon",
+   "3030": "Tour de Sirène",
+   "3031": "Caverne des lames",
+   "3040": "Ruines de Kolobos",
+   "3050": "Mont foudroyant",
+   "3060": "Chantier naval de Mobrise",
+   "3070": "Temple du Vent",
+   "3080": "Grotte de l’eau",
+   "3100": "Passage de la cascade",
+   "3110": "Temple de l’Eau",
+   "3111": "Grotte aux rubis",
+   "3131": "Usine d’armes",
+   "3170": "グラース雪山",
+   "3180": "Vieux château sans nom",
+   "3200": "Tour de Mysidia",
+   "3213": "Temple de Victoria",
+   "3220": "Ruines du laboratoire",
+   "3230": "Sentier de montagne escarpé",
+   "3240": "Temple de Gronoa",
+   "3250": "Temple de Sanctissimus",
+   "3260": "Mont Reizan",
+   "3270": "Terres errantes",
+   "3271": "Sentier sylvestre",
+   "3280": "Tour de cristal",
+   "3290": "Chambre des armes",
+   "5030": "砂浜(ディルナド)",
+   "5031": "砂浜(オルデリオン)",
+   "10001": "Grotte perdue",
+   "10030": "Grotte des Enfers",
+   "10031": "Grotte de la carrière",
+   "10051": "Grotte du maraudeur",
+   "10052": "Grotte du shoggoth",
+   "10053": "Grotte du rukh",
+   "10054": "Grotte du flagelleur mental",
+   "10055": "Grotte de Gogmagog",
+   "10056": "Grotte de la pyrovipère",
+   "10057": "Grotte de Salomé",
+   "10058": "Grotte du jötunn",
+   "10059": "Grotte du morbol Varietas",
+   "10060": "Stèle du Pourfendeur de pluie",
+   "10061": "Grotte du tartarosaure",
+   "10062": "Grotte de la catacombe",
+   "10063": "Grotte du necromonarque",
+   "10064": "Grotte d’humbaba",
+   "10065": "Grotte du titanoraidos",
+   "10066": "Grotte du morbol menaçant",
+   "10200": "Sanctuaire de la Lumière",
+   "10201": "Sanctuaire de la Lumière",
+   "10202": "Sanctuaire de la Lumière",
+   "10203": "Sanctuaire de la Lumière",
+   "10205": "Sanctuaire de la Lumière",
+   "10206": "Sanctuaire de la Lumière",
+   "10207": "Sanctuaire de la Lumière",
+   "10208": "Sanctuaire de la Lumière",
+   "10209": "Sanctuaire de la Lumière",
+   "10210": "Sanctuaire de la Lumière",
+   "10211": "Sanctuaire de la Lumière",
+   "10212": "Sanctuaire de la Lumière",
+   "10213": "Sanctuaire de la Lumière",
+   "10214": "Sanctuaire de la Lumière",
+   "10215": "Sanctuaire de la Lumière",
+   "10216": "Sanctuaire de la Lumière",
+   "10218": "Grotte du tourbillon",
+   "10220": "Sanctuaire de Tidus",
+   "10221": "Sanctuaire de Terra",
+   "10222": "Sanctuaire de Noctis",
+   "10223": "Sanctuaire du GdL",
+   "10225": "Sanctuaire de Firion",
+   "10226": "Sanctuaire de Djidane",
+   "10227": "Sanctuaire du Chevalier Oignon",
+   "10228": "Sanctuaire de Cloud",
+   "10229": "Sanctuaire de Squall",
+   "10230": "Sanctuaire de Shantotto",
+   "10231": "Sanctuaire de Cécil",
+   "10232": "Sanctuaire d’Y’shtola",
+   "10233": "Sanctuaire de Bartz",
+   "10234": "Sanctuaire de Lightning",
+   "10235": "Sanctuaire de Vaan",
+   "10236": "Sanctuaire de Clive",
+   "11000": "Habitation isolée",
+   "20001": "Aéronef"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : Ville de Mitra, Grandshelt, capitale royale, Village de Kol, Port de Grandport, Palais de l’Oubli, Ville de Felicitas, Forge naine, Dilmagia, ville mécanique, Olderion, ville aquatique, Lac Dorr, Ville d’Amore, Station de Mozul, Gare de la capitale, Zoldaad, capitale impériale, Base des rebelles, Mysidia, cité magique, Village de Sunioo, Gaberada, ville souterraine, Ville de Duggle, Ville de Sian, Lac Ryusei, Cabane abandonnée, Temple de la Terre, Gueule du dragon, Tour de Sirène, Caverne des lames, Ruines de Kolobos, Mont foudroyant, Chantier naval de Mobrise, Temple du Vent, Grotte de l’eau, Passage de la cascade, Temple de l’Eau, Grotte aux rubis, Usine d’armes, グラース雪山, Vieux château sans nom, Tour de Mysidia, Temple de Victoria, Ruines du laboratoire, Sentier de montagne escarpé, Temple de Gronoa, Temple de Sanctissimus, Mont Reizan, Terres errantes, Sentier sylvestre, Tour de cristal, Chambre des armes, 砂浜(ディルナド), 砂浜(オルデリオン), Grotte perdue, Grotte des Enfers, Grotte de la carrière, Grotte du maraudeur, Grotte du shoggoth, Grotte du rukh, Grotte du flagelleur mental, Grotte de Gogmagog, Grotte de la pyrovipère, Grotte de Salomé, Grotte du jötunn, Grotte du morbol Varietas, Stèle du Pourfendeur de pluie, Grotte du tartarosaure, Grotte de la catacombe, Grotte du necromonarque, Grotte d’humbaba, Grotte du titanoraidos, Grotte du morbol menaçant, Sanctuaire de la Lumière, Grotte du tourbillon, Sanctuaire de Tidus, Sanctuaire de Terra, Sanctuaire de Noctis, Sanctuaire du GdL, Sanctuaire de Firion, Sanctuaire de Djidane, Sanctuaire du Chevalier Oignon, Sanctuaire de Cloud, Sanctuaire de Squall, Sanctuaire de Shantotto, Sanctuaire de Cécil, Sanctuaire d’Y’shtola, Sanctuaire de Bartz, Sanctuaire de Lightning, Sanctuaire de Vaan, Sanctuaire de Clive, Habitation isolée, Aéronef"
+ },
+ "2000": {
+  "name": "Ville de Mitra",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 16621.976548670613,
+     "Y": 21655.4508551552,
+     "Z": -23.82961962391999
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2010": {
+  "name": "Grandshelt, capitale royale",
+  "from": [
+   1000,
+   3020
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3020,
+    "fromName": "Château de Grandshelt",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_42_01_GD.umap",
+    "loc": {
+     "X": -43203.0,
+     "Y": -5.999999999998877,
+     "Z": 230.19147600000002
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1090&{progress:0}<=1120",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12718.990475,
+     "Y": 20701.803557239615,
+     "Z": 165.17344221102098
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3020": "Château de Grandshelt"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : carte du monde, Château de Grandshelt"
+ },
+ "2011": {
+  "name": "Grandshelt, capitale royale",
+  "from": [
+   1000,
+   2012,
+   2015,
+   2016
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 2015,
+    "fromName": "Quartier commerçant",
+    "cond": "{progress:0}<4000",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_04_01_GD.umap",
+    "loc": {
+     "X": 25400.0,
+     "Y": 3050.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2016,
+    "fromName": "Colisée",
+    "cond": "{progress:0}<3210",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_05_01_GD.umap",
+    "loc": {
+     "X": 25400.0,
+     "Y": -2950.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2012,
+    "fromName": "Château de Grandshelt",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_21_01_GD.umap",
+    "loc": {
+     "X": -32600.0,
+     "Y": 0.0,
+     "Z": 53.191484
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>1120&{progress:0}<4000",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12718.990475,
+     "Y": 20701.803557239615,
+     "Z": 165.17344221102098
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "2012": "Château de Grandshelt",
+   "2015": "Quartier commerçant",
+   "2016": "Colisée"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : carte du monde, Château de Grandshelt, Quartier commerçant, Colisée"
+ },
+ "2012": {
+  "name": "Château de Grandshelt",
+  "from": [
+   2011,
+   2013
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2011,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_02_01_GD.umap",
+    "loc": {
+     "X": 12450.0,
+     "Y": 0.0,
+     "Z": 600.0
+    }
+   },
+   {
+    "from": 2013,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_03_01_GD.umap",
+    "loc": {
+     "X": 12450.0,
+     "Y": 0.0,
+     "Z": 600.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2011": "Grandshelt, capitale royale",
+   "2013": "Grandshelt, capitale royale"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : Grandshelt, capitale royale"
+ },
+ "2013": {
+  "name": "Grandshelt, capitale royale",
+  "from": [
+   2014
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2014,
+    "fromName": "Château de Grandshelt",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_22_01_GD.umap",
+    "loc": {
+     "X": -43203.0,
+     "Y": -5.999999999998877,
+     "Z": 230.19147600000002
+    }
+   }
+  ],
+  "fromNames": {
+   "2014": "Château de Grandshelt"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : Château de Grandshelt"
+ },
+ "2014": {
+  "name": "Château de Grandshelt",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}<1090",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12718.990475,
+     "Y": 20701.803557239615,
+     "Z": 165.17344221102098
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2015": {
+  "name": "Quartier commerçant",
+  "from": [
+   2011,
+   2013
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2011,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_02_01_GD.umap",
+    "loc": {
+     "X": 3400.0,
+     "Y": 3050.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2013,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_03_01_GD.umap",
+    "loc": {
+     "X": 3400.0,
+     "Y": 3050.0,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2011": "Grandshelt, capitale royale",
+   "2013": "Grandshelt, capitale royale"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : Grandshelt, capitale royale"
+ },
+ "2016": {
+  "name": "Colisée",
+  "from": [
+   2011,
+   2013
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2011,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_02_01_GD.umap",
+    "loc": {
+     "X": 3400.0,
+     "Y": -3050.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2013,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_03_01_GD.umap",
+    "loc": {
+     "X": 3400.0,
+     "Y": -3050.0,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2011": "Grandshelt, capitale royale",
+   "2013": "Grandshelt, capitale royale"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : Grandshelt, capitale royale"
+ },
+ "2017": {
+  "name": "Grandshelt, capitale royale",
+  "from": [
+   1000,
+   2012,
+   2015,
+   2016
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 2015,
+    "fromName": "Quartier commerçant",
+    "cond": "{progress:0}>=4000",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_04_01_GD.umap",
+    "loc": {
+     "X": 25400.0,
+     "Y": 3050.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2016,
+    "fromName": "Colisée",
+    "cond": "{progress:0}>=3210",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_05_01_GD.umap",
+    "loc": {
+     "X": 25400.0,
+     "Y": -2950.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2012,
+    "fromName": "Château de Grandshelt",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_21_01_GD.umap",
+    "loc": {
+     "X": -15800.0,
+     "Y": 0.0,
+     "Z": 353.191484
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=4000",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12718.990475,
+     "Y": 20701.803557239615,
+     "Z": 165.17344221102098
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "2012": "Château de Grandshelt",
+   "2015": "Quartier commerçant",
+   "2016": "Colisée"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : carte du monde, Château de Grandshelt, Quartier commerçant, Colisée"
+ },
+ "2020": {
+  "name": "Village de Kol",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12749.84160700944,
+     "Y": 14981.896892177127,
+     "Z": -0.16939372910138673
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2030": {
+  "name": "Port de Grandport",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 10653.0,
+     "Y": 9083.0,
+     "Z": -70.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2031": {
+  "name": "Palais de l’Oubli",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 10310.0,
+     "Y": 9780.0,
+     "Z": -10.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2040": {
+  "name": "Ville de Felicitas",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 5812.0,
+     "Y": 14044.0,
+     "Z": 159.99999999277597
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2050": {
+  "name": "Forge naine",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 16493.72542803644,
+     "Y": -518.5844887399986,
+     "Z": 187.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 16113.505102600851,
+     "Y": -311.1421356734064,
+     "Z": 325.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2060": {
+  "name": "Dilmagia, ville mécanique",
+  "from": [
+   1000,
+   2061
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 2061,
+    "fromName": "Chantier naval",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_04Dir_02_01_GD.umap",
+    "loc": {
+     "X": 500.0,
+     "Y": -20.0,
+     "Z": 80.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 14120.0,
+     "Y": 2460.0,
+     "Z": 60.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "2061": "Chantier naval"
+  },
+  "groupId": 2060,
+  "hint_fr": "Accès : carte du monde, Chantier naval"
+ },
+ "2061": {
+  "name": "Chantier naval",
+  "from": [
+   2060
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2060,
+    "fromName": "Dilmagia, ville mécanique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_04Dir_01_01_GD.umap",
+    "loc": {
+     "X": 11400.0,
+     "Y": -20.0,
+     "Z": 80.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2060": "Dilmagia, ville mécanique"
+  },
+  "groupId": 2060,
+  "hint_fr": "Accès : Dilmagia, ville mécanique"
+ },
+ "2070": {
+  "name": "Olderion, ville aquatique",
+  "from": [
+   1000,
+   3090,
+   3091
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3090,
+    "fromName": "Vieille ville, Olderion",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_41_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": 335.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3091,
+    "fromName": "Vieille ville, Olderion",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_05Old_42_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": 200.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 207.0,
+     "Y": 2414.0,
+     "Z": 35.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3090": "Vieille ville, Olderion",
+   "3091": "Vieille ville, Olderion"
+  },
+  "groupId": 2070,
+  "hint_fr": "Accès : carte du monde, Vieille ville, Olderion"
+ },
+ "2080": {
+  "name": "Lac Dorr",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4325.0,
+     "Y": 5775.0,
+     "Z": 410.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 2080,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2081": {
+  "name": "Lac Dorr",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}<=3200&{progress:0}!=3100",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4325.0,
+     "Y": 5775.0,
+     "Z": 410.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}==3100",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4325.0,
+     "Y": 5775.0,
+     "Z": 410.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 2080,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2090": {
+  "name": "Ville d’Amore",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 3792.460017,
+     "Y": -520.8059920000001,
+     "Z": 390.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 3983.460017,
+     "Y": -520.805992,
+     "Z": 390.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2100": {
+  "name": "Station de Mozul",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3570.0,
+     "Y": 14025.0,
+     "Z": 405.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3821.7437596604404,
+     "Y": 14360.624781532002,
+     "Z": 315.0986736598221
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 2100,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2101": {
+  "name": "Gare de Kellis",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2102,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Gare de la capitale"
+ },
+ "2102": {
+  "name": "Gare de la capitale",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -7115.0,
+     "Y": 7870.0,
+     "Z": -25.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -6930.0,
+     "Y": 7870.0,
+     "Z": -20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 2102,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2110": {
+  "name": "Zoldaad, capitale impériale",
+  "from": [
+   1000,
+   3140
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3140,
+    "fromName": "Tunnel souterrain",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_42_01_GD.umap",
+    "loc": {
+     "X": 500.0,
+     "Y": -200.0,
+     "Z": 600.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -6767.897777478867,
+     "Y": 7284.223542864692,
+     "Z": 100.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3140": "Tunnel souterrain"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : carte du monde, Tunnel souterrain"
+ },
+ "2111": {
+  "name": "Place du château de Zoldaad",
+  "from": [
+   3160
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3160,
+    "fromName": "Château de Zoldaad",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_44_01_GD.umap",
+    "loc": {
+     "X": 26600.0,
+     "Y": 0.0,
+     "Z": 400.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3160": "Château de Zoldaad"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : Château de Zoldaad"
+ },
+ "2112": {
+  "name": "Marché de la capitale",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2110,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Zoldaad, capitale impériale"
+ },
+ "2113": {
+  "name": "Résidences impériales",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2110,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Zoldaad, capitale impériale"
+ },
+ "2114": {
+  "name": "Bidonville",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2110,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Zoldaad, capitale impériale"
+ },
+ "2120": {
+  "name": "Base des rebelles",
+  "from": [
+   1000,
+   3140
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3140,
+    "fromName": "Tunnel souterrain",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_42_01_GD.umap",
+    "loc": {
+     "X": -10800.0,
+     "Y": 15000.0,
+     "Z": -900.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=4110",
+    "triggerCond": "{progress:0}>=4110",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -8870.0,
+     "Y": 13360.0,
+     "Z": 90.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3140": "Tunnel souterrain"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde, Tunnel souterrain"
+ },
+ "2130": {
+  "name": "Mysidia, cité magique",
+  "from": [
+   1000,
+   3190
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3190,
+    "fromName": "Bibliothèque arcanique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_42_01_GD.umap",
+    "loc": {
+     "X": 29675.0,
+     "Y": 46800.0,
+     "Z": 625.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -17510.0,
+     "Y": -7940.0,
+     "Z": 150.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3190": "Bibliothèque arcanique"
+  },
+  "groupId": 2130,
+  "hint_fr": "Accès : carte du monde, Bibliothèque arcanique"
+ },
+ "2140": {
+  "name": "Village de Sunioo",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -17461.373839,
+     "Y": -3681.825614,
+     "Z": 463.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2150": {
+  "name": "Gaberada, ville souterraine",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 19450.262794639348,
+     "Y": -14639.999999613608,
+     "Z": 610.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2160": {
+  "name": "Ville de Duggle",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15496.0,
+     "Y": -18556.0,
+     "Z": 1315.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2170": {
+  "name": "Ville de Sian",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3208.0,
+     "Y": -17435.0,
+     "Z": 139.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "2180": {
+  "name": "Lac Ryusei",
+  "from": [
+   1000,
+   3260
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3260,
+    "fromName": "Mont Reizan",
+    "cond": "{progress:0}==7040",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_40_01_GD.umap",
+    "loc": {
+     "X": -1707.5399830000001,
+     "Y": 10739.194008,
+     "Z": 5120.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -8240.0,
+     "Y": -16210.0,
+     "Z": 1110.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3260": "Mont Reizan"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde, Mont Reizan"
+ },
+ "2190": {
+  "name": "Cabane abandonnée",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{item:20033}<1",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 1847.8726944832722,
+     "Y": -16627.752769202605,
+     "Z": 60.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{item:20033}>=1",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 1847.8726944832722,
+     "Y": -16627.752769202605,
+     "Z": 60.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3000": {
+  "name": "Temple de la Terre",
+  "from": [
+   3001
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3001,
+    "fromName": "Temple de la Terre",
+    "cond": "!{flag:1170}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_43_GD.umap",
+    "loc": {
+     "X": -3050.0,
+     "Y": 0.0,
+     "Z": -200.0
+    }
+   },
+   {
+    "from": 3001,
+    "fromName": "Temple de la Terre",
+    "cond": "{flag:1170}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_43_GD.umap",
+    "loc": {
+     "X": -3050.0,
+     "Y": 0.0,
+     "Z": -200.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3001": "Temple de la Terre"
+  },
+  "groupId": 3000,
+  "hint_fr": "Accès : Temple de la Terre"
+ },
+ "3001": {
+  "name": "Temple de la Terre",
+  "from": [
+   1000,
+   3000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3000,
+    "fromName": "Temple de la Terre",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_01Gra_40_GD.umap",
+    "loc": {
+     "X": -1000.0,
+     "Y": 0.0,
+     "Z": 400.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 17961.05741673261,
+     "Y": 20920.65828119583,
+     "Z": 281.6712679488063
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3000": "Temple de la Terre"
+  },
+  "groupId": 3000,
+  "hint_fr": "Accès : carte du monde, Temple de la Terre"
+ },
+ "3010": {
+  "name": "Gueule du dragon",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10644.867667017195,
+     "Y": -10322.89237598548,
+     "Z": 20.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10730.0,
+     "Y": -5940.0,
+     "Z": 20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3020": {
+  "name": "Château de Grandshelt",
+  "from": [
+   2010
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2010,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_01_GD.umap",
+    "loc": {
+     "X": 12450.0,
+     "Y": 0.0,
+     "Z": 600.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2010": "Grandshelt, capitale royale"
+  },
+  "groupId": 2011,
+  "hint_fr": "Accès : Grandshelt, capitale royale"
+ },
+ "3030": {
+  "name": "Tour de Sirène",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12523.0,
+     "Y": 9718.0,
+     "Z": 100.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3031": {
+  "name": "Caverne des lames",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 14665.410566845681,
+     "Y": 11002.33396653465,
+     "Z": 255.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3040": {
+  "name": "Ruines de Kolobos",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}!=1170",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4423.0,
+     "Y": 16078.0,
+     "Z": -5.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4423.0,
+     "Y": 16078.0,
+     "Z": -5.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3050": {
+  "name": "Mont foudroyant",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 17618.0,
+     "Y": 2888.0,
+     "Z": 729.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 16107.607695095128,
+     "Y": 2943.6602540159756,
+     "Z": 527.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 14748.0,
+     "Y": 1698.0,
+     "Z": 274.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15760.146375961147,
+     "Y": 4585.517255291384,
+     "Z": 140.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 18437.28932188137,
+     "Y": 2652.644660940671,
+     "Z": 528.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3060": {
+  "name": "Chantier naval de Mobrise",
+  "from": [
+   1000,
+   3061
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3061,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_43_01_GD.umap",
+    "loc": {
+     "X": 4400.0,
+     "Y": 3600.0,
+     "Z": -1200.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 18710.0,
+     "Y": -1225.0,
+     "Z": 60.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3061": "Chantier naval de Mobrise"
+  },
+  "groupId": 3060,
+  "hint_fr": "Accès : carte du monde, Chantier naval de Mobrise"
+ },
+ "3061": {
+  "name": "Chantier naval de Mobrise",
+  "from": [
+   3060
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_01_GD.umap",
+    "loc": {
+     "X": 7700.0,
+     "Y": 12000.0,
+     "Z": 2800.0
+    }
+   },
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "{progress:0}<2140",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_02_GD.umap",
+    "loc": {
+     "X": 7700.0,
+     "Y": 12000.0,
+     "Z": 2800.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3060": "Chantier naval de Mobrise"
+  },
+  "groupId": 3060,
+  "hint_fr": "Accès : Chantier naval de Mobrise"
+ },
+ "3062": {
+  "name": "Chantier naval de Mobrise",
+  "from": [
+   3060
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "{progress:0}>=2140",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_02_GD.umap",
+    "loc": {
+     "X": 7700.0,
+     "Y": 12000.0,
+     "Z": 2800.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3060": "Chantier naval de Mobrise"
+  },
+  "groupId": 3060,
+  "hint_fr": "Accès : Chantier naval de Mobrise"
+ },
+ "3070": {
+  "name": "Temple du Vent",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 20819.0,
+     "Y": 1732.0,
+     "Z": 60.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3080": {
+  "name": "Grotte de l’eau",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:41}==20&!{flag:328}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 1739.0,
+     "Y": 4286.0,
+     "Z": 260.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 1739.0,
+     "Y": 4286.0,
+     "Z": 260.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 3148.868018137437,
+     "Y": 5105.491920001964,
+     "Z": 417.6220073324233
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3090": {
+  "name": "Vieille ville, Olderion",
+  "from": [
+   2070
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2070,
+    "fromName": "Olderion, ville aquatique",
+    "cond": "{progress:0}>=3050&{progress:0}<3085",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_01_01_GD.umap",
+    "loc": {
+     "X": 7900.0,
+     "Y": -7900.0,
+     "Z": 730.0
+    }
+   },
+   {
+    "from": 2070,
+    "fromName": "Olderion, ville aquatique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_05Old_01_01_GD.umap",
+    "loc": {
+     "X": 7900.0,
+     "Y": -7900.0,
+     "Z": 730.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2070": "Olderion, ville aquatique"
+  },
+  "groupId": 2070,
+  "hint_fr": "Accès : Olderion, ville aquatique"
+ },
+ "3091": {
+  "name": "Vieille ville, Olderion",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2070,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Olderion, ville aquatique"
+ },
+ "3100": {
+  "name": "Passage de la cascade",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 2142.460017,
+     "Y": -450.80599200000006,
+     "Z": 110.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 2872.0,
+     "Y": -550.0,
+     "Z": 390.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3110": {
+  "name": "Temple de l’Eau",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 6392.460016999999,
+     "Y": -1720.805992,
+     "Z": 110.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3111": {
+  "name": "Grotte aux rubis",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -470.0,
+     "Y": -590.0,
+     "Z": -40.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3120": {
+  "name": "Voie ferrée de Timber",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2100,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Station de Mozul"
+ },
+ "3121": {
+  "name": "Train fantôme",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 2110,
+  "hint_fr": "Aucune porte trouvée (accès par événement/menu) - lié à : Zoldaad, capitale impériale"
+ },
+ "3130": {
+  "name": "Usine d’armes",
+  "from": [
+   3131
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3131,
+    "fromName": "Usine d’armes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_45_01_GD.umap",
+    "loc": {
+     "X": 2885.0,
+     "Y": 0.0,
+     "Z": 400.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3131": "Usine d’armes"
+  },
+  "groupId": 3130,
+  "hint_fr": "Accès : Usine d’armes"
+ },
+ "3131": {
+  "name": "Usine d’armes",
+  "from": [
+   1000,
+   3130
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3130,
+    "fromName": "Usine d’armes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_41_01_GD.umap",
+    "loc": {
+     "X": -150.0,
+     "Y": 1900.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10051.464429224137,
+     "Y": 18444.69796942259,
+     "Z": 780.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3130": "Usine d’armes"
+  },
+  "groupId": 3130,
+  "hint_fr": "Accès : carte du monde, Usine d’armes"
+ },
+ "3140": {
+  "name": "Tunnel souterrain",
+  "from": [
+   2110,
+   2120,
+   3150
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3150,
+    "fromName": "Cachots",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_43_01_GD.umap",
+    "loc": {
+     "X": 10.0,
+     "Y": 800.0,
+     "Z": 60.0
+    }
+   },
+   {
+    "from": 2110,
+    "fromName": "Zoldaad, capitale impériale",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_01_01_GD.umap",
+    "loc": {
+     "X": 1200.0,
+     "Y": 19594.842712474623,
+     "Z": 60.0
+    }
+   },
+   {
+    "from": 2120,
+    "fromName": "Base des rebelles",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_21_01_GD.umap",
+    "loc": {
+     "X": -400.0,
+     "Y": -2400.0,
+     "Z": -200.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2110": "Zoldaad, capitale impériale",
+   "2120": "Base des rebelles",
+   "3150": "Cachots"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : Zoldaad, capitale impériale, Base des rebelles, Cachots"
+ },
+ "3150": {
+  "name": "Cachots",
+  "from": [
+   3140,
+   3160
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3140,
+    "fromName": "Tunnel souterrain",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_42_01_GD.umap",
+    "loc": {
+     "X": 2800.0,
+     "Y": -8600.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 3160,
+    "fromName": "Château de Zoldaad",
+    "cond": "{progress:0}>=4200&{progress:0}<4220",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_44_01_GD.umap",
+    "loc": {
+     "X": 28300.0,
+     "Y": 7155.0,
+     "Z": 500.0
+    }
+   },
+   {
+    "from": 3160,
+    "fromName": "Château de Zoldaad",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_44_01_GD.umap",
+    "loc": {
+     "X": 28300.0,
+     "Y": 7155.0,
+     "Z": 500.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3140": "Tunnel souterrain",
+   "3160": "Château de Zoldaad"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : Tunnel souterrain, Château de Zoldaad"
+ },
+ "3160": {
+  "name": "Château de Zoldaad",
+  "from": [
+   2111,
+   3150,
+   5100
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3150,
+    "fromName": "Cachots",
+    "cond": "{progress:0}>=4200&{progress:0}<4220",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_43_01_GD.umap",
+    "loc": {
+     "X": 4000.0,
+     "Y": -47920.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 3150,
+    "fromName": "Cachots",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_43_01_GD.umap",
+    "loc": {
+     "X": 4000.0,
+     "Y": -47920.0,
+     "Z": 200.0
+    }
+   },
+   {
+    "from": 5100,
+    "fromName": "Château de Zoldaad",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_83_01_GD.umap",
+    "loc": {
+     "X": -1600.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 2111,
+    "fromName": "Place du château de Zoldaad",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_06Zol_02_01_GD.umap",
+    "loc": {
+     "X": 3429.651772937448,
+     "Y": -1.144830818589071e-05,
+     "Z": 56.24935049712053
+    }
+   }
+  ],
+  "fromNames": {
+   "2111": "Place du château de Zoldaad",
+   "3150": "Cachots",
+   "5100": "Château de Zoldaad"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : Place du château de Zoldaad, Cachots, Château de Zoldaad"
+ },
+ "3170": {
+  "name": "グラース雪山",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "3180": {
+  "name": "Vieux château sans nom",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5060",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19335.153623,
+     "Y": -7804.690854,
+     "Z": 0.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}<5060",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19335.153623,
+     "Y": -7804.690854,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3190": {
+  "name": "Bibliothèque arcanique",
+  "from": [
+   2130
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2130,
+    "fromName": "Mysidia, cité magique",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_07Mys_01_01_GD.umap",
+    "loc": {
+     "X": 30406.0,
+     "Y": -5019.0,
+     "Z": 5150.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2130": "Mysidia, cité magique"
+  },
+  "groupId": 2130,
+  "hint_fr": "Accès : Mysidia, cité magique"
+ },
+ "3200": {
+  "name": "Tour de Mysidia",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5180",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16840.211144,
+     "Y": -9529.332988,
+     "Z": 170.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5060 & {progress:0}<5180",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16840.211144,
+     "Y": -9529.332988,
+     "Z": 170.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}<5060 ",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16840.211144,
+     "Y": -9529.332988,
+     "Z": 170.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3210": {
+  "name": "Esprit de Fina",
+  "from": [
+   3211,
+   3212,
+   10044
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10044,
+    "fromName": "Champ de bataille",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_49_01_GD.umap",
+    "loc": {
+     "X": -610.0,
+     "Y": 49990.0,
+     "Z": 5190.0
+    }
+   },
+   {
+    "from": 3211,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_45_01_GD.umap",
+    "loc": {
+     "X": -1250.0,
+     "Y": -12650.0,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 3212,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_46_01_GD.umap",
+    "loc": {
+     "X": 1000.0,
+     "Y": 37100.0,
+     "Z": 300.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3211": "Esprit de Fina",
+   "3212": "Esprit de Fina",
+   "10044": "Champ de bataille"
+  },
+  "groupId": 3210,
+  "hint_fr": "Accès : Esprit de Fina, Champ de bataille"
+ },
+ "3211": {
+  "name": "Esprit de Fina",
+  "from": [
+   3210,
+   3212
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3210,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_44_01_GD.umap",
+    "loc": {
+     "X": -1640.0000048671827,
+     "Y": 13071.463928222656,
+     "Z": 100.0
+    }
+   },
+   {
+    "from": 3212,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_46_01_GD.umap",
+    "loc": {
+     "X": 3301.584324,
+     "Y": -30059.606986,
+     "Z": 199.999981
+    }
+   },
+   {
+    "from": 3212,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_46_01_GD.umap",
+    "loc": {
+     "X": 2760.0,
+     "Y": 39700.0,
+     "Z": 500.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3210": "Esprit de Fina",
+   "3212": "Esprit de Fina"
+  },
+  "groupId": 3210,
+  "hint_fr": "Accès : Esprit de Fina"
+ },
+ "3212": {
+  "name": "Esprit de Fina",
+  "from": [
+   3210,
+   3211,
+   5195
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3210,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_44_01_GD.umap",
+    "loc": {
+     "X": -1540.0000185630806,
+     "Y": 20052.160297137132,
+     "Z": 199.9999973654226
+    }
+   },
+   {
+    "from": 3211,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_45_01_GD.umap",
+    "loc": {
+     "X": -300.0000001391936,
+     "Y": -16528.645710256253,
+     "Z": 100.00000087180956
+    }
+   },
+   {
+    "from": 3211,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_45_01_GD.umap",
+    "loc": {
+     "X": -3900.0,
+     "Y": 77350.0,
+     "Z": 300.0
+    }
+   },
+   {
+    "from": 5195,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_112_01_GD.umap",
+    "loc": {
+     "X": -1200.0,
+     "Y": 64741.471115112305,
+     "Z": 300.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3210": "Esprit de Fina",
+   "3211": "Esprit de Fina",
+   "5195": "Esprit de Fina"
+  },
+  "groupId": 3210,
+  "hint_fr": "Accès : Esprit de Fina"
+ },
+ "3213": {
+  "name": "Temple de Victoria",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16655.0,
+     "Y": -10610.0,
+     "Z": 95.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3220": {
+  "name": "Ruines du laboratoire",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=6020",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 19784.062826862835,
+     "Y": -10990.10008762843,
+     "Z": 1180.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}<6020",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 19784.062826862835,
+     "Y": -10990.10008762843,
+     "Z": 1180.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3230": {
+  "name": "Sentier de montagne escarpé",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 18290.0,
+     "Y": -17830.0,
+     "Z": 880.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 17079.999997140538,
+     "Y": -18445.000008152532,
+     "Z": 1540.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3240": {
+  "name": "Temple de Gronoa",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 11995.00000008604,
+     "Y": -20309.14213562373,
+     "Z": 1710.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3250": {
+  "name": "Temple de Sanctissimus",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=6120",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 11691.520952,
+     "Y": -16903.629504,
+     "Z": 1401.352898
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 11691.520952,
+     "Y": -16903.629504,
+     "Z": 1401.352898
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3260": {
+  "name": "Mont Reizan",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -6198.583759574369,
+     "Y": -17636.28488997689,
+     "Z": 273.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -8377.644586285323,
+     "Y": -16581.686164128758,
+     "Z": 1219.9223116527533
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3270": {
+  "name": "Terres errantes",
+  "from": [
+   1000,
+   3272
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3272,
+    "fromName": "Terres errantes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_43_01_GD.umap",
+    "loc": {
+     "X": 0.0,
+     "Y": -2022.69685,
+     "Z": 210.000075
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}==7060",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_09Pha_02_GD.umap",
+    "loc": {
+     "X": -7554.214322,
+     "Y": -14663.777487,
+     "Z": 1350.142905
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_09Pha_02_GD.umap",
+    "loc": {
+     "X": -7554.214322,
+     "Y": -14663.777487,
+     "Z": 1350.142905
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3272": "Terres errantes"
+  },
+  "groupId": 8000,
+  "hint_fr": "Accès : carte du monde, Terres errantes"
+ },
+ "3271": {
+  "name": "Sentier sylvestre",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_09Pha_02_GD.umap",
+    "loc": {
+     "X": -8138.347597,
+     "Y": -15261.101238,
+     "Z": 1322.753033
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_09Pha_02_GD.umap",
+    "loc": {
+     "X": -8125.467539,
+     "Y": -14882.064522,
+     "Z": 1339.901303
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "3272": {
+  "name": "Terres errantes",
+  "from": [
+   3270,
+   5181
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3270,
+    "fromName": "Terres errantes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_09Pha_41_01_GD.umap",
+    "loc": {
+     "X": 11500.0,
+     "Y": 51199.999898,
+     "Z": 5702.430435
+    }
+   },
+   {
+    "from": 5181,
+    "fromName": "Terres errantes",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_97_01_GD.umap",
+    "loc": {
+     "X": -6298.450094,
+     "Y": 185.048335,
+     "Z": 166.166774
+    }
+   }
+  ],
+  "fromNames": {
+   "3270": "Terres errantes",
+   "5181": "Terres errantes"
+  },
+  "groupId": 8000,
+  "hint_fr": "Accès : Terres errantes"
+ },
+ "3280": {
+  "name": "Tour de cristal",
+  "from": [
+   1000,
+   3281,
+   5190
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 3281,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_10Cry_41_01_GD.umap",
+    "loc": {
+     "X": 11600.000006449012,
+     "Y": 770.0,
+     "Z": -10.0
+    }
+   },
+   {
+    "from": 5190,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_98_01_GD.umap",
+    "loc": {
+     "X": -6100.0,
+     "Y": 100.0,
+     "Z": 410.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "!{flag:810} & !{flag:811}",
+    "triggerCond": "{progress:0}>=7090",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3497.539983,
+     "Y": -8439.835303,
+     "Z": 1400.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{flag:810} & !{flag:811}",
+    "triggerCond": "{progress:0}>=7090",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3497.539983,
+     "Y": -8439.835303,
+     "Z": 1400.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "!{flag:810} & {flag:811}",
+    "triggerCond": "{progress:0}>=7090",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3497.539983,
+     "Y": -8439.835303,
+     "Z": 1400.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{flag:810} & {flag:811}",
+    "triggerCond": "{progress:0}>=7090",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -3497.539983,
+     "Y": -8439.835303,
+     "Z": 1400.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde",
+   "3281": "Tour de cristal",
+   "5190": "Tour de cristal"
+  },
+  "groupId": 9000,
+  "hint_fr": "Accès : carte du monde, Tour de cristal"
+ },
+ "3281": {
+  "name": "Tour de cristal",
+  "from": [
+   5190,
+   5191
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 5190,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_98_01_GD.umap",
+    "loc": {
+     "X": -6100.0,
+     "Y": 1500.0,
+     "Z": 410.0
+    }
+   },
+   {
+    "from": 5191,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Event_00Eve_99_01_GD.umap",
+    "loc": {
+     "X": -6100.0,
+     "Y": 100.0,
+     "Z": 400.0
+    }
+   }
+  ],
+  "fromNames": {
+   "5190": "Tour de cristal",
+   "5191": "Tour de cristal"
+  },
+  "groupId": 9000,
+  "hint_fr": "Accès : Tour de cristal"
+ },
+ "3290": {
+  "name": "Chambre des armes",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 20585.0,
+     "Y": -2350.0,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "5010": {
+  "name": "Champ de bataille",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5020": {
+  "name": "船甲板(晴天)",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5021": {
+  "name": "船甲板(曇天)",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5030": {
+  "name": "砂浜(ディルナド)",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5031": {
+  "name": "砂浜(オルデリオン)",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5032": {
+  "name": "砂浜(8章)",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5040": {
+  "name": "トロッコ動いている",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5041": {
+  "name": "トロッコ止まっている",
+  "from": [
+   3060
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_01_GD.umap",
+    "loc": {
+     "X": -400.0,
+     "Y": 14400.0,
+     "Z": -1600.0
+    }
+   },
+   {
+    "from": 3060,
+    "fromName": "Chantier naval de Mobrise",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_04Dir_41_02_GD.umap",
+    "loc": {
+     "X": -400.0,
+     "Y": 14400.0,
+     "Z": -1600.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3060": "Chantier naval de Mobrise"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : Chantier naval de Mobrise"
+ },
+ "5050": {
+  "name": "インビンシブル甲板",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5090": {
+  "name": "ゾルダードEv008の場所",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5100": {
+  "name": "Château de Zoldaad",
+  "from": [
+   3160
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3160,
+    "fromName": "Château de Zoldaad",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_06Zol_44_01_GD.umap",
+    "loc": {
+     "X": 31081.214764357817,
+     "Y": 16810.0,
+     "Z": 3574.003048819734
+    }
+   }
+  ],
+  "fromNames": {
+   "3160": "Château de Zoldaad"
+  },
+  "groupId": 2110,
+  "hint_fr": "Accès : Château de Zoldaad"
+ },
+ "5130": {
+  "name": "オルデリオン用インビンシブル甲板",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5140": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5150": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5152": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5153": {
+  "name": "Tour de cristal",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5154": {
+  "name": "Tour de cristal",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5155": {
+  "name": "ビッグブリッジ",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5156": {
+  "name": "Ruines du laboratoire",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5160": {
+  "name": "格納庫",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5170": {
+  "name": "祠",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5180": {
+  "name": "Terres errantes",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": 8000,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5181": {
+  "name": "Terres errantes",
+  "from": [
+   3272
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3272,
+    "fromName": "Terres errantes",
+    "cond": "{progress:0}<7090",
+    "triggerCond": "{progress:0}<7090",
+    "eventOnly": false,
+    "level": "Dng_09Pha_43_01_GD.umap",
+    "loc": {
+     "X": 17602.243944,
+     "Y": 1375.494917,
+     "Z": 405.756656
+    }
+   }
+  ],
+  "fromNames": {
+   "3272": "Terres errantes"
+  },
+  "groupId": 8000,
+  "hint_fr": "Accès : Terres errantes"
+ },
+ "5190": {
+  "name": "Tour de cristal",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5191": {
+  "name": "Tour de cristal",
+  "from": [
+   3281
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3281,
+    "fromName": "Tour de cristal",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_10Cry_41_01_GD.umap",
+    "loc": {
+     "X": 12165.0,
+     "Y": 2145.0,
+     "Z": 13945.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3281": "Tour de cristal"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : Tour de cristal"
+ },
+ "5192": {
+  "name": "Lac Dorr",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5193": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5194": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5195": {
+  "name": "Esprit de Fina",
+  "from": [
+   3212
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 3212,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_46_01_GD.umap",
+    "loc": {
+     "X": -7000.0,
+     "Y": 42100.0,
+     "Z": 300.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3212": "Esprit de Fina"
+  },
+  "groupId": 3210,
+  "hint_fr": "Accès : Esprit de Fina"
+ },
+ "5197": {
+  "name": "Mysidia, cité magique",
+  "from": [
+   2130
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2130,
+    "fromName": "Mysidia, cité magique",
+    "cond": "{progress:0}==5300",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_07Mys_01_01_GD.umap",
+    "loc": {
+     "X": 17560.0,
+     "Y": -4400.0,
+     "Z": 840.0001
+    }
+   }
+  ],
+  "fromNames": {
+   "2130": "Mysidia, cité magique"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : Mysidia, cité magique"
+ },
+ "5198": {
+  "name": "Colisée",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5199": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5200": {
+  "name": "平原（イベント汎用）",
+  "from": [
+   2011
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 2011,
+    "fromName": "Grandshelt, capitale royale",
+    "cond": "{progress:0}==1120",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_01Gra_02_01_GD.umap",
+    "loc": {
+     "X": -7400.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "2011": "Grandshelt, capitale royale"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : Grandshelt, capitale royale"
+ },
+ "5201": {
+  "name": "森（イベント汎用）",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5202": {
+  "name": "砂漠（イベント汎用_ランゼルト）\t",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5203": {
+  "name": "砂漠（イベント汎用_ゾルダード）",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5204": {
+  "name": "岩山（イベント汎用）",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5205": {
+  "name": "雪山（イベント汎用）",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5206": {
+  "name": "火山（イベント汎用）\t",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "5207": {
+  "name": "ゴロノア沼地（イベント汎用）",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "10001": {
+  "name": "Grotte perdue",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 14247.757545335764,
+     "Y": 20289.17261932799,
+     "Z": 141.3310365957194
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10020": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "10030": {
+  "name": "Grotte des Enfers",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -8530.149837540714,
+     "Y": 14425.956821366695,
+     "Z": 1400.0000173308608
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10031": {
+  "name": "Grotte de la carrière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10745.710678118658,
+     "Y": 9694.9999995698,
+     "Z": 325.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10040": {
+  "name": "Champ de bataille",
+  "from": [
+   10041
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10041,
+    "fromName": "Champ de bataille",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_46_01_GD.umap",
+    "loc": {
+     "X": -215.0,
+     "Y": -2289.808905,
+     "Z": 147.000073
+    }
+   },
+   {
+    "from": 10041,
+    "fromName": "Champ de bataille",
+    "cond": "{progress:0}<1020",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_46_01_GD.umap",
+    "loc": {
+     "X": 16724.00000000003,
+     "Y": -862.8089050237904,
+     "Z": 400.00007333815483
+    }
+   }
+  ],
+  "fromNames": {
+   "10041": "Champ de bataille"
+  },
+  "groupId": 10040,
+  "hint_fr": "Accès : Champ de bataille"
+ },
+ "10041": {
+  "name": "Champ de bataille",
+  "from": [
+   10040
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10040,
+    "fromName": "Champ de bataille",
+    "cond": "{progress:0}<1020",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_45_01_GD.umap",
+    "loc": {
+     "X": 11499.999999999989,
+     "Y": 51199.99989801273,
+     "Z": 5702.430434670036
+    }
+   }
+  ],
+  "fromNames": {
+   "10040": "Champ de bataille"
+  },
+  "groupId": 10040,
+  "hint_fr": "Accès : Champ de bataille"
+ },
+ "10042": {
+  "name": "Champ de bataille",
+  "from": [
+   10040,
+   10044
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10040,
+    "fromName": "Champ de bataille",
+    "cond": "{progress:0}>=5270",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_45_01_GD.umap",
+    "loc": {
+     "X": 11499.999999999989,
+     "Y": 51199.99989801273,
+     "Z": 5702.430434670036
+    }
+   },
+   {
+    "from": 10044,
+    "fromName": "Champ de bataille",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_49_01_GD.umap",
+    "loc": {
+     "X": 11499.999999999989,
+     "Y": 51199.99989801273,
+     "Z": 5702.430434670036
+    }
+   }
+  ],
+  "fromNames": {
+   "10040": "Champ de bataille",
+   "10044": "Champ de bataille"
+  },
+  "groupId": 10042,
+  "hint_fr": "Accès : Champ de bataille"
+ },
+ "10043": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "10044": {
+  "name": "Champ de bataille",
+  "from": [
+   3210,
+   10042
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 10042,
+    "fromName": "Champ de bataille",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Com_00Com_47_01_GD.umap",
+    "loc": {
+     "X": -215.0,
+     "Y": -2289.808905,
+     "Z": 147.000073
+    }
+   },
+   {
+    "from": 3210,
+    "fromName": "Esprit de Fina",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Dng_07Mys_44_01_GD.umap",
+    "loc": {
+     "X": 430.0,
+     "Y": 16495.0,
+     "Z": 100.0
+    }
+   }
+  ],
+  "fromNames": {
+   "3210": "Esprit de Fina",
+   "10042": "Champ de bataille"
+  },
+  "groupId": 10042,
+  "hint_fr": "Accès : Esprit de Fina, Champ de bataille"
+ },
+ "10045": {
+  "name": "Port de Grandport",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "10051": {
+  "name": "Grotte du maraudeur",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 12205.0,
+     "Y": 10993.0,
+     "Z": 235.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10052": {
+  "name": "Grotte du shoggoth",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 17089.86574771769,
+     "Y": 4939.009052814376,
+     "Z": 270.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10053": {
+  "name": "Grotte du rukh",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -1608.217967341812,
+     "Y": 2967.631397038679,
+     "Z": 50.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10054": {
+  "name": "Grotte du flagelleur mental",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4245.0,
+     "Y": -2660.0,
+     "Z": 280.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10055": {
+  "name": "Grotte de Gogmagog",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10369.087591116158,
+     "Y": 12561.083953821546,
+     "Z": 95.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10056": {
+  "name": "Grotte de la pyrovipère",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -13323.457688465203,
+     "Y": 17945.235713474205,
+     "Z": 650.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10057": {
+  "name": "Grotte de Salomé",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -18130.0,
+     "Y": -3670.0,
+     "Z": 60.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10058": {
+  "name": "Grotte du jötunn",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19045.000863,
+     "Y": -11259.907096,
+     "Z": 150.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10059": {
+  "name": "Grotte du morbol Varietas",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 7720.188731989498,
+     "Y": -467.1746963534878,
+     "Z": 6.55485993549334
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10060": {
+  "name": "Stèle du Pourfendeur de pluie",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 20880.0,
+     "Y": -8010.0,
+     "Z": 1495.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10061": {
+  "name": "Grotte du tartarosaure",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -10789.901802680648,
+     "Y": -2854.2046086422465,
+     "Z": 35.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10062": {
+  "name": "Grotte de la catacombe",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 9829.661184677445,
+     "Y": -13584.652040454757,
+     "Z": 175.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10063": {
+  "name": "Grotte du necromonarque",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 13931.467355997758,
+     "Y": -17373.644569566466,
+     "Z": 1445.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10064": {
+  "name": "Grotte d’humbaba",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 21232.45190548861,
+     "Y": -5699.5096191762605,
+     "Z": 1535.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10065": {
+  "name": "Grotte du titanoraidos",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -6373.772298720366,
+     "Y": -18270.46520982223,
+     "Z": 340.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10066": {
+  "name": "Grotte du morbol menaçant",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 4937.189233653952,
+     "Y": -17542.678547760326,
+     "Z": 170.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10200": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1000}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 995.714674,
+     "Y": -5023.580089,
+     "Z": 25.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10200,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10201": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1001}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_03Kol_GD.umap",
+    "loc": {
+     "X": 2279.0,
+     "Y": 10291.0,
+     "Z": 218.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10201,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10202": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1002}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 18469.0,
+     "Y": -2958.0,
+     "Z": 88.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10202,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10203": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1003}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13649.762418326674,
+     "Y": 14398.024684886226,
+     "Z": 26.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10203,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10205": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1007}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": -1335.0,
+     "Y": -350.0,
+     "Z": 15.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10205,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10206": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1009}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 16486.13629669274,
+     "Y": 1498.9647238274256,
+     "Z": 533.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10206,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10207": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1008}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 13292.267949188375,
+     "Y": -1719.0000000070254,
+     "Z": -20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10207,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10208": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1005}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13585.0,
+     "Y": 10300.0,
+     "Z": 12.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10208,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10209": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1006}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 2594.0,
+     "Y": 7850.0,
+     "Z": 149.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10209,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10210": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1010}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -3230.0,
+     "Y": 16310.0,
+     "Z": 440.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10210,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10211": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1011}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -8110.0,
+     "Y": 11920.0,
+     "Z": 90.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10211,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10212": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1012}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -11290.0,
+     "Y": 18610.0,
+     "Z": 650.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10212,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10213": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1013}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16122.32233,
+     "Y": -7684.038059,
+     "Z": 260.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10213,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10214": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1014}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19043.660254,
+     "Y": -5468.30127,
+     "Z": -20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10214,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10215": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1015}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -17190.0,
+     "Y": -10880.0,
+     "Z": -10.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10215,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10216": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & !{flag:1016}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15615.0,
+     "Y": 20360.0,
+     "Z": 230.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10216,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10218": {
+  "name": "Grotte du tourbillon",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "!{flag:1037}&{flag:1019}",
+    "triggerCond": "",
+    "eventOnly": true,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15080.999996,
+     "Y": 16455.000007,
+     "Z": 1400.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "!{flag:1037}&!{flag:1019}",
+    "triggerCond": "",
+    "eventOnly": true,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15080.999996,
+     "Y": 16455.000007,
+     "Z": 1400.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10220": {
+  "name": "Sanctuaire de Tidus",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1000}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 995.714674,
+     "Y": -5023.580089,
+     "Z": 25.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 995.714674,
+     "Y": -5023.580089,
+     "Z": 25.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10200,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10221": {
+  "name": "Sanctuaire de Terra",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1001}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_03Kol_GD.umap",
+    "loc": {
+     "X": 2279.0,
+     "Y": 10291.0,
+     "Z": 218.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_03Kol_GD.umap",
+    "loc": {
+     "X": 2279.0,
+     "Y": 10291.0,
+     "Z": 218.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10201,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10222": {
+  "name": "Sanctuaire de Noctis",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1002}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 18469.0,
+     "Y": -2958.0,
+     "Z": 88.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 18469.0,
+     "Y": -2958.0,
+     "Z": 88.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10202,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10223": {
+  "name": "Sanctuaire du GdL",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1003}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13649.762418326674,
+     "Y": 14398.024684886226,
+     "Z": 26.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13649.762418326674,
+     "Y": 14398.024684886226,
+     "Z": 26.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10203,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10225": {
+  "name": "Sanctuaire de Firion",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1007}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": -1335.0,
+     "Y": -350.0,
+     "Z": 15.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": -1335.0,
+     "Y": -350.0,
+     "Z": 15.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10205,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10226": {
+  "name": "Sanctuaire de Djidane",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1009}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 16486.13629669274,
+     "Y": 1498.9647238274256,
+     "Z": 533.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 16486.13629669274,
+     "Y": 1498.9647238274256,
+     "Z": 533.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10206,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10227": {
+  "name": "Sanctuaire du Chevalier Oignon",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1008}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 13292.267949188375,
+     "Y": -1719.0000000070254,
+     "Z": -20.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_04Dir_GD.umap",
+    "loc": {
+     "X": 13292.267949188375,
+     "Y": -1719.0000000070254,
+     "Z": -20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10207,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10228": {
+  "name": "Sanctuaire de Cloud",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1005}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13585.0,
+     "Y": 10300.0,
+     "Z": 12.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_02Lan_GD.umap",
+    "loc": {
+     "X": 13585.0,
+     "Y": 10300.0,
+     "Z": 12.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10208,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10229": {
+  "name": "Sanctuaire de Squall",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1006}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 2594.0,
+     "Y": 7850.0,
+     "Z": 149.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_05Old_GD.umap",
+    "loc": {
+     "X": 2594.0,
+     "Y": 7850.0,
+     "Z": 149.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10209,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10230": {
+  "name": "Sanctuaire de Shantotto",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1010}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -3230.0,
+     "Y": 16310.0,
+     "Z": 440.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -3230.0,
+     "Y": 16310.0,
+     "Z": 440.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10210,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10231": {
+  "name": "Sanctuaire de Cécil",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1011}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -8110.0,
+     "Y": 11920.0,
+     "Z": 90.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -8110.0,
+     "Y": 11920.0,
+     "Z": 90.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10211,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10232": {
+  "name": "Sanctuaire d’Y’shtola",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1012}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -11290.0,
+     "Y": 18610.0,
+     "Z": 650.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_06Zol_GD.umap",
+    "loc": {
+     "X": -11290.0,
+     "Y": 18610.0,
+     "Z": 650.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10212,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10233": {
+  "name": "Sanctuaire de Bartz",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1013}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16122.32233,
+     "Y": -7684.038059,
+     "Z": 260.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -16122.32233,
+     "Y": -7684.038059,
+     "Z": 260.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10213,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10234": {
+  "name": "Sanctuaire de Lightning",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1014}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19043.660254,
+     "Y": -5468.30127,
+     "Z": -20.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -19043.660254,
+     "Y": -5468.30127,
+     "Z": -20.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10214,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10235": {
+  "name": "Sanctuaire de Vaan",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1015}",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -17190.0,
+     "Y": -10880.0,
+     "Z": -10.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=5020",
+    "triggerCond": "{progress:0}>=5020",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": -17190.0,
+     "Y": -10880.0,
+     "Z": -10.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10215,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10236": {
+  "name": "Sanctuaire de Clive",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "{progress:0}>=1095 & {flag:1016}",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15615.0,
+     "Y": 20360.0,
+     "Z": 230.0
+    }
+   },
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 15615.0,
+     "Y": 20360.0,
+     "Z": 230.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": 10216,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "10237": {
+  "name": "Sanctuaire de la Lumière",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "11000": {
+  "name": "Habitation isolée",
+  "from": [
+   1000
+  ],
+  "world_entrance": true,
+  "edges": [
+   {
+    "from": 1000,
+    "fromName": "Carte du monde",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Wld_GD.umap",
+    "loc": {
+     "X": 859.045278324689,
+     "Y": -3920.818574147713,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "1000": "Carte du monde"
+  },
+  "groupId": -1,
+  "hint_fr": "Accès : carte du monde"
+ },
+ "20000": {
+  "name": "Aéronef",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ },
+ "20001": {
+  "name": "Aéronef",
+  "from": [
+   20002
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 20002,
+    "fromName": "Pont",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_00Com_03_01_GD.umap",
+    "loc": {
+     "X": -1267.849557152698,
+     "Y": -62.525770496797804,
+     "Z": 0.0
+    }
+   }
+  ],
+  "fromNames": {
+   "20002": "Pont"
+  },
+  "groupId": 20001,
+  "hint_fr": "Accès : Pont"
+ },
+ "20002": {
+  "name": "Pont",
+  "from": [
+   20001
+  ],
+  "world_entrance": false,
+  "edges": [
+   {
+    "from": 20001,
+    "fromName": "Aéronef",
+    "cond": "",
+    "triggerCond": "",
+    "eventOnly": false,
+    "level": "Town_00Com_01_GD.umap",
+    "loc": {
+     "X": 1530.0,
+     "Y": 0.0,
+     "Z": -30.0
+    }
+   }
+  ],
+  "fromNames": {
+   "20001": "Aéronef"
+  },
+  "groupId": 20001,
+  "hint_fr": "Accès : Aéronef"
+ },
+ "60000": {
+  "name": "不正な遷移先",
+  "from": [],
+  "world_entrance": false,
+  "edges": [],
+  "fromNames": {},
+  "groupId": -1,
+  "hint_fr": "Aucune porte trouvée (accès par événement / scénario)"
+ }
+}

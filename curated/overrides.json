@@ -1,0 +1,98 @@
+{
+  "floors": {
+    "3160_2": "Salle séparée au nord (passage au milieu du bord nord du niveau 2)",
+    "3160_0": "Château · niveau d'entrée (1 / 2)",
+    "2140_0": "Village (plan principal)",
+    "2140_1": "Bout nord du village",
+    "2130_9": "Intérieur (porte au nord-ouest de la ville basse)",
+    "2120_6": "Salle à part (porte au nord-est du niveau 1)",
+    "2120_2": "Niveau 2 / 3 (celui de l'entrée)",
+    "3060_4": "Entrée (zone d'arrivée depuis la carte du monde)",
+    "3060_2": "Usine · niveau 3 / 3 (le plus haut)",
+    "3280_8": "Labyrinthe hexagonal (bas de la tour)",
+    "3280_6": "Salles hexagonales · salle au trésor au nord (hors plan)",
+    "3280_7": "Salle hexagonale (plus haut)",
+    "3280_9": "Grandes salles (encore plus haut)",
+    "3280_10": "Passerelles (tout en haut)"
+  },
+  "access": {
+    "2012": {
+      "text": "Accès par Grandshelt, capitale royale (le château de la ville)",
+      "from": 2017
+    },
+    "3160": {
+      "from": 2111,
+      "text": "Accès par la Place du château de Zoldaad (tramway de la capitale impériale)"
+    },
+    "2190": {
+      "text": "Tout au nord du royaume de Pharm, au nord de la Ville de Sian"
+    },
+    "2111": {
+      "text": "Tramway depuis Zoldaad, capitale impériale",
+      "from": 2110
+    }
+  },
+  "places": {
+    "2190": {
+      "flag": "Clé requise",
+      "tip": "Porte verrouillée : va d'abord jusqu'à la porte, puis parle au PNJ de la Ville de Sian qui raconte l'histoire de la cabane ; il te donne la Clé de cabane."
+    },
+    "3280": {
+      "flag": "Fin de partie",
+      "tip": "L'entrée ne s'ouvre qu'à un stade avancé de l'histoire (progression 7090)."
+    },
+    "5030": {
+      "name": "Plage de Dirnado",
+      "sub": "scène d'arrivée en Dirnado"
+    },
+    "2014": {
+      "sub": "version du prologue"
+    },
+    "2012": {
+      "sub": ""
+    },
+    "3190": {
+      "sub": ""
+    }
+  },
+  "plan_order": {
+    "3280": [
+      8,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  "plan": {
+    "chest:Map/Dng/05Old/05Old_44:61": [
+      3110,
+      10
+    ]
+  },
+  "capture_center": {
+    "5030_0": {
+      "X": 628.0,
+      "Y": 1276.0
+    }
+  },
+  "marks": {
+    "chest:Map/Town/03Kol/03Kol_20:7": {
+      "p": [
+        75.5,
+        51.4
+      ],
+      "note": "au fond du couloir, côté est"
+    },
+    "chest:Map/Dng/10Cry/10Cry_40:121": {
+      "note": "passerelle du haut (≈ 8 m au-dessus des n° voisins), accès par la porte ouest"
+    }
+  },
+  "collector": {
+    "43": 80,
+    "44": 84,
+    "53": 89,
+    "54": 94,
+    "57": 99
+  }
+}

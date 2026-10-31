@@ -1,0 +1,5689 @@
+{
+ "meta": {
+  "label_format": "officiel (qualificatif) – contexte ; quand il n’y a pas de nom officiel FR, nom construit à partir des noms officiels.",
+  "variant_kinds": {
+   "normal": "version jouable normale",
+   "prologue": "version du prologue",
+   "burning": "état passé de Grandshelt (incendie)",
+   "event": "carte de scène / événement / version scénario",
+   "revisit": "version « revisite » d’un sanctuaire",
+   "other": "autre (technique, inutilisée, état passé)"
+  },
+  "sources": [
+   "maps.json + DT_MapData_* (sortId, conditions)",
+   "ST_MAP_NAME (locres FR)",
+   "DT_MapIslandData",
+   "DT_MapRegionData",
+   "Field/LandMark/Data/DA_LandmarkList (repères de la carte du monde, avec conditions)",
+   "transitions de tous les niveaux (transitions.json)",
+   "sous-niveaux streamés par chaque PL (pl_streams.json)",
+   "exe: enum eMapIslandType"
+  ]
+ },
+ "maps": {
+  "1000": {
+   "official": "Terrain",
+   "official_key": "ST_UI_QuestMenu:QuestMapWorld",
+   "qualifier": "",
+   "context": "",
+   "label": "Carte du monde",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Carte du monde (extérieur). Nom officiel affiché dans le menu des quêtes : « Terrain » (ST_UI_QuestMenu, pas ST_MAP_NAME). Contient des objets au sol.",
+   "row": "Wld",
+   "folder": null,
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5020": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Pont du bateau – traversée vers Dirnado (beau temps)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Scène de la traversée en bateau vers Dirnado (événement C01_038_03, progression 1250, fin du chapitre 1). Pas d’entrée sur la carte du monde.",
+   "row": "00Eve_80",
+   "folder": "Map/Event/Com/00Eve_80",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5010": {
+   "official": "Champ de bataille",
+   "official_key": "MAP_NAME_060",
+   "qualifier": "scène d’ouverture du prologue",
+   "context": "",
+   "label": "Champ de bataille (scène d’ouverture du prologue)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : 戦場(イベント大専用) « champ de bataille, réservé au grand événement ». Événement C01_001A à la progression 1000 (tout début du jeu).",
+   "row": "00Eve_87",
+   "folder": "Map/Event/Com/00Eve_87",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10040": {
+   "official": "Champ de bataille",
+   "official_key": "MAP_NAME_060",
+   "qualifier": "prologue, en flammes – 1re partie",
+   "context": "",
+   "label": "Champ de bataille (prologue, en flammes – 1re partie)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : 炎上戦場(OPダンジョン) « champ de bataille en flammes (donjon d’ouverture) ». Probablement les Plaines d’Alcare (bataille finale Aldore/Hess). Relié uniquement à 10041.",
+   "row": "00Com_45",
+   "folder": "Map/Com/00Com/00Com_45",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 10040
+  },
+  "10041": {
+   "official": "Champ de bataille",
+   "official_key": "MAP_NAME_060",
+   "qualifier": "prologue, en flammes – 2e partie",
+   "context": "",
+   "label": "Champ de bataille (prologue, en flammes – 2e partie)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : 炎上戦場2(OPダンジョン). Également rechargé au chapitre 5 (progression ≥ 5270) depuis 10044 dans l’esprit de Fina.",
+   "row": "00Com_46",
+   "folder": "Map/Com/00Com/00Com_46",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 10040
+  },
+  "5170": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire (scène d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 祠 « sanctuaire ». Scène d’événement (C02_201_01, progression 1260) ; pas d’entrée sur la carte.",
+   "row": "00Eve_92",
+   "folder": "Map/Event/Com/00Eve_92",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "20000": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "pont, prologue",
+   "context": "",
+   "label": "Aéronef (pont, prologue)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : OP用飛空艇・甲板 « aéronef / pont pour l’ouverture ».",
+   "row": "00Eve_86",
+   "folder": "Map/Event/Com/00Eve_86",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5200": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Plaine (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 平原（イベント汎用）. Utilisé à la progression 1120 (C01_022_01).",
+   "row": "00Eve_103",
+   "folder": "Map/Event/Com/00Eve_103",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5202": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Désert de l’île ouest de Grandshelt (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 砂漠（イベント汎用_ランゼルト） « désert, Lanzelt » = île ouest du royaume de Grandshelt.",
+   "row": "00Eve_105",
+   "folder": "Map/Event/Com/00Eve_105",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "60000": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Destination invalide (carte technique)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : 不正な遷移先 « destination de transition invalide » : carte technique de secours (renvoie à l’écran titre).",
+   "row": "00Com_9999",
+   "folder": "Map/Com/00Com/00Com_9999",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10045": {
+   "official": "Port de Grandport",
+   "official_key": "MAP_NAME_015",
+   "qualifier": "sauvegarde de fin de version d’essai",
+   "context": "",
+   "label": "Port de Grandport (sauvegarde de fin de version d’essai)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : 体験版クリア後セーブ用レベル « niveau de sauvegarde après la fin de la démo ». Carte technique.",
+   "row": "00Com_50",
+   "folder": "Map/Com/00Com/00Com_50",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5021": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Pont du bateau – traversée vers Dirnado (temps couvert)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Même scène que 5020 (C01_038_03, progression 1250), variante ciel couvert.",
+   "row": "00Eve_102",
+   "folder": "Map/Event/Com/00Eve_102",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10042": {
+   "official": "Champ de bataille",
+   "official_key": "MAP_NAME_060",
+   "qualifier": "en flammes – 2e partie, chapitre 5, esprit de Fina",
+   "context": "",
+   "label": "Champ de bataille (en flammes – 2e partie, chapitre 5, esprit de Fina)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 炎上戦場2(5章用). Les Plaines d’Alcare revues dans l’esprit de Fina (« De l’autre côté s’étendent les Plaines d’Alcare »). Version scénario du chapitre 5.",
+   "row": "00Com_47",
+   "folder": "Map/Com/00Com/00Com_47",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 10042
+  },
+  "10044": {
+   "official": "Champ de bataille",
+   "official_key": "MAP_NAME_060",
+   "qualifier": "en flammes – 1re partie, chapitre 5, esprit de Fina",
+   "context": "",
+   "label": "Champ de bataille (en flammes – 1re partie, chapitre 5, esprit de Fina)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 炎上戦場(5章用). Relié au portail de l’esprit de Fina (3210). Version scénario du chapitre 5.",
+   "row": "00Com_49",
+   "folder": "Map/Com/00Com/00Com_49",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 10042
+  },
+  "5032": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Plage (scène du chapitre 8)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 砂浜(8章) « plage (chapitre 8) ». Scène d’événement, pas d’entrée sur la carte du monde.",
+   "row": "00Eve_91",
+   "folder": "Map/Event/Com/00Eve_91",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "20001": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "intérieur de l’Entreprise",
+   "context": "",
+   "label": "Aéronef (intérieur de l’Entreprise)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : エンタープライズ内部. L’intérieur de votre aéronef, l’Entreprise.",
+   "row": "00Com_01",
+   "folder": "Map/Town/00Com/00Com_01",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 20001
+  },
+  "20002": {
+   "official": "Pont",
+   "official_key": "MAP_NAME_128",
+   "qualifier": "",
+   "context": "aéronef Entreprise",
+   "label": "Pont – aéronef Entreprise",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : エンタープライズ甲板 « pont de l’Entreprise ». Nom officiel « Pont ».",
+   "row": "00Com_03",
+   "folder": "Map/Town/00Com/00Com_03",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 20001
+  },
+  "5201": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Forêt (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 森（イベント汎用）.",
+   "row": "00Eve_104",
+   "folder": "Map/Event/Com/00Eve_104",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5203": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Désert de Zoldaad (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 砂漠（イベント汎用_ゾルダード）.",
+   "row": "00Eve_106",
+   "folder": "Map/Event/Com/00Eve_106",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5204": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Montagne rocheuse (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 岩山（イベント汎用）.",
+   "row": "00Eve_107",
+   "folder": "Map/Event/Com/00Eve_107",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5205": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Montagne enneigée (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 雪山（イベント汎用）.",
+   "row": "00Eve_108",
+   "folder": "Map/Event/Com/00Eve_108",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5206": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Volcan (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : 火山（イベント汎用）.",
+   "row": "00Eve_109",
+   "folder": "Map/Event/Com/00Eve_109",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5207": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Marais de Gronoa (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Décor générique utilisé pour des scènes / combats scénarisés ; pas d’entrée sur la carte du monde, aucun coffre ni fragment. Dev : ゴロノア沼地（イベント汎用）. Terme officiel « marais de Gronoa ».",
+   "row": "00Eve_110",
+   "folder": "Map/Event/Com/00Eve_110",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5193": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "pont de l’Entreprise, au-dessus de Pharm",
+   "context": "",
+   "label": "Aéronef (pont de l’Entreprise, au-dessus de Pharm)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ甲板（ファルム）. Scène C07_701_01 (progression 7000).",
+   "row": "00Eve_101",
+   "folder": "Map/Event/Com/00Eve_101",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5199": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "pont de l’Entreprise, combat contre Typhon",
+   "context": "",
+   "label": "Aéronef (pont de l’Entreprise, combat contre Typhon)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ甲板（テュポーン）. Combat de quête annexe (turbulences au-dessus de Dirnado).",
+   "row": "00Eve_116",
+   "folder": "Map/Event/Com/00Eve_116",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5194": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "pont de l’Entreprise, ouverture du chapitre 8",
+   "context": "",
+   "label": "Aéronef (pont de l’Entreprise, ouverture du chapitre 8)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ甲板（8章OP）.",
+   "row": "00Eve_111",
+   "folder": "Map/Event/Com/00Eve_111",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5155": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Grand pont (quête « Combat sur le grand pont »)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ビッグブリッジ « Big Bridge ». Arène de la quête « Combat sur le grand pont » (Gilgamesh).",
+   "row": "00Eve_120",
+   "folder": "Map/Event/Com/00Eve_120",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10043": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "sauvegarde après la fin du jeu",
+   "context": "",
+   "label": "Aéronef (sauvegarde après la fin du jeu)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンディング後セーブ用レベル « niveau de sauvegarde après l’ending ». Carte technique.",
+   "row": "00Com_48",
+   "folder": "Map/Com/00Com/00Com_48",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2000": {
+   "official": "Ville de Mitra",
+   "official_key": "MAP_NAME_011",
+   "qualifier": "",
+   "context": "",
+   "label": "Ville de Mitra",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ミトラの町.",
+   "row": "01Gra_20",
+   "folder": "Map/Town/01Gra/01Gra_20",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 20,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2010": {
+   "official": "Grandshelt, capitale royale",
+   "official_key": "MAP_NAME_012",
+   "qualifier": "en flammes",
+   "context": "",
+   "label": "Grandshelt, capitale royale (en flammes)",
+   "variant_kind": "burning",
+   "possibly_inaccessible": true,
+   "note": "Dev : 王都グランシェルト(炎上). Chargée par la carte du monde seulement pour la progression 1090–1120 (attaque du chapitre 1). Ses 2 coffres ont les mêmes UniqueID (4, 8) que ceux de la capitale actuelle et la même clé de sauvegarde (2001).",
+   "row": "01Gra_01",
+   "folder": "Map/Town/01Gra/01Gra_01",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1090&{progress:0}<=1120"
+   ],
+   "sortId": -1,
+   "sameMapId": 2001,
+   "groupId": 2011
+  },
+  "2011": {
+   "official": "Grandshelt, capitale royale",
+   "official_key": "MAP_NAME_012",
+   "qualifier": "juste après l’incendie",
+   "context": "",
+   "label": "Grandshelt, capitale royale (juste après l’incendie)",
+   "variant_kind": "burning",
+   "possibly_inaccessible": true,
+   "note": "Dev : 王都グランシェルト(炎上直後). Version chargée pour la progression 1121–3209. Ensuite le jeu charge la capitale reconstruite (2017), qui réutilise exactement les mêmes sous-niveaux de jeu (coffres, fragments, PNJ) : rien n’est perdu.",
+   "row": "01Gra_02",
+   "folder": "Map/Town/01Gra/01Gra_02",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    "{progress:0}>1120&{progress:0}<3210"
+   ],
+   "sortId": 30,
+   "sameMapId": 2001,
+   "groupId": 2011
+  },
+  "2012": {
+   "official": "Château de Grandshelt",
+   "official_key": "MAP_NAME_013",
+   "qualifier": "version normale",
+   "context": "",
+   "label": "Château de Grandshelt (version normale)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : グランシェルト城内(晴れ) « intérieur du château (beau temps) ». Château actuel, accessible depuis la capitale. Sauvegarde sous l’id 2002 (comme la version en flammes).",
+   "row": "01Gra_21",
+   "folder": "Map/Town/01Gra/01Gra_21",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": 2002,
+   "groupId": 2011
+  },
+  "3000": {
+   "official": "Temple de la Terre",
+   "official_key": "MAP_NAME_031",
+   "qualifier": "intérieur",
+   "context": "",
+   "label": "Temple de la Terre (intérieur)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 土の神殿(内部).",
+   "row": "01Gra_40",
+   "folder": "Map/Dng/01Gra/01Gra_40",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": 10,
+   "sameMapId": -1,
+   "groupId": 3000
+  },
+  "3001": {
+   "official": "Temple de la Terre",
+   "official_key": "MAP_NAME_031",
+   "qualifier": "entrée",
+   "context": "",
+   "label": "Temple de la Terre (entrée)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 土の神殿(入口). C’est l’entrée depuis la carte du monde.",
+   "row": "01Gra_43",
+   "folder": "Map/Dng/01Gra/01Gra_43",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 10,
+   "sameMapId": -1,
+   "groupId": 3000
+  },
+  "3020": {
+   "official": "Château de Grandshelt",
+   "official_key": "MAP_NAME_013",
+   "qualifier": "en flammes",
+   "context": "",
+   "label": "Château de Grandshelt (en flammes)",
+   "variant_kind": "burning",
+   "possibly_inaccessible": true,
+   "note": "Dev : グランシェルト城内(炎上). Donjon du chapitre 1. Sauvegardé sous l’id 2002 comme le château normal ; la plupart de ses coffres ont les mêmes UniqueID que ceux du château normal (2012), seuls les UniqueID 7 et 9 n’existent qu’ici.",
+   "row": "01Gra_42",
+   "folder": "Map/Dng/01Gra/01Gra_42",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": 2002,
+   "groupId": 2011
+  },
+  "10001": {
+   "official": "Grotte perdue",
+   "official_key": "MAP_NAME_075",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte perdue",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 秘密の洞窟 « grotte secrète ».",
+   "row": "01Gra_44",
+   "folder": "Map/Dng/01Gra/01Gra_44",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 40,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2013": {
+   "official": "Grandshelt, capitale royale",
+   "official_key": "MAP_NAME_012",
+   "qualifier": "prologue",
+   "context": "",
+   "label": "Grandshelt, capitale royale (prologue)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : 王都グランシェルト(OP). Version du prologue (début du jeu).",
+   "row": "01Gra_03",
+   "folder": "Map/Town/01Gra/01Gra_03",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2011
+  },
+  "2014": {
+   "official": "Château de Grandshelt",
+   "official_key": "MAP_NAME_013",
+   "qualifier": "prologue",
+   "context": "",
+   "label": "Château de Grandshelt (prologue)",
+   "variant_kind": "prologue",
+   "possibly_inaccessible": true,
+   "note": "Dev : グランシェルト城内(OP). Chargée par la carte du monde seulement avant la progression 1090. Ses 9 coffres sont sauvegardés à part (id 2014) : ceux qui manquent ne peuvent plus être ouverts.",
+   "row": "01Gra_22",
+   "folder": "Map/Town/01Gra/01Gra_22",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    "{progress:0}<1090"
+   ],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2011
+  },
+  "2015": {
+   "official": "Quartier commerçant",
+   "official_key": "MAP_NAME_113",
+   "qualifier": "",
+   "context": "Grandshelt",
+   "label": "Quartier commerçant – Grandshelt",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 王都グランシェルト(晴れ、商業地区) « capitale, quartier commerçant ».",
+   "row": "01Gra_04",
+   "folder": "Map/Town/01Gra/01Gra_04",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2011
+  },
+  "2016": {
+   "official": "Colisée",
+   "official_key": "MAP_NAME_072",
+   "qualifier": "",
+   "context": "Grandshelt",
+   "label": "Colisée – Grandshelt",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 王都グランシェルト(晴れ、コロシアム) « capitale, colisée ».",
+   "row": "01Gra_05",
+   "folder": "Map/Town/01Gra/01Gra_05",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2011
+  },
+  "2017": {
+   "official": "Grandshelt, capitale royale",
+   "official_key": "MAP_NAME_012",
+   "qualifier": "reconstruite",
+   "context": "",
+   "label": "Grandshelt, capitale royale (reconstruite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 王都グランシェルト(晴れ、広場、復興後) « capitale, place, après la reconstruction ». Version chargée depuis la carte du monde à partir de la progression 3210. Elle réutilise les sous-niveaux de jeu de 01Gra_02 : les coffres du dossier Town/01Gra/01Gra_02 sont ici.",
+   "row": "01Gra_06",
+   "folder": "Map/Town/01Gra/01Gra_06",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=3210"
+   ],
+   "sortId": 30,
+   "sameMapId": 2001,
+   "groupId": 2011
+  },
+  "5198": {
+   "official": "Colisée",
+   "official_key": "MAP_NAME_072",
+   "qualifier": "décor d’événement",
+   "context": "",
+   "label": "Colisée (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : コロシアム（イベント汎用）.",
+   "row": "00Eve_115",
+   "folder": "Map/Event/Com/00Eve_115",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10216": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Clive, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Clive, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10236).",
+   "row": "00Com_216",
+   "folder": "Map/Com/00Com/00Com_216",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [],
+   "sortId": 1000,
+   "sameMapId": -1,
+   "groupId": 10216
+  },
+  "10020": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Leah et Tronn, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Leah et Tronn, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Dev : 光の祠_リーア_トロン. Premier sanctuaire (tutoriel des visions au chapitre 1 : Leah, mage blanche, et Tronn, mage noir).",
+   "row": "00Com_217",
+   "folder": "Map/Com/00Com/00Com_217",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10236": {
+   "official": "Sanctuaire de Clive",
+   "official_key": "MAP_NAME_149",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Clive",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision de Clive. Entrée sur l’île principale de Grandshelt (déclencheur de la carte du monde de la 1re visite).",
+   "row": "00Com_236",
+   "folder": "Map/Com/00Com/00Com_236",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ],
+   "landmark_conditions": [],
+   "sortId": 1000,
+   "sameMapId": -1,
+   "groupId": 10216
+  },
+  "10237": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Leah et Tronn, revisite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Leah et Tronn, revisite)",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Dev : 光の祠_リーア_トロン（再訪）.",
+   "row": "00Com_237",
+   "folder": "Map/Com/00Com/00Com_237",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10218": {
+   "official": "Grotte du tourbillon",
+   "official_key": "MAP_NAME_065",
+   "qualifier": "",
+   "context": "sanctuaire de Séphiroth",
+   "label": "Grotte du tourbillon – sanctuaire de Séphiroth",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 光の祠_セフィロス « sanctuaire de lumière – Séphiroth ».",
+   "row": "00Com_218",
+   "folder": "Map/Com/00Com/00Com_218",
+   "island": 1,
+   "island_enum": "Grandshelt",
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2020": {
+   "official": "Village de Kol",
+   "official_key": "MAP_NAME_014",
+   "qualifier": "",
+   "context": "",
+   "label": "Village de Kol",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : コルの村.",
+   "row": "02Lan_20",
+   "folder": "Map/Town/02Lan/02Lan_20",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 60,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2030": {
+   "official": "Port de Grandport",
+   "official_key": "MAP_NAME_015",
+   "qualifier": "",
+   "context": "",
+   "label": "Port de Grandport",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : グランポート.",
+   "row": "02Lan_21",
+   "folder": "Map/Town/02Lan/02Lan_21",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 70,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3030": {
+   "official": "Tour de Sirène",
+   "official_key": "MAP_NAME_033",
+   "qualifier": "",
+   "context": "",
+   "label": "Tour de Sirène",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : セイレーンの塔.",
+   "row": "02Lan_40",
+   "folder": "Map/Dng/02Lan/02Lan_40",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 121,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10051": {
+   "official": "Grotte du maraudeur",
+   "official_key": "MAP_NAME_151",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du maraudeur",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 魔晶のオーガの洞窟 « grotte de l’ogre de magilithe ».",
+   "row": "02Lan_42",
+   "folder": "Map/Dng/02Lan/02Lan_42",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 100,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10203": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Guerrier de la Lumière, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Guerrier de la Lumière, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10223).",
+   "row": "00Com_203",
+   "folder": "Map/Com/00Com/00Com_203",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1003}"
+   ],
+   "sortId": 1010,
+   "sameMapId": -1,
+   "groupId": 10203
+  },
+  "10208": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Cloud, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Cloud, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10228).",
+   "row": "00Com_208",
+   "folder": "Map/Com/00Com/00Com_208",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1005}"
+   ],
+   "sortId": 1020,
+   "sameMapId": -1,
+   "groupId": 10208
+  },
+  "2031": {
+   "official": "Palais de l’Oubli",
+   "official_key": "MAP_NAME_109",
+   "qualifier": "",
+   "context": "",
+   "label": "Palais de l’Oubli",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 謎の宝物庫 « trésorerie mystérieuse ». Contient les 25 coffres-forts de récompense.",
+   "row": "02Lan_22",
+   "folder": "Map/Town/02Lan/02Lan_22",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 102,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3031": {
+   "official": "Caverne des lames",
+   "official_key": "MAP_NAME_110",
+   "qualifier": "",
+   "context": "",
+   "label": "Caverne des lames",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 剣の洞窟 « grotte des épées ».",
+   "row": "02Lan_44",
+   "folder": "Map/Dng/02Lan/02Lan_44",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 103,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10223": {
+   "official": "Sanctuaire du GdL",
+   "official_key": "MAP_NAME_134",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire du GdL",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1003). GdL = Guerrier de la Lumière.",
+   "row": "00Com_223",
+   "folder": "Map/Com/00Com/00Com_223",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1003}"
+   ],
+   "sortId": 1010,
+   "sameMapId": -1,
+   "groupId": 10203
+  },
+  "10228": {
+   "official": "Sanctuaire de Cloud",
+   "official_key": "MAP_NAME_140",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Cloud",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1005).",
+   "row": "00Com_228",
+   "folder": "Map/Com/00Com/00Com_228",
+   "island": 2,
+   "island_enum": "Lanzelt",
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1005}"
+   ],
+   "sortId": 1020,
+   "sameMapId": -1,
+   "groupId": 10208
+  },
+  "2040": {
+   "official": "Ville de Felicitas",
+   "official_key": "MAP_NAME_016",
+   "qualifier": "",
+   "context": "",
+   "label": "Ville de Felicitas",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ナシャトの町 (nom de travail « Nashat »).",
+   "row": "03Kol_20",
+   "folder": "Map/Town/03Kol/03Kol_20",
+   "island": 3,
+   "island_enum": "Kolobos",
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "world_areas": [
+    3
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 110,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3040": {
+   "official": "Ruines de Kolobos",
+   "official_key": "MAP_NAME_034",
+   "qualifier": "",
+   "context": "",
+   "label": "Ruines de Kolobos",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : コロボス遺跡.",
+   "row": "03Kol_40",
+   "folder": "Map/Dng/03Kol/03Kol_40",
+   "island": 3,
+   "island_enum": "Kolobos",
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "world_areas": [
+    3
+   ],
+   "landmark_conditions": [
+    "{progress:0}!=1170"
+   ],
+   "sortId": 120,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10201": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Terra, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Terra, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10221). (Dev : ティナ = Terra.)",
+   "row": "00Com_201",
+   "folder": "Map/Com/00Com/00Com_201",
+   "island": 3,
+   "island_enum": "Kolobos",
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "world_areas": [
+    3
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1001}"
+   ],
+   "sortId": 1030,
+   "sameMapId": -1,
+   "groupId": 10201
+  },
+  "10221": {
+   "official": "Sanctuaire de Terra",
+   "official_key": "MAP_NAME_139",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Terra",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1001).",
+   "row": "00Com_221",
+   "folder": "Map/Com/00Com/00Com_221",
+   "island": 3,
+   "island_enum": "Kolobos",
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "world_areas": [
+    3
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1001}"
+   ],
+   "sortId": 1030,
+   "sameMapId": -1,
+   "groupId": 10201
+  },
+  "2050": {
+   "official": "Forge naine",
+   "official_key": "MAP_NAME_017",
+   "qualifier": "",
+   "context": "",
+   "label": "Forge naine",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ドワーフの工房.",
+   "row": "04Dir_20",
+   "folder": "Map/Town/04Dir/04Dir_20",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 150,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2060": {
+   "official": "Dilmagia, ville mécanique",
+   "official_key": "MAP_NAME_018",
+   "qualifier": "",
+   "context": "",
+   "label": "Dilmagia, ville mécanique",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ディルマギア工業都市.",
+   "row": "04Dir_01",
+   "folder": "Map/Town/04Dir/04Dir_01",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 130,
+   "sameMapId": -1,
+   "groupId": 2060
+  },
+  "2061": {
+   "official": "Chantier naval",
+   "official_key": "MAP_NAME_019",
+   "qualifier": "",
+   "context": "Dilmagia",
+   "label": "Chantier naval – Dilmagia",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 造船所 « chantier naval ». Quartier de Dilmagia (accès depuis la ville) ; à ne pas confondre avec le Chantier naval de Mobrise.",
+   "row": "04Dir_02",
+   "folder": "Map/Town/04Dir/04Dir_02",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2060
+  },
+  "3050": {
+   "official": "Mont foudroyant",
+   "official_key": "MAP_NAME_035",
+   "qualifier": "",
+   "context": "",
+   "label": "Mont foudroyant",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 雷鳴山.",
+   "row": "04Dir_40",
+   "folder": "Map/Dng/04Dir/04Dir_40",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 140,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3060": {
+   "official": "Chantier naval de Mobrise",
+   "official_key": "MAP_NAME_036",
+   "qualifier": "",
+   "context": "",
+   "label": "Chantier naval de Mobrise",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : モブリズ飛空艇工場 « usine d’aéronefs de Mobrise ». Carte principale du donjon.",
+   "row": "04Dir_41",
+   "folder": "Map/Dng/04Dir/04Dir_41",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 160,
+   "sameMapId": -1,
+   "groupId": 3060
+  },
+  "3061": {
+   "official": "Chantier naval de Mobrise",
+   "official_key": "MAP_NAME_036",
+   "qualifier": "toit, avec l’Invincible",
+   "context": "",
+   "label": "Chantier naval de Mobrise (toit, avec l’Invincible)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : モブリズ飛空艇工場屋上(インビンシブル有). Accessible depuis le chantier (3060).",
+   "row": "04Dir_43",
+   "folder": "Map/Dng/04Dir/04Dir_43",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3060
+  },
+  "3062": {
+   "official": "Chantier naval de Mobrise",
+   "official_key": "MAP_NAME_036",
+   "qualifier": "toit, sans l’Invincible",
+   "context": "",
+   "label": "Chantier naval de Mobrise (toit, sans l’Invincible)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : モブリズ飛空艇工場屋上(インビンシブル無). Aucune transition trouvée vers cette carte (réutilise le niveau de jeu de 3061).",
+   "row": "04Dir_44",
+   "folder": "Map/Dng/04Dir/04Dir_44",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3060
+  },
+  "3070": {
+   "official": "Temple du Vent",
+   "official_key": "MAP_NAME_037",
+   "qualifier": "",
+   "context": "",
+   "label": "Temple du Vent",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 風の神殿.",
+   "row": "04Dir_42",
+   "folder": "Map/Dng/04Dir/04Dir_42",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 170,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5030": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Plage de Dirnado (scène d’arrivée)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 砂浜(ディルナド). Scène de l’arrivée en bateau en Dirnado (C02_201_01, progression 1260). Aucune entrée sur la carte du monde. Ses 2 coffres n’ont aucune table de trésor (DT) : probablement inutilisés / impossibles à récupérer.",
+   "row": "00Eve_81",
+   "folder": "Map/Event/Com/00Eve_81",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5040": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Wagonnet du tunnel de Mobrise (en marche)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : トロッコ動いている « wagonnet en marche ». Fuite par le vieux tunnel de transport vers Mobrise (chapitre 2).",
+   "row": "00Eve_93",
+   "folder": "Map/Event/Com/00Eve_93",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5041": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Wagonnet du tunnel de Mobrise (à l’arrêt)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : トロッコ止まっている « wagonnet à l’arrêt ». Relié au Chantier naval de Mobrise (3060).",
+   "row": "00Eve_94",
+   "folder": "Map/Event/Com/00Eve_94",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3290": {
+   "official": "Chambre des armes",
+   "official_key": "MAP_NAME_069",
+   "qualifier": "",
+   "context": "",
+   "label": "Chambre des armes",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 十二武具の間 « salle des douze armes ».",
+   "row": "04Dir_45",
+   "folder": "Map/Dng/04Dir/04Dir_45",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 180,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10206": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Djidane, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Djidane, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10226). (Dev : ジタン = Djidane.)",
+   "row": "00Com_206",
+   "folder": "Map/Com/00Com/00Com_206",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1009}"
+   ],
+   "sortId": 1040,
+   "sameMapId": -1,
+   "groupId": 10206
+  },
+  "10207": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Chevalier Oignon, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Chevalier Oignon, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10227).",
+   "row": "00Com_207",
+   "folder": "Map/Com/00Com/00Com_207",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1008}"
+   ],
+   "sortId": 1050,
+   "sameMapId": -1,
+   "groupId": 10207
+  },
+  "10202": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Noctis, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Noctis, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10222).",
+   "row": "00Com_202",
+   "folder": "Map/Com/00Com/00Com_202",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1002}"
+   ],
+   "sortId": 1060,
+   "sameMapId": -1,
+   "groupId": 10202
+  },
+  "10052": {
+   "official": "Grotte du shoggoth",
+   "official_key": "MAP_NAME_152",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du shoggoth",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : アイメーバの洞窟.",
+   "row": "04Dir_46",
+   "folder": "Map/Dng/04Dir/04Dir_46",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 171,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10226": {
+   "official": "Sanctuaire de Djidane",
+   "official_key": "MAP_NAME_142",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Djidane",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1009).",
+   "row": "00Com_226",
+   "folder": "Map/Com/00Com/00Com_226",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1009}"
+   ],
+   "sortId": 1040,
+   "sameMapId": -1,
+   "groupId": 10206
+  },
+  "10227": {
+   "official": "Sanctuaire du Chevalier Oignon",
+   "official_key": "MAP_NAME_136",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire du Chevalier Oignon",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1008).",
+   "row": "00Com_227",
+   "folder": "Map/Com/00Com/00Com_227",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1008}"
+   ],
+   "sortId": 1050,
+   "sameMapId": -1,
+   "groupId": 10207
+  },
+  "10222": {
+   "official": "Sanctuaire de Noctis",
+   "official_key": "MAP_NAME_148",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Noctis",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1002).",
+   "row": "00Com_222",
+   "folder": "Map/Com/00Com/00Com_222",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1002}"
+   ],
+   "sortId": 1060,
+   "sameMapId": -1,
+   "groupId": 10202
+  },
+  "5156": {
+   "official": "Ruines du laboratoire",
+   "official_key": "MAP_NAME_052",
+   "qualifier": "scène du chapitre 3",
+   "context": "",
+   "label": "Ruines du laboratoire (scène du chapitre 3)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : アルドールの研究所跡(3章イベント用). Version événement ; réutilise le niveau de jeu du vrai donjon (3220, en Gronoa) : mêmes coffres.",
+   "row": "00Com_121",
+   "folder": "Map/Event/Com/00Eve_121",
+   "island": 4,
+   "island_enum": "Dirnado",
+   "island_label": "Dirnado, continent du Vent",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2070": {
+   "official": "Olderion, ville aquatique",
+   "official_key": "MAP_NAME_020",
+   "qualifier": "",
+   "context": "",
+   "label": "Olderion, ville aquatique",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 水都オルデリオン.",
+   "row": "05Old_01",
+   "folder": "Map/Town/05Old/05Old_01",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 200,
+   "sameMapId": -1,
+   "groupId": 2070
+  },
+  "2080": {
+   "official": "Lac Dorr",
+   "official_key": "MAP_NAME_021",
+   "qualifier": "",
+   "context": "",
+   "label": "Lac Dorr",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ドール湖. Version chargée à partir de la progression 3110.",
+   "row": "05Old_20",
+   "folder": "Map/Town/05Old/05Old_20",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=3110"
+   ],
+   "sortId": 220,
+   "sameMapId": 2080,
+   "groupId": 2080
+  },
+  "2090": {
+   "official": "Ville d’Amore",
+   "official_key": "MAP_NAME_022",
+   "qualifier": "",
+   "context": "",
+   "label": "Ville d’Amore",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : アムールの町.",
+   "row": "05Old_21",
+   "folder": "Map/Town/05Old/05Old_21",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 240,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3080": {
+   "official": "Grotte de l’eau",
+   "official_key": "MAP_NAME_038",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de l’eau",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 水の洞窟.",
+   "row": "05Old_40",
+   "folder": "Map/Dng/05Old/05Old_40",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 210,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3090": {
+   "official": "Vieille ville, Olderion",
+   "official_key": "MAP_NAME_039",
+   "qualifier": "",
+   "context": "",
+   "label": "Vieille ville, Olderion",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : オルデリオン旧市街. Accès depuis Olderion, ville aquatique.",
+   "row": "05Old_41",
+   "folder": "Map/Dng/05Old/05Old_41",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2070
+  },
+  "3091": {
+   "official": "Vieille ville, Olderion",
+   "official_key": "MAP_NAME_039",
+   "qualifier": "inondée",
+   "context": "",
+   "label": "Vieille ville, Olderion (inondée)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 水没したオルデリオン旧市街地 « vieille ville submergée ». Aucune transition trouvée vers cette carte.",
+   "row": "05Old_42",
+   "folder": "Map/Dng/05Old/05Old_42",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2070
+  },
+  "3100": {
+   "official": "Passage de la cascade",
+   "official_key": "MAP_NAME_040",
+   "qualifier": "",
+   "context": "",
+   "label": "Passage de la cascade",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 滝の回廊.",
+   "row": "05Old_43",
+   "folder": "Map/Dng/05Old/05Old_43",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 230,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3110": {
+   "official": "Temple de l’Eau",
+   "official_key": "MAP_NAME_041",
+   "qualifier": "",
+   "context": "",
+   "label": "Temple de l’Eau",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 水の神殿.",
+   "row": "05Old_44",
+   "folder": "Map/Dng/05Old/05Old_44",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 250,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5031": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Plage d’Olderion",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 砂浜(オルデリオン). Scène d’arrivée en Olderion (C03_302_01, progression 2170). Absente de la liste actuelle des repères de la carte du monde (seulement dans un ancien asset). Aucun coffre.",
+   "row": "00Eve_90",
+   "folder": "Map/Event/Com/00Eve_90",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": 190,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5130": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Pont de l’Invincible (vers Olderion)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : オルデリオン用インビンシブル甲板 « pont de l’Invincible pour Olderion ». Scène C03_301_01 (progression 2170).",
+   "row": "00Eve_84",
+   "folder": "Map/Event/Com/00Eve_84",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "11000": {
+   "official": "Habitation isolée",
+   "official_key": "MAP_NAME_078",
+   "qualifier": "",
+   "context": "",
+   "label": "Habitation isolée",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : はぐれ家 « maison isolée ».",
+   "row": "05Old_22",
+   "folder": "Map/Town/05Old/05Old_22",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 251,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3111": {
+   "official": "Grotte aux rubis",
+   "official_key": "MAP_NAME_084",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte aux rubis",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 怪しい洞窟 « grotte suspecte ».",
+   "row": "05Old_45",
+   "folder": "Map/Dng/05Old/05Old_45",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 260,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2081": {
+   "official": "Lac Dorr",
+   "official_key": "MAP_NAME_021",
+   "qualifier": "temps couvert",
+   "context": "",
+   "label": "Lac Dorr (temps couvert)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : ドール湖（曇り）. Version chargée avant la progression 3110 ; ensuite c’est 2080.",
+   "row": "05Old_23",
+   "folder": "Map/Town/05Old/05Old_23",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 220,
+   "sameMapId": 2080,
+   "groupId": 2080
+  },
+  "10200": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Tidus, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Tidus, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10220).",
+   "row": "00Com_200",
+   "folder": "Map/Com/00Com/00Com_200",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1000}"
+   ],
+   "sortId": 1070,
+   "sameMapId": -1,
+   "groupId": 10200
+  },
+  "10205": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Firion, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Firion, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10225).",
+   "row": "00Com_205",
+   "folder": "Map/Com/00Com/00Com_205",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1007}"
+   ],
+   "sortId": 1080,
+   "sameMapId": -1,
+   "groupId": 10205
+  },
+  "10209": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Squall, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Squall, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10229).",
+   "row": "00Com_209",
+   "folder": "Map/Com/00Com/00Com_209",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1006}"
+   ],
+   "sortId": 1090,
+   "sameMapId": -1,
+   "groupId": 10209
+  },
+  "10053": {
+   "official": "Grotte du rukh",
+   "official_key": "MAP_NAME_153",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du rukh",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : トートエイビスの洞窟.",
+   "row": "05Old_46",
+   "folder": "Map/Dng/05Old/05Old_46",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 261,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10054": {
+   "official": "Grotte du flagelleur mental",
+   "official_key": "MAP_NAME_154",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du flagelleur mental",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : マインドフレイアの洞窟.",
+   "row": "05Old_47",
+   "folder": "Map/Dng/05Old/05Old_47",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 262,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10059": {
+   "official": "Grotte du morbol Varietas",
+   "official_key": "MAP_NAME_159",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du morbol Varietas",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : モルボルの洞窟. Rangée dans le dossier 01Gra_46 mais située en Olderion (repère sur la carte d’Olderion).",
+   "row": "01Gra_46",
+   "folder": "Map/Dng/01Gra/01Gra_46",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 263,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10220": {
+   "official": "Sanctuaire de Tidus",
+   "official_key": "MAP_NAME_143",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Tidus",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1000).",
+   "row": "00Com_220",
+   "folder": "Map/Com/00Com/00Com_220",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1000}"
+   ],
+   "sortId": 1070,
+   "sameMapId": -1,
+   "groupId": 10200
+  },
+  "10225": {
+   "official": "Sanctuaire de Firion",
+   "official_key": "MAP_NAME_135",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Firion",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1007).",
+   "row": "00Com_225",
+   "folder": "Map/Com/00Com/00Com_225",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1007}"
+   ],
+   "sortId": 1080,
+   "sameMapId": -1,
+   "groupId": 10205
+  },
+  "10229": {
+   "official": "Sanctuaire de Squall",
+   "official_key": "MAP_NAME_141",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Squall",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1006).",
+   "row": "00Com_229",
+   "folder": "Map/Com/00Com/00Com_229",
+   "island": 5,
+   "island_enum": "Olderion",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1006}"
+   ],
+   "sortId": 1090,
+   "sameMapId": -1,
+   "groupId": 10209
+  },
+  "2100": {
+   "official": "Station de Mozul",
+   "official_key": "MAP_NAME_023",
+   "qualifier": "",
+   "context": "",
+   "label": "Station de Mozul",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : モズール駅.",
+   "row": "06Zol_20",
+   "folder": "Map/Town/06Zol/06Zol_20",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 270,
+   "sameMapId": -1,
+   "groupId": 2100
+  },
+  "2110": {
+   "official": "Zoldaad, capitale impériale",
+   "official_key": "MAP_NAME_024",
+   "qualifier": "",
+   "context": "",
+   "label": "Zoldaad, capitale impériale",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都ゾルダード(帝都ホテル前) « capitale impériale (devant l’Hôtel impérial) ». Entrée de la ville depuis la carte du monde.",
+   "row": "06Zol_01",
+   "folder": "Map/Town/06Zol/06Zol_01",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 280,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "2111": {
+   "official": "Place du château de Zoldaad",
+   "official_key": "MAP_NAME_133",
+   "qualifier": "",
+   "context": "",
+   "label": "Place du château de Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都ゾルダード(城前広場).",
+   "row": "06Zol_02",
+   "folder": "Map/Town/06Zol/06Zol_02",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "2112": {
+   "official": "Marché de la capitale",
+   "official_key": "MAP_NAME_118",
+   "qualifier": "",
+   "context": "Zoldaad",
+   "label": "Marché de la capitale – Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都ゾルダード(商業エリア) « zone commerçante ».",
+   "row": "06Zol_03",
+   "folder": "Map/Town/06Zol/06Zol_03",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "2113": {
+   "official": "Résidences impériales",
+   "official_key": "MAP_NAME_132",
+   "qualifier": "",
+   "context": "Zoldaad",
+   "label": "Résidences impériales – Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都ゾルダード(居住エリア) « zone résidentielle ».",
+   "row": "06Zol_04",
+   "folder": "Map/Town/06Zol/06Zol_04",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "2114": {
+   "official": "Bidonville",
+   "official_key": "MAP_NAME_120",
+   "qualifier": "",
+   "context": "Zoldaad",
+   "label": "Bidonville – Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都ゾルダード(スラム) « bas quartiers ».",
+   "row": "06Zol_05",
+   "folder": "Map/Town/06Zol/06Zol_05",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "2120": {
+   "official": "Base des rebelles",
+   "official_key": "MAP_NAME_025",
+   "qualifier": "",
+   "context": "",
+   "label": "Base des rebelles",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 反乱軍の隠れ家 « repaire de l’armée rebelle ». Repère visible à partir de la progression 4110.",
+   "row": "06Zol_21",
+   "folder": "Map/Town/06Zol/06Zol_21",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=4110"
+   ],
+   "sortId": 300,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3120": {
+   "official": "Voie ferrée de Timber",
+   "official_key": "MAP_NAME_042",
+   "qualifier": "",
+   "context": "",
+   "label": "Voie ferrée de Timber",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ティンバー鉄道. Trajet en train du chapitre 4 (C04_403_01) ; aucune entrée ni sortie vers la carte du monde.",
+   "row": "06Zol_40",
+   "folder": "Map/Dng/06Zol/06Zol_40",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2100
+  },
+  "3130": {
+   "official": "Usine d’armes",
+   "official_key": "MAP_NAME_043",
+   "qualifier": "intérieur",
+   "context": "",
+   "label": "Usine d’armes (intérieur)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 兵器工場 (06Zol_41). Partie principale du donjon (coffres et fragments), accessible depuis l’entrée (3131).",
+   "row": "06Zol_41",
+   "folder": "Map/Dng/06Zol/06Zol_41",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": 310,
+   "sameMapId": -1,
+   "groupId": 3130
+  },
+  "3140": {
+   "official": "Tunnel souterrain",
+   "official_key": "MAP_NAME_044",
+   "qualifier": "",
+   "context": "Zoldaad",
+   "label": "Tunnel souterrain – Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 地下隧道. Relie la capitale, la base des rebelles et les cachots.",
+   "row": "06Zol_42",
+   "folder": "Map/Dng/06Zol/06Zol_42",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "3150": {
+   "official": "Cachots",
+   "official_key": "MAP_NAME_045",
+   "qualifier": "",
+   "context": "château de Zoldaad",
+   "label": "Cachots – château de Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ゾルダード城地下 « sous-sol du château de Zoldaad ».",
+   "row": "06Zol_43",
+   "folder": "Map/Dng/06Zol/06Zol_43",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "3160": {
+   "official": "Château de Zoldaad",
+   "official_key": "MAP_NAME_046",
+   "qualifier": "",
+   "context": "",
+   "label": "Château de Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ゾルダード城.",
+   "row": "06Zol_44",
+   "folder": "Map/Dng/06Zol/06Zol_44",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "5100": {
+   "official": "Château de Zoldaad",
+   "official_key": "MAP_NAME_046",
+   "qualifier": "toit",
+   "context": "",
+   "label": "Château de Zoldaad (toit)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ゾルダード屋上. Relié au château (3160) ; utilisé pour la scène « Atteindre le sommet du château » (C04_435_01, chapitre 4).",
+   "row": "00Eve_83",
+   "folder": "Map/Event/Com/00Eve_83",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "5050": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Pont de l’Invincible",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : インビンシブル甲板 « pont de l’Invincible ». Scènes C04_440_01 / C05_502_02.",
+   "row": "00Eve_95",
+   "folder": "Map/Event/Com/00Eve_95",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5090": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Zoldaad (scène d’événement du chapitre 4)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ゾルダードEv008の場所 « lieu de l’événement 008 de Zoldaad » (C04_408_01, chapitre 4).",
+   "row": "00Com_65",
+   "folder": "Map/Event/Com/00Eve_65",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5160": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Hangar (décor d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 格納庫 « hangar ». Décor d’événement.",
+   "row": "00Eve_89",
+   "folder": "Map/Event/Com/00Eve_89",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5140": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "Entreprise, scène avec Zoldaad au loin",
+   "context": "",
+   "label": "Aéronef (Entreprise, scène avec Zoldaad au loin)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ(ゾルダード遠景イベント用).",
+   "row": "00Eve_85",
+   "folder": "Map/Event/Com/00Eve_85",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3131": {
+   "official": "Usine d’armes",
+   "official_key": "MAP_NAME_043",
+   "qualifier": "entrée",
+   "context": "",
+   "label": "Usine d’armes (entrée)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 兵器工場 (06Zol_45). Petite zone d’entrée depuis la carte du monde, mène à l’intérieur (3130).",
+   "row": "06Zol_45",
+   "folder": "Map/Dng/06Zol/06Zol_45",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 310,
+   "sameMapId": -1,
+   "groupId": 3130
+  },
+  "10030": {
+   "official": "Grotte des Enfers",
+   "official_key": "MAP_NAME_066",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte des Enfers",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : イフリートの洞窟 « grotte d’Ifrit ».",
+   "row": "06Zol_46",
+   "folder": "Map/Dng/06Zol/06Zol_46",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [],
+   "sortId": 320,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2101": {
+   "official": "Gare de Kellis",
+   "official_key": "MAP_NAME_079",
+   "qualifier": "",
+   "context": "",
+   "label": "Gare de Kellis",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ケリス駅. Terminus de la voie ferrée de Timber, accessible en train depuis la Gare de la capitale (épisode de personnage) ; pas de repère sur la carte du monde.",
+   "row": "06Zol_22",
+   "folder": "Map/Town/06Zol/06Zol_22",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2102
+  },
+  "3121": {
+   "official": "Train fantôme",
+   "official_key": "MAP_NAME_082",
+   "qualifier": "",
+   "context": "",
+   "label": "Train fantôme",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 魔列車. Donjon d’un épisode de personnage (train déraillé) ; pas d’entrée sur la carte du monde.",
+   "row": "06Zol_47",
+   "folder": "Map/Dng/06Zol/06Zol_47",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2110
+  },
+  "10031": {
+   "official": "Grotte de la carrière",
+   "official_key": "MAP_NAME_085",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de la carrière",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 貫穿の石碑 « stèle de la percée ». Repère sur la carte de Zoldaad.",
+   "row": "06Zol_48",
+   "folder": "Map/Dng/06Zol/06Zol_48",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 330,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2102": {
+   "official": "Gare de la capitale",
+   "official_key": "MAP_NAME_093",
+   "qualifier": "",
+   "context": "Zoldaad",
+   "label": "Gare de la capitale – Zoldaad",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 帝都前駅 « gare devant la capitale impériale ».",
+   "row": "06Zol_23",
+   "folder": "Map/Town/06Zol/06Zol_23",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 290,
+   "sameMapId": -1,
+   "groupId": 2102
+  },
+  "10210": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Shantotto, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Shantotto, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10230).",
+   "row": "00Com_210",
+   "folder": "Map/Com/00Com/00Com_210",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1010}"
+   ],
+   "sortId": 1100,
+   "sameMapId": -1,
+   "groupId": 10210
+  },
+  "10211": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Cécil, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Cécil, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10231).",
+   "row": "00Com_211",
+   "folder": "Map/Com/00Com/00Com_211",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1011}"
+   ],
+   "sortId": 1110,
+   "sameMapId": -1,
+   "groupId": 10211
+  },
+  "10212": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Y’shtola, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Y’shtola, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10232).",
+   "row": "00Com_212",
+   "folder": "Map/Com/00Com/00Com_212",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1012}"
+   ],
+   "sortId": 1120,
+   "sameMapId": -1,
+   "groupId": 10212
+  },
+  "10055": {
+   "official": "Grotte de Gogmagog",
+   "official_key": "MAP_NAME_156",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de Gogmagog",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ヒルギガースの洞窟.",
+   "row": "06Zol_49",
+   "folder": "Map/Dng/06Zol/06ZoL_49",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 291,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10056": {
+   "official": "Grotte de la pyrovipère",
+   "official_key": "MAP_NAME_155",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de la pyrovipère",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ファイアヒドラの洞窟.",
+   "row": "06Zol_50",
+   "folder": "Map/Dng/06Zol/06Zol_50",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 292,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10230": {
+   "official": "Sanctuaire de Shantotto",
+   "official_key": "MAP_NAME_144",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Shantotto",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1010).",
+   "row": "00Com_230",
+   "folder": "Map/Com/00Com/00Com_230",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1010}"
+   ],
+   "sortId": 1100,
+   "sameMapId": -1,
+   "groupId": 10210
+  },
+  "10231": {
+   "official": "Sanctuaire de Cécil",
+   "official_key": "MAP_NAME_137",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Cécil",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1011).",
+   "row": "00Com_231",
+   "folder": "Map/Com/00Com/00Com_231",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1011}"
+   ],
+   "sortId": 1110,
+   "sameMapId": -1,
+   "groupId": 10211
+  },
+  "10232": {
+   "official": "Sanctuaire d’Y’shtola",
+   "official_key": "MAP_NAME_147",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire d’Y’shtola",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1012).",
+   "row": "00Com_232",
+   "folder": "Map/Com/00Com/00Com_232",
+   "island": 6,
+   "island_enum": "Zoldaad",
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1012}"
+   ],
+   "sortId": 1120,
+   "sameMapId": -1,
+   "groupId": 10212
+  },
+  "2130": {
+   "official": "Mysidia, cité magique",
+   "official_key": "MAP_NAME_026",
+   "qualifier": "",
+   "context": "",
+   "label": "Mysidia, cité magique",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 魔道都市ミシディア.",
+   "row": "07Mys_01",
+   "folder": "Map/Town/07Mys/07Mys_01",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 340,
+   "sameMapId": -1,
+   "groupId": 2130
+  },
+  "2140": {
+   "official": "Village de Sunioo",
+   "official_key": "MAP_NAME_027",
+   "qualifier": "",
+   "context": "",
+   "label": "Village de Sunioo",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : スニウ村.",
+   "row": "07Mys_20",
+   "folder": "Map/Town/07Mys/07Mys_20",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 350,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3170": {
+   "official": null,
+   "official_key": null,
+   "qualifier": "",
+   "context": "",
+   "label": "Mont enneigé de Mysidia (inutilisé)",
+   "variant_kind": "other",
+   "possibly_inaccessible": true,
+   "note": "Dev : グラース雪山 « mont enneigé Glace/Grasse ». Pas de nom officiel, aucune entrée sur la carte du monde, aucun coffre : contenu non utilisé.",
+   "row": "07Mys_40",
+   "folder": "Map/Dng/07Mys/07Mys_40",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3180": {
+   "official": "Vieux château sans nom",
+   "official_key": "MAP_NAME_048",
+   "qualifier": "",
+   "context": "",
+   "label": "Vieux château sans nom",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 名もなき古城.",
+   "row": "07Mys_41",
+   "folder": "Map/Dng/07Mys/07Mys_41",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=5060",
+    "{progress:0}<5060"
+   ],
+   "sortId": 360,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3190": {
+   "official": "Bibliothèque arcanique",
+   "official_key": "MAP_NAME_049",
+   "qualifier": "",
+   "context": "Mysidia",
+   "label": "Bibliothèque arcanique – Mysidia",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 魔道図書館. Accès depuis Mysidia, cité magique.",
+   "row": "07Mys_42",
+   "folder": "Map/Dng/07Mys/07Mys_42",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 2130
+  },
+  "3200": {
+   "official": "Tour de Mysidia",
+   "official_key": "MAP_NAME_050",
+   "qualifier": "",
+   "context": "",
+   "label": "Tour de Mysidia",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ミシディアの塔. Repère visible à partir de la progression 5180.",
+   "row": "07Mys_43",
+   "folder": "Map/Dng/07Mys/07Mys_43",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=5180"
+   ],
+   "sortId": 370,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3210": {
+   "official": "Esprit de Fina",
+   "official_key": "MAP_NAME_051",
+   "qualifier": "portail",
+   "context": "",
+   "label": "Esprit de Fina (portail)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : フィーナの精神世界（門） « monde intérieur de Fina (porte) ». Accès par événement (chapitre 5) ; possibilité d’y retourner non vérifiée.",
+   "row": "07Mys_44",
+   "folder": "Map/Dng/07Mys/07Mys_44",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3210
+  },
+  "3211": {
+   "official": "Esprit de Fina",
+   "official_key": "MAP_NAME_051",
+   "qualifier": "campement",
+   "context": "",
+   "label": "Esprit de Fina (campement)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : フィーナの精神世界（野営地） « campement ». Sans doute le « camp d’Umbra » de l’objectif du chapitre 5.",
+   "row": "07Mys_45",
+   "folder": "Map/Dng/07Mys/07Mys_45",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3210
+  },
+  "3212": {
+   "official": "Esprit de Fina",
+   "official_key": "MAP_NAME_051",
+   "qualifier": "sentier forestier",
+   "context": "",
+   "label": "Esprit de Fina (sentier forestier)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : フィーナの精神世界（林道）.",
+   "row": "07Mys_46",
+   "folder": "Map/Dng/07Mys/07Mys_46",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3210
+  },
+  "5195": {
+   "official": "Esprit de Fina",
+   "official_key": "MAP_NAME_051",
+   "qualifier": "base hessienne",
+   "context": "",
+   "label": "Esprit de Fina (base hessienne)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : フィーナの精神世界（ヘスの基地） « base de Hess ». Reliée au sentier forestier (3212).",
+   "row": "00Eve_112",
+   "folder": "Map/Event/Com/00Eve_112",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 3210
+  },
+  "5197": {
+   "official": "Mysidia, cité magique",
+   "official_key": "MAP_NAME_026",
+   "qualifier": "résidence de Sakura sous la pluie",
+   "context": "",
+   "label": "Mysidia, cité magique (résidence de Sakura sous la pluie)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 魔道都市ミシディア(サクラの家雨差分) « variante pluie de la maison de Sakura ».",
+   "row": "00Eve_114",
+   "folder": "Map/Event/Com/00Eve_114",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10057": {
+   "official": "Grotte de Salomé",
+   "official_key": "MAP_NAME_157",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de Salomé",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : メーディアの洞窟.",
+   "row": "07Mys_47",
+   "folder": "Map/Dng/07Mys/07Mys_47",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 371,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10058": {
+   "official": "Grotte du jötunn",
+   "official_key": "MAP_NAME_158",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du jötunn",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : アイスギガースの洞窟.",
+   "row": "07Mys_48",
+   "folder": "Map/Dng/07Mys/07Mys_48",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 372,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10213": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Bartz, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Bartz, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10233).",
+   "row": "00Com_213",
+   "folder": "Map/Com/00Com/00Com_213",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1013}"
+   ],
+   "sortId": 1130,
+   "sameMapId": -1,
+   "groupId": 10213
+  },
+  "10214": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Lightning, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Lightning, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10234).",
+   "row": "00Com_214",
+   "folder": "Map/Com/00Com/00Com_214",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1014}"
+   ],
+   "sortId": 1140,
+   "sameMapId": -1,
+   "groupId": 10214
+  },
+  "10215": {
+   "official": "Sanctuaire de la Lumière",
+   "official_key": "MAP_NAME_094",
+   "qualifier": "Vaan, 1re visite",
+   "context": "",
+   "label": "Sanctuaire de la Lumière (Vaan, 1re visite)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": true,
+   "note": "Première visite (éveil de la vision) ; une fois la vision obtenue, le repère de la carte charge la version « revisite » (10235).",
+   "row": "00Com_215",
+   "folder": "Map/Com/00Com/00Com_215",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & !{flag:1015}"
+   ],
+   "sortId": 1150,
+   "sameMapId": -1,
+   "groupId": 10215
+  },
+  "3213": {
+   "official": "Temple de Victoria",
+   "official_key": "MAP_NAME_111",
+   "qualifier": "",
+   "context": "",
+   "label": "Temple de Victoria",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ビクトリアの洞窟 « grotte de Victoria ».",
+   "row": "07Mys_49",
+   "folder": "Map/Dng/07Mys/07Mys_49",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 373,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10233": {
+   "official": "Sanctuaire de Bartz",
+   "official_key": "MAP_NAME_138",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Bartz",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1013).",
+   "row": "00Com_233",
+   "folder": "Map/Com/00Com/00Com_233",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1013}"
+   ],
+   "sortId": 1130,
+   "sameMapId": -1,
+   "groupId": 10213
+  },
+  "10234": {
+   "official": "Sanctuaire de Lightning",
+   "official_key": "MAP_NAME_146",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Lightning",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1014).",
+   "row": "00Com_234",
+   "folder": "Map/Com/00Com/00Com_234",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1014}"
+   ],
+   "sortId": 1140,
+   "sameMapId": -1,
+   "groupId": 10214
+  },
+  "10235": {
+   "official": "Sanctuaire de Vaan",
+   "official_key": "MAP_NAME_145",
+   "qualifier": "",
+   "context": "",
+   "label": "Sanctuaire de Vaan",
+   "variant_kind": "revisit",
+   "possibly_inaccessible": false,
+   "note": "Version chargée quand on revient au sanctuaire après avoir obtenu la vision (flag 1015).",
+   "row": "00Com_235",
+   "folder": "Map/Com/00Com/00Com_235",
+   "island": 7,
+   "island_enum": "MagiNationMysidia",
+   "island_label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=1095 & {flag:1015}"
+   ],
+   "sortId": 1150,
+   "sameMapId": -1,
+   "groupId": 10215
+  },
+  "2150": {
+   "official": "Gaberada, ville souterraine",
+   "official_key": "MAP_NAME_028",
+   "qualifier": "",
+   "context": "",
+   "label": "Gaberada, ville souterraine",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 地下の町ガベラダ.",
+   "row": "08Gro_01",
+   "folder": "Map/Town/08Gro/08Gro_01",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 380,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2160": {
+   "official": "Ville de Duggle",
+   "official_key": "MAP_NAME_029",
+   "qualifier": "",
+   "context": "",
+   "label": "Ville de Duggle",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ダグルの町.",
+   "row": "08Gro_20",
+   "folder": "Map/Town/08Gro/08Gro_20",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 410,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3220": {
+   "official": "Ruines du laboratoire",
+   "official_key": "MAP_NAME_052",
+   "qualifier": "",
+   "context": "",
+   "label": "Ruines du laboratoire",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : アルドールの研究所跡 « ruines du laboratoire d’Aldore ».",
+   "row": "08Gro_40",
+   "folder": "Map/Dng/08Gro/08Gro_40",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=6020",
+    "{progress:0}<6020"
+   ],
+   "sortId": 390,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3230": {
+   "official": "Sentier de montagne escarpé",
+   "official_key": "MAP_NAME_053",
+   "qualifier": "",
+   "context": "",
+   "label": "Sentier de montagne escarpé",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 荒れ果てた山道.",
+   "row": "08Gro_41",
+   "folder": "Map/Dng/08Gro/08Gro_41",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 400,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3240": {
+   "official": "Temple de Gronoa",
+   "official_key": "MAP_NAME_054",
+   "qualifier": "",
+   "context": "",
+   "label": "Temple de Gronoa",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ゴロノア神殿１.",
+   "row": "08Gro_42",
+   "folder": "Map/Dng/08Gro/08Gro_42",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 420,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3250": {
+   "official": "Temple de Sanctissimus",
+   "official_key": "MAP_NAME_055",
+   "qualifier": "",
+   "context": "",
+   "label": "Temple de Sanctissimus",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ゴロノア神殿２(至聖殿) « temple de Gronoa 2 (Sanctissimus) ».",
+   "row": "08Gro_43",
+   "folder": "Map/Dng/08Gro/08Gro_43",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    "{progress:0}>=6120",
+    ""
+   ],
+   "sortId": 430,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10060": {
+   "official": "Stèle du Pourfendeur de pluie",
+   "official_key": "MAP_NAME_086",
+   "qualifier": "",
+   "context": "",
+   "label": "Stèle du Pourfendeur de pluie",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 斬雨の石碑.",
+   "row": "08Gro_44",
+   "folder": "Map/Dng/08Gro/08Gro_44",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 440,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10063": {
+   "official": "Grotte du necromonarque",
+   "official_key": "MAP_NAME_162",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du necromonarque",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ブラッディサウルスの洞窟.",
+   "row": "08Gro_45",
+   "folder": "Map/Dng/08Gro/08Gro_45",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 441,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10064": {
+   "official": "Grotte d’humbaba",
+   "official_key": "MAP_NAME_163",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte d’humbaba",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : クーザーの洞窟.",
+   "row": "08Gro_46",
+   "folder": "Map/Dng/08Gro/08Gro_46",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 442,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10062": {
+   "official": "Grotte de la catacombe",
+   "official_key": "MAP_NAME_161",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte de la catacombe",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : スカルドラゴンの洞窟. Rangée dans le dossier 02Lan_43 mais située en Gronoa.",
+   "row": "02Lan_43",
+   "folder": "Map/Dng/02Lan/02Lan_43",
+   "island": 8,
+   "island_enum": "Gronoa",
+   "island_label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 443,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2170": {
+   "official": "Ville de Sian",
+   "official_key": "MAP_NAME_030",
+   "qualifier": "",
+   "context": "",
+   "label": "Ville de Sian",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : シアンの町.",
+   "row": "09Pha_01",
+   "folder": "Map/Town/09Pha/09Pha_01",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 450,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "2180": {
+   "official": "Lac Ryusei",
+   "official_key": "MAP_NAME_070",
+   "qualifier": "",
+   "context": "",
+   "label": "Lac Ryusei",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : リュウセイ湖.",
+   "row": "09Pha_20",
+   "folder": "Map/Town/09Pha/09Pha_20",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 470,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3260": {
+   "official": "Mont Reizan",
+   "official_key": "MAP_NAME_056",
+   "qualifier": "",
+   "context": "",
+   "label": "Mont Reizan",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : レイホウ山.",
+   "row": "09Pha_40",
+   "folder": "Map/Dng/09Pha/09Pha_40",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 460,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3270": {
+   "official": "Terres errantes",
+   "official_key": "MAP_NAME_057",
+   "qualifier": "remparts oubliés – 1re partie",
+   "context": "",
+   "label": "Terres errantes (remparts oubliés – 1re partie)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 忘れ去られた城壁 « remparts oubliés ». Entrée des Terres errantes depuis la carte du monde.",
+   "row": "09Pha_41",
+   "folder": "Map/Dng/09Pha/09Pha_41",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 480,
+   "sameMapId": -1,
+   "groupId": 8000
+  },
+  "3271": {
+   "official": "Sentier sylvestre",
+   "official_key": "MAP_NAME_080",
+   "qualifier": "",
+   "context": "entre le Mont Reizan et les Terres errantes",
+   "label": "Sentier sylvestre – entre le Mont Reizan et les Terres errantes",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : レイホウ山と浮遊大陸の間 « entre le mont Reizan et le continent flottant ».",
+   "row": "09Pha_42",
+   "folder": "Map/Dng/09Pha/09Pha_42",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 471,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5180": {
+   "official": "Terres errantes",
+   "official_key": "MAP_NAME_057",
+   "qualifier": "champ de bataille, Raegen contre Umbra",
+   "context": "",
+   "label": "Terres errantes (champ de bataille, Raegen contre Umbra)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 戦場（レーゲンvs常闇）. Scène C07_712_02 (progression 7050) ; les Plaines d’Alcare transportées dans les Terres errantes.",
+   "row": "00Eve_96",
+   "folder": "Map/Event/Com/00Eve_96",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 8000
+  },
+  "5181": {
+   "official": "Terres errantes",
+   "official_key": "MAP_NAME_057",
+   "qualifier": "champ de bataille, Cristal des ténèbres",
+   "context": "",
+   "label": "Terres errantes (champ de bataille, Cristal des ténèbres)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : 戦場（闇のクリスタル配置）. Accessible depuis la 2e partie (3272) seulement avant la progression 7090.",
+   "row": "00Eve_97",
+   "folder": "Map/Event/Com/00Eve_97",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 8000
+  },
+  "2190": {
+   "official": "Cabane abandonnée",
+   "official_key": "MAP_NAME_081",
+   "qualifier": "",
+   "context": "",
+   "label": "Cabane abandonnée",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : メルの庵 « ermitage de Mel ». Entrée présente sur la carte du monde (royaume de Pharm) mais pas d’icône de repère ; liée à la quête annexe d’Ilias.",
+   "row": "09Pha_21",
+   "folder": "Map/Town/09Pha/09Pha_21",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [],
+   "sortId": 490,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3010": {
+   "official": "Gueule du dragon",
+   "official_key": "MAP_NAME_032",
+   "qualifier": "",
+   "context": "",
+   "label": "Gueule du dragon",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ダルナキア洞窟. Rangée dans le dossier 01Gra_41 mais située à la pointe sud du royaume de Pharm (2 entrées).",
+   "row": "01Gra_41",
+   "folder": "Map/Dng/01Gra/01Gra_41",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    "",
+    ""
+   ],
+   "sortId": 500,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3272": {
+   "official": "Terres errantes",
+   "official_key": "MAP_NAME_057",
+   "qualifier": "2e partie",
+   "context": "",
+   "label": "Terres errantes (2e partie)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : 浮遊大陸2 « continent flottant 2 ». Suite des remparts oubliés (3270).",
+   "row": "09Pha_43",
+   "folder": "Map/Dng/09Pha/09Pha_43",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 8000
+  },
+  "10065": {
+   "official": "Grotte du titanoraidos",
+   "official_key": "MAP_NAME_164",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du titanoraidos",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ブラキオレイドスの洞窟.",
+   "row": "09Pha_44",
+   "folder": "Map/Dng/09Pha/09Pha_44",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 501,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10066": {
+   "official": "Grotte du morbol menaçant",
+   "official_key": "MAP_NAME_165",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du morbol menaçant",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : モルボルグレートの洞窟.",
+   "row": "09Pha_45",
+   "folder": "Map/Dng/09Pha/09Pha_45",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 502,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "10061": {
+   "official": "Grotte du tartarosaure",
+   "official_key": "MAP_NAME_160",
+   "qualifier": "",
+   "context": "",
+   "label": "Grotte du tartarosaure",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : ティラノサウルスの洞窟. Rangée dans le dossier 05Old_48 mais située en Pharm.",
+   "row": "05Old_48",
+   "folder": "Map/Dng/05Old/05Old_48",
+   "island": 9,
+   "island_enum": "Pharm",
+   "island_label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ],
+   "landmark_conditions": [
+    ""
+   ],
+   "sortId": 503,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "3280": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "",
+   "context": "",
+   "label": "Tour de cristal",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : クリスタルタワー. Repère visible à partir de la progression 7090.",
+   "row": "10Cry_40",
+   "folder": "Map/Dng/10Cry/10Cry_40",
+   "island": 10,
+   "island_enum": "LandOfTheCrystals",
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [
+    12
+   ],
+   "landmark_conditions": [],
+   "sortId": 510,
+   "sameMapId": -1,
+   "groupId": 9000
+  },
+  "3281": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "escalier en spirale",
+   "context": "",
+   "label": "Tour de cristal (escalier en spirale)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : クリスタルタワー螺旋階段.",
+   "row": "10Cry_41",
+   "folder": "Map/Dng/10Cry/10Cry_41",
+   "island": 10,
+   "island_enum": "LandOfTheCrystals",
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": 9000
+  },
+  "5190": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "étage supérieur",
+   "context": "",
+   "label": "Tour de cristal (étage supérieur)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : クリスタルタワー上層. Fait partie du donjon (relié à 3280 et 3281). Le jeu a aussi la chaîne officielle « Tour de cristal - Étage supérieur » (MAP_NAME_114).",
+   "row": "00Eve_98",
+   "folder": "Map/Event/Com/00Eve_98",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5191": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "sommet",
+   "context": "",
+   "label": "Tour de cristal (sommet)",
+   "variant_kind": "normal",
+   "possibly_inaccessible": false,
+   "note": "Dev : クリスタルタワー頂上. Relié à l’escalier en spirale (3281).",
+   "row": "00Eve_99",
+   "folder": "Map/Event/Com/00Eve_99",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5192": {
+   "official": "Lac Dorr",
+   "official_key": "MAP_NAME_021",
+   "qualifier": "fond du lac",
+   "context": "",
+   "label": "Lac Dorr (fond du lac)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ドール湖の湖底 « fond du lac Dorr ». Scène d’événement.",
+   "row": "00Eve_100",
+   "folder": "Map/Event/Com/00Eve_100",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Fédération d’Olderion",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5150": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "pont de l’Entreprise, scène d’événement",
+   "context": "",
+   "label": "Aéronef (pont de l’Entreprise, scène d’événement)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ甲板.",
+   "row": "00Eve_88",
+   "folder": "Map/Event/Com/00Eve_88",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5152": {
+   "official": "Aéronef",
+   "official_key": "MAP_NAME_067",
+   "qualifier": "Entreprise, générique de fin",
+   "context": "",
+   "label": "Aéronef (Entreprise, générique de fin)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンタープライズ（エンドロール）.",
+   "row": "00Eve_117",
+   "folder": "Map/Event/Com/00Eve_117",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5153": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "duel contre Sol",
+   "context": "",
+   "label": "Tour de cristal (duel contre Sol)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : ソル一騎打ち戦闘背景 « décor du duel contre Sol ».",
+   "row": "00Eve_118",
+   "folder": "Map/Event/Com/00Eve_118",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  },
+  "5154": {
+   "official": "Tour de cristal",
+   "official_key": "MAP_NAME_058",
+   "qualifier": "aéronef du générique de fin",
+   "context": "",
+   "label": "Tour de cristal (aéronef du générique de fin)",
+   "variant_kind": "event",
+   "possibly_inaccessible": true,
+   "note": "Dev : エンドロール飛空艇.",
+   "row": "00Eve_119",
+   "folder": "Map/Event/Com/00Eve_119",
+   "island": 0,
+   "island_enum": "None",
+   "island_label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": [],
+   "landmark_conditions": [],
+   "sortId": -1,
+   "sameMapId": -1,
+   "groupId": -1
+  }
+ },
+ "save_aliases": {
+  "2001": {
+   "label": "Grandshelt, capitale royale",
+   "members": [
+    2010,
+    2011,
+    2017
+   ],
+   "current_map": 2017,
+   "note": "Identifiant utilisé seulement dans la sauvegarde (sameMapId) : un coffre ouvert dans une version compte pour toutes les versions qui partagent cet id."
+  },
+  "2002": {
+   "label": "Château de Grandshelt",
+   "members": [
+    2012,
+    3020
+   ],
+   "current_map": 2012,
+   "note": "Identifiant utilisé seulement dans la sauvegarde (sameMapId) : un coffre ouvert dans une version compte pour toutes les versions qui partagent cet id."
+  }
+ },
+ "folders": {
+  "Map/Dng/01Gra/01Gra_40": {
+   "label": "Temple de la Terre (intérieur)",
+   "best_mapId": 3000,
+   "mapIds": [
+    3000
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 6
+  },
+  "Map/Dng/01Gra/01Gra_41": {
+   "label": "Gueule du dragon",
+   "best_mapId": 3010,
+   "mapIds": [
+    3010
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 8
+  },
+  "Map/Dng/01Gra/01Gra_42": {
+   "label": "Château de Grandshelt (en flammes)",
+   "best_mapId": 3020,
+   "mapIds": [
+    3020
+   ],
+   "possibly_inaccessible": true,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 12,
+   "current_version_folders": [
+    "Map/Town/01Gra/01Gra_21"
+   ],
+   "save_ids": [
+    2002
+   ],
+   "chest_uids_also_in_current_version": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    60,
+    61,
+    62,
+    63
+   ],
+   "chest_uids_only_here": [
+    7,
+    9
+   ],
+   "note": "Version passée. Les coffres dont l’UniqueID existe aussi dans la version actuelle (même clé de sauvegarde) restent récupérables là-bas ; ceux listés dans chest_uids_only_here ne le sont plus."
+  },
+  "Map/Dng/01Gra/01Gra_43": {
+   "label": "Temple de la Terre (entrée)",
+   "best_mapId": 3001,
+   "mapIds": [
+    3001
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 3
+  },
+  "Map/Dng/02Lan/02Lan_40": {
+   "label": "Tour de Sirène",
+   "best_mapId": 3030,
+   "mapIds": [
+    3030
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "gimmicks": 10
+  },
+  "Map/Dng/02Lan/02Lan_44": {
+   "label": "Caverne des lames",
+   "best_mapId": 3031,
+   "mapIds": [
+    3031
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "gimmicks": 1
+  },
+  "Map/Dng/03Kol/03Kol_40": {
+   "label": "Ruines de Kolobos",
+   "best_mapId": 3040,
+   "mapIds": [
+    3040
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "gimmicks": 6
+  },
+  "Map/Dng/04Dir/04Dir_40": {
+   "label": "Mont foudroyant",
+   "best_mapId": 3050,
+   "mapIds": [
+    3050
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 7
+  },
+  "Map/Dng/04Dir/04Dir_41": {
+   "label": "Chantier naval de Mobrise",
+   "best_mapId": 3060,
+   "mapIds": [
+    3060
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 8
+  },
+  "Map/Dng/04Dir/04Dir_42": {
+   "label": "Temple du Vent",
+   "best_mapId": 3070,
+   "mapIds": [
+    3070
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 7
+  },
+  "Map/Dng/05Old/05Old_40": {
+   "label": "Grotte de l’eau",
+   "best_mapId": 3080,
+   "mapIds": [
+    3080
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 8
+  },
+  "Map/Dng/05Old/05Old_41": {
+   "label": "Vieille ville, Olderion",
+   "best_mapId": 3090,
+   "mapIds": [
+    3090
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 3
+  },
+  "Map/Dng/05Old/05Old_43": {
+   "label": "Passage de la cascade",
+   "best_mapId": 3100,
+   "mapIds": [
+    3100
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 9
+  },
+  "Map/Dng/05Old/05Old_44": {
+   "label": "Temple de l’Eau",
+   "best_mapId": 3110,
+   "mapIds": [
+    3110
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 9
+  },
+  "Map/Dng/05Old/05Old_45": {
+   "label": "Grotte aux rubis",
+   "best_mapId": 3111,
+   "mapIds": [
+    3111
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 2
+  },
+  "Map/Dng/06Zol/06Zol_41": {
+   "label": "Usine d’armes (intérieur)",
+   "best_mapId": 3130,
+   "mapIds": [
+    3130
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 6
+  },
+  "Map/Dng/06Zol/06Zol_42": {
+   "label": "Tunnel souterrain – Zoldaad",
+   "best_mapId": 3140,
+   "mapIds": [
+    3140
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 7
+  },
+  "Map/Dng/06Zol/06Zol_43": {
+   "label": "Cachots – château de Zoldaad",
+   "best_mapId": 3150,
+   "mapIds": [
+    3150
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 7
+  },
+  "Map/Dng/06Zol/06Zol_44": {
+   "label": "Château de Zoldaad",
+   "best_mapId": 3160,
+   "mapIds": [
+    3160
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 6
+  },
+  "Map/Dng/06Zol/06Zol_48": {
+   "label": "Grotte de la carrière",
+   "best_mapId": 10031,
+   "mapIds": [
+    10031
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Dng/07Mys/07Mys_41": {
+   "label": "Vieux château sans nom",
+   "best_mapId": 3180,
+   "mapIds": [
+    3180
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 7
+  },
+  "Map/Dng/07Mys/07Mys_42": {
+   "label": "Bibliothèque arcanique – Mysidia",
+   "best_mapId": 3190,
+   "mapIds": [
+    3190
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 7
+  },
+  "Map/Dng/07Mys/07Mys_43": {
+   "label": "Tour de Mysidia",
+   "best_mapId": 3200,
+   "mapIds": [
+    3200
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 8
+  },
+  "Map/Dng/07Mys/07Mys_44": {
+   "label": "Esprit de Fina (portail)",
+   "best_mapId": 3210,
+   "mapIds": [
+    3210
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 1
+  },
+  "Map/Dng/07Mys/07Mys_45": {
+   "label": "Esprit de Fina (campement)",
+   "best_mapId": 3211,
+   "mapIds": [
+    3211
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 4
+  },
+  "Map/Dng/07Mys/07Mys_46": {
+   "label": "Esprit de Fina (sentier forestier)",
+   "best_mapId": 3212,
+   "mapIds": [
+    3212
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 2
+  },
+  "Map/Dng/08Gro/08Gro_40": {
+   "label": "Ruines du laboratoire",
+   "best_mapId": 3220,
+   "mapIds": [
+    3220,
+    5156
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 11
+  },
+  "Map/Dng/08Gro/08Gro_41": {
+   "label": "Sentier de montagne escarpé",
+   "best_mapId": 3230,
+   "mapIds": [
+    3230
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 5
+  },
+  "Map/Dng/08Gro/08Gro_42": {
+   "label": "Temple de Gronoa",
+   "best_mapId": 3240,
+   "mapIds": [
+    3240
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 7
+  },
+  "Map/Dng/08Gro/08Gro_43": {
+   "label": "Temple de Sanctissimus",
+   "best_mapId": 3250,
+   "mapIds": [
+    3250
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 4
+  },
+  "Map/Dng/08Gro/08Gro_44": {
+   "label": "Stèle du Pourfendeur de pluie",
+   "best_mapId": 10060,
+   "mapIds": [
+    10060
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 1
+  },
+  "Map/Dng/09Pha/09Pha_40": {
+   "label": "Mont Reizan",
+   "best_mapId": 3260,
+   "mapIds": [
+    3260
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 6
+  },
+  "Map/Dng/09Pha/09Pha_42": {
+   "label": "Sentier sylvestre – entre le Mont Reizan et les Terres errantes",
+   "best_mapId": 3271,
+   "mapIds": [
+    3271
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 4
+  },
+  "Map/Dng/09Pha/09Pha_43": {
+   "label": "Terres errantes (2e partie)",
+   "best_mapId": 3272,
+   "mapIds": [
+    3272
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 4
+  },
+  "Map/Dng/10Cry/10Cry_40": {
+   "label": "Tour de cristal",
+   "best_mapId": 3280,
+   "mapIds": [
+    3280
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "gimmicks": 14
+  },
+  "Map/Event/Com/00Eve_81": {
+   "label": "Plage de Dirnado (scène d’arrivée)",
+   "best_mapId": 5030,
+   "mapIds": [
+    5030
+   ],
+   "possibly_inaccessible": true,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 2,
+   "current_version_folders": [],
+   "save_ids": [],
+   "chest_uids_also_in_current_version": [],
+   "chest_uids_only_here": [
+    0,
+    1
+   ],
+   "note": "Version passée ou scène : aucune version actuelle ne partage sa clé de sauvegarde ; ses coffres manquants sont perdus."
+  },
+  "Map/Town/01Gra/01Gra_01": {
+   "label": "Grandshelt, capitale royale (en flammes)",
+   "best_mapId": 2010,
+   "mapIds": [
+    2010
+   ],
+   "possibly_inaccessible": true,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 2,
+   "current_version_folders": [
+    "Map/Town/01Gra/01Gra_02"
+   ],
+   "save_ids": [
+    2001
+   ],
+   "chest_uids_also_in_current_version": [
+    4,
+    8
+   ],
+   "chest_uids_only_here": [],
+   "note": "Version passée. Les coffres dont l’UniqueID existe aussi dans la version actuelle (même clé de sauvegarde) restent récupérables là-bas ; ceux listés dans chest_uids_only_here ne le sont plus."
+  },
+  "Map/Town/01Gra/01Gra_02": {
+   "label": "Grandshelt, capitale royale (reconstruite)",
+   "best_mapId": 2017,
+   "mapIds": [
+    2011,
+    2017
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 2
+  },
+  "Map/Town/01Gra/01Gra_04": {
+   "label": "Quartier commerçant – Grandshelt",
+   "best_mapId": 2015,
+   "mapIds": [
+    2015
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 4
+  },
+  "Map/Town/01Gra/01Gra_05": {
+   "label": "Colisée – Grandshelt",
+   "best_mapId": 2016,
+   "mapIds": [
+    2016
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 2
+  },
+  "Map/Town/01Gra/01Gra_20": {
+   "label": "Ville de Mitra",
+   "best_mapId": 2000,
+   "mapIds": [
+    2000
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 5
+  },
+  "Map/Town/01Gra/01Gra_21": {
+   "label": "Château de Grandshelt (version normale)",
+   "best_mapId": 2012,
+   "mapIds": [
+    2012
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 12
+  },
+  "Map/Town/01Gra/01Gra_22": {
+   "label": "Château de Grandshelt (prologue)",
+   "best_mapId": 2014,
+   "mapIds": [
+    2014
+   ],
+   "possibly_inaccessible": true,
+   "island_label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "gimmicks": 9,
+   "current_version_folders": [],
+   "save_ids": [],
+   "chest_uids_also_in_current_version": [],
+   "chest_uids_only_here": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    22
+   ],
+   "note": "Version passée ou scène : aucune version actuelle ne partage sa clé de sauvegarde ; ses coffres manquants sont perdus."
+  },
+  "Map/Town/02Lan/02Lan_20": {
+   "label": "Village de Kol",
+   "best_mapId": 2020,
+   "mapIds": [
+    2020
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "gimmicks": 3
+  },
+  "Map/Town/02Lan/02Lan_21": {
+   "label": "Port de Grandport",
+   "best_mapId": 2030,
+   "mapIds": [
+    2030
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "gimmicks": 4
+  },
+  "Map/Town/02Lan/02Lan_22": {
+   "label": "Palais de l’Oubli",
+   "best_mapId": 2031,
+   "mapIds": [
+    2031
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "gimmicks": 25
+  },
+  "Map/Town/03Kol/03Kol_20": {
+   "label": "Ville de Felicitas",
+   "best_mapId": 2040,
+   "mapIds": [
+    2040
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "gimmicks": 6
+  },
+  "Map/Town/04Dir/04Dir_01": {
+   "label": "Dilmagia, ville mécanique",
+   "best_mapId": 2060,
+   "mapIds": [
+    2060
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 5
+  },
+  "Map/Town/04Dir/04Dir_02": {
+   "label": "Chantier naval – Dilmagia",
+   "best_mapId": 2061,
+   "mapIds": [
+    2061
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 4
+  },
+  "Map/Town/04Dir/04Dir_20": {
+   "label": "Forge naine",
+   "best_mapId": 2050,
+   "mapIds": [
+    2050
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Dirnado, continent du Vent",
+   "gimmicks": 5
+  },
+  "Map/Town/05Old/05Old_01": {
+   "label": "Olderion, ville aquatique",
+   "best_mapId": 2070,
+   "mapIds": [
+    2070
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 7
+  },
+  "Map/Town/05Old/05Old_21": {
+   "label": "Ville d’Amore",
+   "best_mapId": 2090,
+   "mapIds": [
+    2090
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Fédération d’Olderion",
+   "gimmicks": 5
+  },
+  "Map/Town/06Zol/06Zol_01": {
+   "label": "Zoldaad, capitale impériale",
+   "best_mapId": 2110,
+   "mapIds": [
+    2110
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/06Zol/06Zol_02": {
+   "label": "Place du château de Zoldaad",
+   "best_mapId": 2111,
+   "mapIds": [
+    2111
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/06Zol/06Zol_04": {
+   "label": "Résidences impériales – Zoldaad",
+   "best_mapId": 2113,
+   "mapIds": [
+    2113
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 2
+  },
+  "Map/Town/06Zol/06Zol_05": {
+   "label": "Bidonville – Zoldaad",
+   "best_mapId": 2114,
+   "mapIds": [
+    2114
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/06Zol/06Zol_20": {
+   "label": "Station de Mozul",
+   "best_mapId": 2100,
+   "mapIds": [
+    2100
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/06Zol/06Zol_21": {
+   "label": "Base des rebelles",
+   "best_mapId": 2120,
+   "mapIds": [
+    2120
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 5
+  },
+  "Map/Town/06Zol/06Zol_22": {
+   "label": "Gare de Kellis",
+   "best_mapId": 2101,
+   "mapIds": [
+    2101
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/06Zol/06Zol_23": {
+   "label": "Gare de la capitale – Zoldaad",
+   "best_mapId": 2102,
+   "mapIds": [
+    2102
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Territoire de l’empire de Zoldaad",
+   "gimmicks": 1
+  },
+  "Map/Town/07Mys/07Mys_01": {
+   "label": "Mysidia, cité magique",
+   "best_mapId": 2130,
+   "mapIds": [
+    2130
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 8
+  },
+  "Map/Town/07Mys/07Mys_20": {
+   "label": "Village de Sunioo",
+   "best_mapId": 2140,
+   "mapIds": [
+    2140
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Mysidia, terra incognita",
+   "gimmicks": 7
+  },
+  "Map/Town/08Gro/08Gro_01": {
+   "label": "Gaberada, ville souterraine",
+   "best_mapId": 2150,
+   "mapIds": [
+    2150
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 4
+  },
+  "Map/Town/08Gro/08Gro_20": {
+   "label": "Ville de Duggle",
+   "best_mapId": 2160,
+   "mapIds": [
+    2160
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Gronoa, la Faille",
+   "gimmicks": 3
+  },
+  "Map/Town/09Pha/09Pha_01": {
+   "label": "Ville de Sian",
+   "best_mapId": 2170,
+   "mapIds": [
+    2170
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 5
+  },
+  "Map/Town/09Pha/09Pha_20": {
+   "label": "Lac Ryusei",
+   "best_mapId": 2180,
+   "mapIds": [
+    2180
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 1
+  },
+  "Map/Town/09Pha/09Pha_21": {
+   "label": "Cabane abandonnée",
+   "best_mapId": 2190,
+   "mapIds": [
+    2190
+   ],
+   "possibly_inaccessible": false,
+   "island_label": "Royaume de Pharm",
+   "gimmicks": 1
+  }
+ },
+ "world_areas": {
+  "1": {
+   "label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "texture": "Wld_1",
+   "island_enum": 1,
+   "island_enum_name": "Grandshelt",
+   "island_official": "Royaume de Grandshelt",
+   "visible_condition": "",
+   "places": [
+    "Temple de la Terre",
+    "Ville de Mitra",
+    "Grandshelt, capitale royale",
+    "Grotte perdue",
+    "Sanctuaire de Clive"
+   ],
+   "place_mapIds": [
+    3001,
+    2000,
+    2011,
+    2017,
+    10001,
+    10216,
+    10236,
+    2010,
+    2014
+   ],
+   "evidence": "DT_MapIslandData: islandType 1 (eMapIslandType::Grandshelt) -> areaIds [1], nom MAP_NAME_001. Entrées : capitale, Mitra, Temple de la Terre, Grotte perdue.",
+   "center_2d": {
+    "X": 20200.0,
+    "Y": -15100.0
+   },
+   "box_2d": {
+    "X": 7000.0,
+    "Y": 9000.0
+   }
+  },
+  "2": {
+   "label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "texture": "Wld_2",
+   "island_enum": 2,
+   "island_enum_name": "Lanzelt",
+   "island_official": "Royaume de Grandshelt",
+   "visible_condition": "",
+   "places": [
+    "Village de Kol",
+    "Port de Grandport",
+    "Grotte du maraudeur",
+    "Palais de l’Oubli",
+    "Caverne des lames",
+    "Tour de Sirène",
+    "Sanctuaire du GdL",
+    "Sanctuaire de Cloud"
+   ],
+   "place_mapIds": [
+    2020,
+    2030,
+    10051,
+    2031,
+    3031,
+    3030,
+    10203,
+    10223,
+    10208,
+    10228
+   ],
+   "evidence": "islandType 2 (eMapIslandType::Lanzelt, région ランゼルト dans DT_MapRegionData) -> area 2, nom MAP_NAME_001. « Lanzelt » n’a aucune traduction officielle ; île à l’ouest de la capitale, avec un désert (« traverser le désert à l’ouest », décor 砂漠_ランゼルト).",
+   "center_2d": {
+    "X": 12700.0,
+    "Y": -12600.0
+   },
+   "box_2d": {
+    "X": 8000.0,
+    "Y": 11000.0
+   }
+  },
+  "3": {
+   "label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "texture": "Wld_3",
+   "island_enum": 3,
+   "island_enum_name": "Kolobos",
+   "island_official": "Royaume de Grandshelt",
+   "visible_condition": "",
+   "places": [
+    "Ville de Felicitas",
+    "Ruines de Kolobos",
+    "Sanctuaire de Terra"
+   ],
+   "place_mapIds": [
+    2040,
+    3040,
+    10201,
+    10221
+   ],
+   "evidence": "islandType 3 (eMapIslandType::Kolobos) -> area 3, nom MAP_NAME_001. Le texte officiel parle de « l’île de Kolobos ». Au sud de l’île ouest.",
+   "center_2d": {
+    "X": 15700.0,
+    "Y": -5800.0
+   },
+   "box_2d": {
+    "X": 11658.599609375,
+    "Y": 8002.64453125
+   }
+  },
+  "4": {
+   "label": "Territoire de l’empire de Zoldaad",
+   "texture": "Wld_4",
+   "island_enum": 6,
+   "island_enum_name": "Zoldaad",
+   "island_official": "Territoire de l’empire de Zoldaad",
+   "visible_condition": "",
+   "places": [
+    "Station de Mozul",
+    "Zoldaad, capitale impériale",
+    "Gare de la capitale",
+    "Grotte de Gogmagog",
+    "Grotte de la pyrovipère",
+    "Base des rebelles",
+    "Usine d’armes",
+    "Grotte des Enfers",
+    "Grotte de la carrière",
+    "Sanctuaire de Shantotto",
+    "Sanctuaire de Cécil",
+    "Sanctuaire d’Y’shtola"
+   ],
+   "place_mapIds": [
+    2100,
+    2110,
+    2102,
+    10055,
+    10056,
+    2120,
+    3131,
+    10030,
+    10031,
+    10210,
+    10230,
+    10211,
+    10231,
+    10212,
+    10232
+   ],
+   "evidence": "islandType 6 (Zoldaad) -> area 4, MAP_NAME_006.",
+   "center_2d": {
+    "X": 14073.0,
+    "Y": 8272.0
+   },
+   "box_2d": {
+    "X": 16500.0,
+    "Y": 18288.0
+   }
+  },
+  "5": {
+   "label": "Cratère d’Ardra (au sud de Zoldaad, aucun lieu à visiter)",
+   "texture": "Wld_5",
+   "island_enum": 11,
+   "island_enum_name": "Ardra",
+   "island_official": "Cratère d’Ardra",
+   "visible_condition": "",
+   "places": [],
+   "place_mapIds": [],
+   "evidence": "islandType 11 (Ardra) -> area 5, MAP_NAME_010. Aucune entrée ; « Ardra... C’est au sud de Zoldaad ».",
+   "center_2d": {
+    "X": 19000.0,
+    "Y": 21000.0
+   },
+   "box_2d": {
+    "X": 7000.0,
+    "Y": 7000.0
+   }
+  },
+  "6": {
+   "label": "Dirnado, continent du Vent (ancienne version, avant la progression 2140)",
+   "texture": "Wld_6",
+   "island_enum": 4,
+   "island_enum_name": "Dirnado",
+   "island_official": "Dirnado, continent du Vent",
+   "visible_condition": "{progress:0}<2140",
+   "places": [
+    "Dilmagia, ville mécanique",
+    "Mont foudroyant",
+    "Forge naine",
+    "Chantier naval de Mobrise",
+    "Temple du Vent",
+    "Grotte du shoggoth",
+    "Chambre des armes",
+    "Sanctuaire de Djidane",
+    "Sanctuaire du Chevalier Oignon",
+    "Sanctuaire de Noctis"
+   ],
+   "place_mapIds": [
+    2060,
+    3050,
+    2050,
+    3060,
+    3070,
+    10052,
+    3290,
+    10206,
+    10226,
+    10207,
+    10227,
+    10202,
+    10222
+   ],
+   "evidence": "islandType 4 (Dirnado) -> areas [6, 16]; area 6 VisibleCondition {progress:0}<2140.",
+   "center_2d": {
+    "X": -760.0,
+    "Y": -17500.0
+   },
+   "box_2d": {
+    "X": 16500.0,
+    "Y": 12000.0
+   }
+  },
+  "7": {
+   "label": "Fédération d’Olderion (ancienne version, avant la progression 3170)",
+   "texture": "Wld_7",
+   "island_enum": 5,
+   "island_enum_name": "Olderion",
+   "island_official": "Fédération d’Olderion",
+   "visible_condition": "{progress:0}<3170",
+   "places": [
+    "Olderion, ville aquatique",
+    "Grotte de l’eau",
+    "Lac Dorr",
+    "Passage de la cascade",
+    "Ville d’Amore",
+    "Temple de l’Eau",
+    "Habitation isolée",
+    "Grotte aux rubis",
+    "Grotte du rukh",
+    "Grotte du flagelleur mental",
+    "Grotte du morbol Varietas",
+    "Sanctuaire de Tidus",
+    "Sanctuaire de Firion",
+    "Sanctuaire de Squall"
+   ],
+   "place_mapIds": [
+    2070,
+    3080,
+    2080,
+    2081,
+    3100,
+    2090,
+    3110,
+    11000,
+    3111,
+    10053,
+    10054,
+    10059,
+    10200,
+    10220,
+    10205,
+    10225,
+    10209,
+    10229
+   ],
+   "evidence": "islandType 5 (Olderion) -> areas [7, 17, 18]; area 7 VisibleCondition {progress:0}<3170.",
+   "center_2d": {
+    "X": 2475.0,
+    "Y": -2981.908203125
+   },
+   "box_2d": {
+    "X": 16650.0,
+    "Y": 15063.81640625
+   }
+  },
+  "8": {
+   "label": "Gronoa, la Faille",
+   "texture": "Wld_8",
+   "island_enum": 8,
+   "island_enum_name": "Gronoa",
+   "island_official": "Gronoa, la Faille",
+   "visible_condition": "",
+   "places": [
+    "Gaberada, ville souterraine",
+    "Ruines du laboratoire",
+    "Sentier de montagne escarpé",
+    "Ville de Duggle",
+    "Temple de Gronoa",
+    "Temple de Sanctissimus",
+    "Stèle du Pourfendeur de pluie",
+    "Grotte du necromonarque",
+    "Grotte d’humbaba",
+    "Grotte de la catacombe"
+   ],
+   "place_mapIds": [
+    2150,
+    3220,
+    3230,
+    2160,
+    3240,
+    3250,
+    10060,
+    10063,
+    10064,
+    10062
+   ],
+   "evidence": "islandType 8 (Gronoa) -> area 8, MAP_NAME_008.",
+   "center_2d": {
+    "X": -13200.0,
+    "Y": -15800.0
+   },
+   "box_2d": {
+    "X": 21000.0,
+    "Y": 19000.0
+   }
+  },
+  "9": {
+   "label": "Royaume de Pharm (ancienne version, avant la progression 6180)",
+   "texture": "Wld_9",
+   "island_enum": 9,
+   "island_enum_name": "Pharm",
+   "island_official": "Royaume de Pharm",
+   "visible_condition": "{progress:0}<6180",
+   "places": [
+    "Ville de Sian",
+    "Mont Reizan",
+    "Lac Ryusei",
+    "Sentier sylvestre",
+    "Terres errantes",
+    "Cabane abandonnée",
+    "Gueule du dragon",
+    "Grotte du titanoraidos",
+    "Grotte du morbol menaçant",
+    "Grotte du tartarosaure"
+   ],
+   "place_mapIds": [
+    2170,
+    3260,
+    2180,
+    3271,
+    3270,
+    2190,
+    3010,
+    10065,
+    10066,
+    10061
+   ],
+   "evidence": "islandType 9 (Pharm) -> areas [9, 13]; area 9 VisibleCondition {progress:0}<6180.",
+   "center_2d": {
+    "X": -10600.0,
+    "Y": 1600.0
+   },
+   "box_2d": {
+    "X": 23100.0,
+    "Y": 23100.0
+   }
+  },
+  "10": {
+   "label": "Mysidia, terra incognita",
+   "texture": "Wld_10",
+   "island_enum": 7,
+   "island_enum_name": "MagiNationMysidia",
+   "island_official": "Mysidia, terra incognita",
+   "visible_condition": "{progress:0}>=5020",
+   "places": [
+    "Mysidia, cité magique",
+    "Village de Sunioo",
+    "Vieux château sans nom",
+    "Tour de Mysidia",
+    "Grotte de Salomé",
+    "Grotte du jötunn",
+    "Temple de Victoria",
+    "Sanctuaire de Bartz",
+    "Sanctuaire de Lightning",
+    "Sanctuaire de Vaan"
+   ],
+   "place_mapIds": [
+    2130,
+    2140,
+    3180,
+    3200,
+    10057,
+    10058,
+    3213,
+    10213,
+    10233,
+    10214,
+    10234,
+    10215,
+    10235
+   ],
+   "evidence": "islandType 7 (eMapIslandType::MagiNationMysidia) -> area 10, MAP_NAME_007; visible à partir de la progression 5020.",
+   "center_2d": {
+    "X": -8405.0,
+    "Y": 17935.0
+   },
+   "box_2d": {
+    "X": 12000.0,
+    "Y": 6000.0
+   }
+  },
+  "12": {
+   "label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "texture": "Wld_12",
+   "island_enum": 10,
+   "island_enum_name": "LandOfTheCrystals",
+   "island_official": "Tour de cristal",
+   "visible_condition": "{progress:0}>=7090",
+   "places": [
+    "Tour de cristal"
+   ],
+   "place_mapIds": [
+    3280
+   ],
+   "evidence": "islandType 10 (eMapIslandType::LandOfTheCrystals, région クリスタルの大地) -> area 12, nom MAP_NAME_058 ; visible à partir de 7090. Sa boîte est incluse dans celle de Pharm.",
+   "center_2d": {
+    "X": -8400.0,
+    "Y": 3900.0
+   },
+   "box_2d": {
+    "X": 7200.0,
+    "Y": 7200.0
+   }
+  },
+  "13": {
+   "label": "Royaume de Pharm",
+   "texture": "Wld_13",
+   "island_enum": 9,
+   "island_enum_name": "Pharm",
+   "island_official": "Royaume de Pharm",
+   "visible_condition": "{progress:0}>=6180",
+   "places": [
+    "Ville de Sian",
+    "Mont Reizan",
+    "Lac Ryusei",
+    "Sentier sylvestre",
+    "Terres errantes",
+    "Cabane abandonnée",
+    "Gueule du dragon",
+    "Grotte du titanoraidos",
+    "Grotte du morbol menaçant",
+    "Grotte du tartarosaure"
+   ],
+   "place_mapIds": [
+    2170,
+    3260,
+    2180,
+    3271,
+    3270,
+    2190,
+    3010,
+    10065,
+    10066,
+    10061
+   ],
+   "evidence": "islandType 9 (Pharm); area 13 VisibleCondition {progress:0}>=6180 (version actuelle).",
+   "center_2d": {
+    "X": -10600.0,
+    "Y": 1600.0
+   },
+   "box_2d": {
+    "X": 23100.0,
+    "Y": 23100.0
+   }
+  },
+  "16": {
+   "label": "Dirnado, continent du Vent",
+   "texture": "Wld_16",
+   "island_enum": 4,
+   "island_enum_name": "Dirnado",
+   "island_official": "Dirnado, continent du Vent",
+   "visible_condition": "{progress:0}>=2140",
+   "places": [
+    "Dilmagia, ville mécanique",
+    "Mont foudroyant",
+    "Forge naine",
+    "Chantier naval de Mobrise",
+    "Temple du Vent",
+    "Grotte du shoggoth",
+    "Chambre des armes",
+    "Sanctuaire de Djidane",
+    "Sanctuaire du Chevalier Oignon",
+    "Sanctuaire de Noctis"
+   ],
+   "place_mapIds": [
+    2060,
+    3050,
+    2050,
+    3060,
+    3070,
+    10052,
+    3290,
+    10206,
+    10226,
+    10207,
+    10227,
+    10202,
+    10222
+   ],
+   "evidence": "islandType 4 (Dirnado) -> areas [6, 16]; area 16 VisibleCondition {progress:0}>=2140 (version actuelle).",
+   "center_2d": {
+    "X": -750.0,
+    "Y": -17510.0
+   },
+   "box_2d": {
+    "X": 16500.0,
+    "Y": 12000.0
+   }
+  },
+  "17": {
+   "label": "Fédération d’Olderion (version transitoire, progression 3170)",
+   "texture": "Wld_17",
+   "island_enum": 5,
+   "island_enum_name": "Olderion",
+   "island_official": "Fédération d’Olderion",
+   "visible_condition": "{progress:0}==3170",
+   "places": [
+    "Olderion, ville aquatique",
+    "Grotte de l’eau",
+    "Lac Dorr",
+    "Passage de la cascade",
+    "Ville d’Amore",
+    "Temple de l’Eau",
+    "Habitation isolée",
+    "Grotte aux rubis",
+    "Grotte du rukh",
+    "Grotte du flagelleur mental",
+    "Grotte du morbol Varietas",
+    "Sanctuaire de Tidus",
+    "Sanctuaire de Firion",
+    "Sanctuaire de Squall"
+   ],
+   "place_mapIds": [
+    2070,
+    3080,
+    2080,
+    2081,
+    3100,
+    2090,
+    3110,
+    11000,
+    3111,
+    10053,
+    10054,
+    10059,
+    10200,
+    10220,
+    10205,
+    10225,
+    10209,
+    10229
+   ],
+   "evidence": "islandType 5 (Olderion); area 17 VisibleCondition {progress:0}==3170.",
+   "center_2d": {
+    "X": 2475.0,
+    "Y": -2981.908203125
+   },
+   "box_2d": {
+    "X": 16650.0,
+    "Y": 15063.81640625
+   }
+  },
+  "18": {
+   "label": "Fédération d’Olderion",
+   "texture": "Wld_18",
+   "island_enum": 5,
+   "island_enum_name": "Olderion",
+   "island_official": "Fédération d’Olderion",
+   "visible_condition": "{progress:0}>=3180",
+   "places": [
+    "Olderion, ville aquatique",
+    "Grotte de l’eau",
+    "Lac Dorr",
+    "Passage de la cascade",
+    "Ville d’Amore",
+    "Temple de l’Eau",
+    "Habitation isolée",
+    "Grotte aux rubis",
+    "Grotte du rukh",
+    "Grotte du flagelleur mental",
+    "Grotte du morbol Varietas",
+    "Sanctuaire de Tidus",
+    "Sanctuaire de Firion",
+    "Sanctuaire de Squall"
+   ],
+   "place_mapIds": [
+    2070,
+    3080,
+    2080,
+    2081,
+    3100,
+    2090,
+    3110,
+    11000,
+    3111,
+    10053,
+    10054,
+    10059,
+    10200,
+    10220,
+    10205,
+    10225,
+    10209,
+    10229
+   ],
+   "evidence": "islandType 5 (Olderion); area 18 VisibleCondition {progress:0}>=3180 (version actuelle).",
+   "center_2d": {
+    "X": 2475.0,
+    "Y": -2981.908203125
+   },
+   "box_2d": {
+    "X": 16650.0,
+    "Y": 15063.81640625
+   }
+  }
+ },
+ "islands": {
+  "0": {
+   "enum": "None",
+   "official": null,
+   "label": "Hors carte (scènes, aéronef, décors communs)",
+   "world_areas": []
+  },
+  "1": {
+   "enum": "Grandshelt",
+   "official": "Royaume de Grandshelt",
+   "label": "Royaume de Grandshelt – île principale (Grandshelt, Mitra)",
+   "world_areas": [
+    1
+   ]
+  },
+  "2": {
+   "enum": "Lanzelt",
+   "official": "Royaume de Grandshelt",
+   "label": "Royaume de Grandshelt – île désertique de l’ouest (Kol, Grandport)",
+   "world_areas": [
+    2
+   ]
+  },
+  "3": {
+   "enum": "Kolobos",
+   "official": "Royaume de Grandshelt",
+   "label": "Royaume de Grandshelt – île de Kolobos, au sud (Felicitas)",
+   "world_areas": [
+    3
+   ]
+  },
+  "4": {
+   "enum": "Dirnado",
+   "official": "Dirnado, continent du Vent",
+   "label": "Dirnado, continent du Vent",
+   "world_areas": [
+    6,
+    16
+   ]
+  },
+  "5": {
+   "enum": "Olderion",
+   "official": "Fédération d’Olderion",
+   "label": "Fédération d’Olderion",
+   "world_areas": [
+    7,
+    17,
+    18
+   ]
+  },
+  "6": {
+   "enum": "Zoldaad",
+   "official": "Territoire de l’empire de Zoldaad",
+   "label": "Territoire de l’empire de Zoldaad",
+   "world_areas": [
+    4
+   ]
+  },
+  "7": {
+   "enum": "MagiNationMysidia",
+   "official": "Mysidia, terra incognita",
+   "label": "Mysidia, terra incognita",
+   "world_areas": [
+    10
+   ]
+  },
+  "8": {
+   "enum": "Gronoa",
+   "official": "Gronoa, la Faille",
+   "label": "Gronoa, la Faille",
+   "world_areas": [
+    8
+   ]
+  },
+  "9": {
+   "enum": "Pharm",
+   "official": "Royaume de Pharm",
+   "label": "Royaume de Pharm",
+   "world_areas": [
+    9,
+    13
+   ]
+  },
+  "10": {
+   "enum": "LandOfTheCrystals",
+   "official": "Tour de cristal",
+   "label": "Tour de cristal (au cœur du royaume de Pharm)",
+   "world_areas": [
+    12
+   ]
+  },
+  "11": {
+   "enum": "Ardra",
+   "official": "Cratère d’Ardra",
+   "label": "Cratère d’Ardra",
+   "world_areas": [
+    5
+   ]
+  },
+  "12": {
+   "enum": "AirShip",
+   "official": null,
+   "label": null,
+   "world_areas": []
+  },
+  "13": {
+   "enum": "AirShip_Ride",
+   "official": null,
+   "label": null,
+   "world_areas": []
+  },
+  "14": {
+   "enum": "Common",
+   "official": null,
+   "label": null,
+   "world_areas": []
+  }
+ }
+}

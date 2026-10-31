@@ -1,0 +1,2362 @@
+{
+ "1000": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_60/BG/Btl_00Com_60_BG0",
+   "/Game/Map/Btl/00Com/00Com_60/LT/Btl_00Com_60_01_LT",
+   "/Game/Map/Btl/00Com/00Com_61/BG/Btl_00Com_61_BG0",
+   "/Game/Map/Btl/00Com/00Com_61/LT/Btl_00Com_61_01_LT",
+   "/Game/Map/Btl/00Com/00Com_62/BG/Btl_00Com_62_BG0",
+   "/Game/Map/Btl/00Com/00Com_62/LT/Btl_00Com_62_01_LT",
+   "/Game/Map/Btl/00Com/00Com_63/BG/Btl_00Com_63_BG0",
+   "/Game/Map/Btl/00Com/00Com_63/LT/Btl_00Com_63_01_LT",
+   "/Game/Map/Btl/00Com/00Com_64/BG/Btl_00Com_64_BG0",
+   "/Game/Map/Btl/00Com/00Com_64/LT/Btl_00Com_64_01_LT",
+   "/Game/Map/Btl/00Com/00Com_65/BG/Btl_00Com_65_BG0",
+   "/Game/Map/Btl/00Com/00Com_65/LT/Btl_00Com_65_01_LT",
+   "/Game/Map/Btl/00Com/00Com_66/BG/Btl_00Com_66_BG0",
+   "/Game/Map/Btl/00Com/00Com_66/LT/Btl_00Com_66_01_LT",
+   "/Game/Map/Wld/00Com/BG/Wld_00Com_BG",
+   "/Game/Map/Wld/00Com/BG/Wld_00Com_DL_BG",
+   "/Game/Map/Wld/00Com/BG/Wld_01Sea_BG",
+   "/Game/Map/Wld/00Com/BG/Wld_02Sea_BG",
+   "/Game/Map/Wld/01Gra/BG/Wld_01Gra_BG",
+   "/Game/Map/Wld/01Gra/BG/Wld_01Gra_landscape_BG",
+   "/Game/Map/Wld/01Gra/FG/Wld_01Gra_FG",
+   "/Game/Map/Wld/01Gra/NAV/Wld_01Gra_NAV",
+   "/Game/Map/Wld/01Gra/SD/Wld_01Gra_SD",
+   "/Game/Map/Wld/02Lan/BG/Wld_02Lan_BG",
+   "/Game/Map/Wld/02Lan/BG/Wld_02Lan_landscape_BG",
+   "/Game/Map/Wld/02Lan/FG/Wld_02Lan_FG",
+   "/Game/Map/Wld/02Lan/NAV/Wld_02Lan_NAV",
+   "/Game/Map/Wld/02Lan/SD/Wld_02Lan_SD",
+   "/Game/Map/Wld/03Kol/BG/Wld_03Kol_BG",
+   "/Game/Map/Wld/03Kol/BG/Wld_03Kol_landscape_BG",
+   "/Game/Map/Wld/03Kol/NAV/Wld_03Kol_NAV",
+   "/Game/Map/Wld/03Kol/SD/Wld_03Kol_SD",
+   "/Game/Map/Wld/04Dir/BG/Wld_04Dir_BG",
+   "/Game/Map/Wld/04Dir/BG/Wld_04Dir_landscape_BG",
+   "/Game/Map/Wld/04Dir/EV/Wld_04Dir_EV",
+   "/Game/Map/Wld/04Dir/NAV/Wld_04Dir_NAV",
+   "/Game/Map/Wld/04Dir/SD/Wld_04Dir_SD",
+   "/Game/Map/Wld/05Old/BG/Wld_05Old_BG",
+   "/Game/Map/Wld/05Old/BG/Wld_05Old_landscape_BG",
+   "/Game/Map/Wld/05Old/EV/Wld_05Old_EV",
+   "/Game/Map/Wld/05Old/NAV/Wld_05Old_NAV",
+   "/Game/Map/Wld/05Old/SD/Wld_05Old_SD",
+   "/Game/Map/Wld/06Zol/BG/Wld_06Zol_BG",
+   "/Game/Map/Wld/06Zol/BG/Wld_06Zol_landscape_BG",
+   "/Game/Map/Wld/06Zol/EV/Wld_06Zol_EV",
+   "/Game/Map/Wld/06Zol/NAV/Wld_06Zol_NAV",
+   "/Game/Map/Wld/06Zol/SD/Wld_06Zol_SD",
+   "/Game/Map/Wld/07Mys/BG/Wld_07Mys_BG",
+   "/Game/Map/Wld/07Mys/BG/Wld_07Mys_landscape_BG",
+   "/Game/Map/Wld/07Mys/EV/Wld_07Mys_01_EV",
+   "/Game/Map/Wld/07Mys/NAV/Wld_07Mys_NAV",
+   "/Game/Map/Wld/07Mys/SD/Wld_07Mys_SD",
+   "/Game/Map/Wld/08Gro/BG/Wld_08Gro_BG",
+   "/Game/Map/Wld/08Gro/BG/Wld_08Gro_landscape_BG",
+   "/Game/Map/Wld/08Gro/EV/Wld_08Gro_01_EV",
+   "/Game/Map/Wld/08Gro/NAV/Wld_08Gro_NAV",
+   "/Game/Map/Wld/08Gro/SD/Wld_08Gro_SD",
+   "/Game/Map/Wld/09Pha/BG/Wld_09Pha_01_BG",
+   "/Game/Map/Wld/09Pha/BG/Wld_09Pha_02_BG",
+   "/Game/Map/Wld/09Pha/BG/Wld_09Pha_03_BG",
+   "/Game/Map/Wld/09Pha/BG/Wld_09Pha_landscape_BG",
+   "/Game/Map/Wld/09Pha/EV/Wld_09Pha_01_EV",
+   "/Game/Map/Wld/09Pha/NAV/Wld_09Pha_NAV",
+   "/Game/Map/Wld/09Pha/SD/Wld_09Pha_SD",
+   "/Game/Map/Wld/10Cry/BG/Wld_10Cry_BG",
+   "/Game/Map/Wld/10Cry/EV/Wld_10Cry_01_EV",
+   "/Game/Map/Wld/10Cry/NAV/Wld_10Cry_NAV",
+   "/Game/Map/Wld/10Cry/SD/Wld_10Cry_SD",
+   "/Game/Map/Wld/11Adr/BG/Wld_11Adr_BG",
+   "/Game/Map/Wld/11Adr/BG/Wld_11Adr_landscape_BG",
+   "/Game/Map/Wld/11Adr/EV/Wld_11Adr_EV",
+   "/Game/Map/Wld/11Adr/NAV/Wld_11Adr_NAV",
+   "/Game/Map/Wld/11Adr/SD/Wld_11Adr_SD",
+   "/Game/Map/Wld/COL/Wld_COL",
+   "/Game/Map/Wld/EV/Wld_01Gra_EV",
+   "/Game/Map/Wld/EV/Wld_02Lan_EV",
+   "/Game/Map/Wld/EV/Wld_03Kol_EV",
+   "/Game/Map/Wld/GD/Wld_01Gra_GD",
+   "/Game/Map/Wld/GD/Wld_02_GD",
+   "/Game/Map/Wld/GD/Wld_02Lan_GD",
+   "/Game/Map/Wld/GD/Wld_03Kol_GD",
+   "/Game/Map/Wld/GD/Wld_04Dir_GD",
+   "/Game/Map/Wld/GD/Wld_05Old_GD",
+   "/Game/Map/Wld/GD/Wld_06Zol_GD",
+   "/Game/Map/Wld/GD/Wld_07Mys_GD",
+   "/Game/Map/Wld/GD/Wld_08Gro_GD",
+   "/Game/Map/Wld/GD/Wld_09Pha_01_GD",
+   "/Game/Map/Wld/GD/Wld_09Pha_02_GD",
+   "/Game/Map/Wld/GD/Wld_10Cry_GD",
+   "/Game/Map/Wld/GD/Wld_11Adr_GD",
+   "/Game/Map/Wld/GD/Wld_GD",
+   "/Game/Map/Wld/KD/Wld_KD",
+   "/Game/Map/Wld/LT/Wld_01_LT",
+   "/Game/Map/Wld/LT/Wld_02_LT"
+  ],
+  "err": null
+ },
+ "5020": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_80/BG/Event_00Eve_80_01_BG",
+   "/Game/Map/Event/Com/00Eve_80/EV/Event_00Eve_80_01_EV",
+   "/Game/Map/Event/Com/00Eve_80/GD/Event_00Eve_80_01_GD",
+   "/Game/Map/Event/Com/00Eve_80/LT/Event_00Eve_80_01_LT"
+  ],
+  "err": null
+ },
+ "5010": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_75/BG/Btl_00Com_75_BG0",
+   "/Game/Map/Event/Com/00Eve_87/BG/Event_00Eve_87_01_BG",
+   "/Game/Map/Event/Com/00Eve_87/BG/Event_00Eve_87_02_BG",
+   "/Game/Map/Event/Com/00Eve_87/EV/Event_00Eve_87_01_EV",
+   "/Game/Map/Event/Com/00Eve_87/GD/Event_00Eve_87_01_GD",
+   "/Game/Map/Event/Com/00Eve_87/KD/Event_00Eve_87_01_KD",
+   "/Game/Map/Event/Com/00Eve_87/LT/Event_00Eve_87_01_LT",
+   "/Game/Map/Event/Com/00Eve_87/LT/Event_00Eve_87_02_LT",
+   "/Game/Map/Event/Com/00Eve_87/NAV/Event_00Eve_87_01_NAV",
+   "/Game/Map/Event/Com/00Eve_87/SD/Event_00Eve_87_01_SD"
+  ],
+  "err": null
+ },
+ "10040": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_75/BG/Btl_00Com_75_BG0",
+   "/Game/Map/Btl/00Com/00Com_75/LT/Btl_00Com_75_01_LT",
+   "/Game/Map/Com/00Com/00Com_45/BG/Com_00Com_45_01_BG",
+   "/Game/Map/Com/00Com/00Com_45/EV/Com_00Com_45_01_EV",
+   "/Game/Map/Com/00Com/00Com_45/GD/Com_00Com_45_01_GD",
+   "/Game/Map/Com/00Com/00Com_45/KD/Com_00Com_45_01_KD",
+   "/Game/Map/Com/00Com/00Com_45/LT/Com_00Com_45_01_LT",
+   "/Game/Map/Com/00Com/00Com_45/NAV/Com_00Com_45_01_NAV",
+   "/Game/Map/Com/00Com/00Com_45/SD/Com_00Com_45_01_SD"
+  ],
+  "err": null
+ },
+ "10041": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_75/BG/Btl_00Com_75_BG0",
+   "/Game/Map/Btl/00Com/00Com_75/LT/Btl_00Com_75_02_LT",
+   "/Game/Map/Com/00Com/00Com_46/BG/Com_00Com_46_01_BG",
+   "/Game/Map/Com/00Com/00Com_46/EV/Com_00Com_46_01_EV",
+   "/Game/Map/Com/00Com/00Com_46/GD/Com_00Com_46_01_GD",
+   "/Game/Map/Com/00Com/00Com_46/KD/Com_00Com_46_01_KD",
+   "/Game/Map/Com/00Com/00Com_46/KD/Com_00Com_46_02_KD",
+   "/Game/Map/Com/00Com/00Com_46/LT/Com_00Com_46_01_LT",
+   "/Game/Map/Com/00Com/00Com_46/NAV/Com_00Com_46_01_NAV",
+   "/Game/Map/Com/00Com/00Com_46/SD/Com_00Com_46_01_SD"
+  ],
+  "err": null
+ },
+ "5170": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_92/BG/Event_00Eve_92_BG",
+   "/Game/Map/Event/Com/00Eve_92/KD/Event_00Eve_92_KD",
+   "/Game/Map/Event/Com/00Eve_92/LT/Event_00Eve_92_LT",
+   "/Game/Map/Event/Com/00Eve_92/NAV/Event_00Eve_92_NAV"
+  ],
+  "err": null
+ },
+ "20000": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_86/BG/Event_00Eve_86_BG",
+   "/Game/Map/Event/Com/00Eve_86/EV/Event_00Eve_86_EV",
+   "/Game/Map/Event/Com/00Eve_86/GD/Event_00Eve_86_GD",
+   "/Game/Map/Event/Com/00Eve_86/KD/Event_00Eve_86_KD",
+   "/Game/Map/Event/Com/00Eve_86/LT/Event_00Eve_86_LT",
+   "/Game/Map/Event/Com/00Eve_86/SD/Event_00Eve_86_SD"
+  ],
+  "err": null
+ },
+ "5200": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_60/BG/Btl_00Com_60_BG0",
+   "/Game/Map/Btl/00Com/00Com_60/LT/Btl_00Com_60_02_LT",
+   "/Game/Map/Event/Com/00Eve_103/BG/Event_00Eve_103_01_BG",
+   "/Game/Map/Event/Com/00Eve_103/LT/Event_00Eve_103_01_LT",
+   "/Game/Map/Event/Com/00Eve_103/SD/Event_00Eve_103_SD"
+  ],
+  "err": null
+ },
+ "5202": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_77/BG/Btl_00Com_77_BG0",
+   "/Game/Map/Btl/00Com/00Com_77/LT/Btl_00Com_77_01_LT",
+   "/Game/Map/Event/Com/00Eve_105/BG/Event_00Eve_105_BG",
+   "/Game/Map/Event/Com/00Eve_105/LT/Event_00Eve_105_01_LT",
+   "/Game/Map/Event/Com/00Eve_105/SD/Event_00Eve_105_SD"
+  ],
+  "err": null
+ },
+ "60000": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_9999/BG/Com_00Com_9999_BG",
+   "/Game/Map/Com/00Com/00Com_9999/GD/Com_00Com_9999_GD",
+   "/Game/Map/Com/00Com/00Com_9999/LT/Com_00Com_9999_LT"
+  ],
+  "err": null
+ },
+ "10045": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_50/GD/Com_00Com_50_01_GD"
+  ],
+  "err": null
+ },
+ "5021": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_102/BG/Event_00Eve_102_01_BG",
+   "/Game/Map/Event/Com/00Eve_102/EV/Event_00Eve_102_01_EV",
+   "/Game/Map/Event/Com/00Eve_102/GD/Event_00Eve_102_01_GD",
+   "/Game/Map/Event/Com/00Eve_102/LT/Event_00Eve_102_01_LT"
+  ],
+  "err": null
+ },
+ "10042": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_75/BG/Btl_00Com_75_BG0",
+   "/Game/Map/Com/00Com/00Com_46/BG/Com_00Com_46_01_BG",
+   "/Game/Map/Com/00Com/00Com_47/BG/Com_00Com_47_03_BG",
+   "/Game/Map/Com/00Com/00Com_47/EV/Com_00Com_47_01_EV",
+   "/Game/Map/Com/00Com/00Com_47/GD/Com_00Com_47_01_GD",
+   "/Game/Map/Com/00Com/00Com_47/KD/Com_00Com_47_02_KD",
+   "/Game/Map/Com/00Com/00Com_47/LT/Com_00Com_47_01_LT",
+   "/Game/Map/Com/00Com/00Com_47/LT/Com_00Com_47_02_LT",
+   "/Game/Map/Com/00Com/00Com_47/LT/Com_00Com_47_03_LT",
+   "/Game/Map/Com/00Com/00Com_47/NAV/Com_00Com_47_01_NAV",
+   "/Game/Map/Com/00Com/00Com_47/SD/Com_00Com_47_01_SD"
+  ],
+  "err": null
+ },
+ "10044": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_75/BG/Btl_00Com_75_BG0",
+   "/Game/Map/Com/00Com/00Com_45/BG/Com_00Com_45_01_BG",
+   "/Game/Map/Com/00Com/00Com_49/EV/Com_00Com_49_01_EV",
+   "/Game/Map/Com/00Com/00Com_49/GD/Com_00Com_49_01_GD",
+   "/Game/Map/Com/00Com/00Com_49/KD/Com_00Com_49_01_KD",
+   "/Game/Map/Com/00Com/00Com_49/LT/Com_00Com_49_01_LT",
+   "/Game/Map/Com/00Com/00Com_49/LT/Com_00Com_49_02_LT",
+   "/Game/Map/Com/00Com/00Com_49/NAV/Com_00Com_49_01_NAV",
+   "/Game/Map/Com/00Com/00Com_49/SD/Com_00Com_49_01_SD"
+  ],
+  "err": null
+ },
+ "5032": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_91/BG/Event_00Eve_91_BG",
+   "/Game/Map/Event/Com/00Eve_91/EV/Event_00Eve_91_01_EV",
+   "/Game/Map/Event/Com/00Eve_91/GD/Event_00Eve_91_01_GD",
+   "/Game/Map/Event/Com/00Eve_91/LT/Event_00Eve_91_01_LT",
+   "/Game/Map/Event/Com/00Eve_91/SD/Event_00Eve_91_SD"
+  ],
+  "err": null
+ },
+ "20001": {
+  "subs": [
+   "/Game/Map/Town/00Com/00Com_01/BG/Town_00Com_01_BG",
+   "/Game/Map/Town/00Com/00Com_01/EV/Town_00Com_01_EV",
+   "/Game/Map/Town/00Com/00Com_01/GD/Town_00Com_01_GD",
+   "/Game/Map/Town/00Com/00Com_01/KD/Town_00Com_01_KD",
+   "/Game/Map/Town/00Com/00Com_01/LT/Town_00Com_01_LT",
+   "/Game/Map/Town/00Com/00Com_01/NAV/Town_00Com_01_NAV",
+   "/Game/Map/Town/00Com/00Com_01/SD/Town_00Com_01_SD"
+  ],
+  "err": null
+ },
+ "20002": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_71/BG/Btl_00Com_71_BG0",
+   "/Game/Map/Btl/00Com/00Com_71/LT/Btl_00Com_71_01_LT",
+   "/Game/Map/Btl/00Com/00Com_74/BG/Btl_00Com_74_BG0",
+   "/Game/Map/Btl/00Com/00Com_74/GD/Btl_00Com_74_01_GD",
+   "/Game/Map/Btl/00Com/00Com_74/LT/Btl_00Com_74_01_LT",
+   "/Game/Map/Town/00Com/00Com_03/BG/Town_00Com_03_01_BG",
+   "/Game/Map/Town/00Com/00Com_03/BG/Town_00Com_03_02_BG",
+   "/Game/Map/Town/00Com/00Com_03/BG/Town_00Com_03_03_BG",
+   "/Game/Map/Town/00Com/00Com_03/EV/Town_00Com_03_01_EV",
+   "/Game/Map/Town/00Com/00Com_03/GD/Town_00Com_03_01_GD",
+   "/Game/Map/Town/00Com/00Com_03/KD/Town_00Com_03_01_KD",
+   "/Game/Map/Town/00Com/00Com_03/LT/Town_00Com_03_01_LT",
+   "/Game/Map/Town/00Com/00Com_03/LT/Town_00Com_03_02_LT",
+   "/Game/Map/Town/00Com/00Com_03/NAV/Town_00Com_03_01_NAV",
+   "/Game/Map/Town/00Com/00Com_03/SD/Town_00Com_03_SD"
+  ],
+  "err": null
+ },
+ "5201": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_61/BG/Btl_00Com_61_BG0",
+   "/Game/Map/Btl/00Com/00Com_61/LT/Btl_00Com_61_02_LT",
+   "/Game/Map/Event/Com/00Eve_104/BG/Event_00Eve_104_01_BG",
+   "/Game/Map/Event/Com/00Eve_104/BG/Event_00Eve_104_02_BG",
+   "/Game/Map/Event/Com/00Eve_104/LT/Event_00Eve_104_01_LT",
+   "/Game/Map/Event/Com/00Eve_104/LT/Event_00Eve_104_02_LT",
+   "/Game/Map/Event/Com/00Eve_104/SD/Event_00Eve_104_SD"
+  ],
+  "err": null
+ },
+ "5203": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_78/BG/Btl_00Com_78_BG0",
+   "/Game/Map/Btl/00Com/00Com_78/LT/Btl_00Com_78_01_LT",
+   "/Game/Map/Event/Com/00Eve_106/BG/Event_00Eve_106_01_BG",
+   "/Game/Map/Event/Com/00Eve_106/LT/Event_00Eve_106_01_LT",
+   "/Game/Map/Event/Com/00Eve_106/SD/Event_00Eve_106_SD"
+  ],
+  "err": null
+ },
+ "5204": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_63/BG/Btl_00Com_63_BG0",
+   "/Game/Map/Event/Com/00Eve_107/BG/Event_00Eve_107_01_BG",
+   "/Game/Map/Event/Com/00Eve_107/LT/Event_00Eve_107_01_LT",
+   "/Game/Map/Event/Com/00Eve_107/LT/Event_00Eve_107_02_LT",
+   "/Game/Map/Event/Com/00Eve_107/SD/Event_00Eve_107_SD"
+  ],
+  "err": null
+ },
+ "5205": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_64/BG/Btl_00Com_64_BG0",
+   "/Game/Map/Event/Com/00Eve_108/BG/Event_00Eve_108_01_BG",
+   "/Game/Map/Event/Com/00Eve_108/LT/Event_00Eve_108_01_LT",
+   "/Game/Map/Event/Com/00Eve_108/LT/Event_00Eve_108_02_LT",
+   "/Game/Map/Event/Com/00Eve_108/SD/Event_00Eve_108_SD"
+  ],
+  "err": null
+ },
+ "5206": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_65/BG/Btl_00Com_65_BG0",
+   "/Game/Map/Event/Com/00Eve_109/BG/Event_00Eve_109_BG",
+   "/Game/Map/Event/Com/00Eve_109/LT/Event_00Eve_109_01_LT",
+   "/Game/Map/Event/Com/00Eve_109/LT/Event_00Eve_109_02_LT",
+   "/Game/Map/Event/Com/00Eve_109/SD/Event_00Eve_109_SD"
+  ],
+  "err": null
+ },
+ "5207": {
+  "subs": [
+   "/Game/Env/Com/MasterMaterial/Textures/T_Env_Com_base_N.T_Env_Com_base_N",
+   "/Game/Env/Com/MasterMaterial/Textures/T_Env_Com_base_R.T_Env_Com_base_R",
+   "/Game/Env/Com/MasterMaterial/Textures/T_Env_Com_dirt006_M.T_Env_Com_dirt006_M",
+   "/Game/Env/MarketPlace/Modular_Stylized_Village_Dreamscape_Open_World_Environment/Textures/T_Env_Com_Grass001_D.T_Env_Com_Grass001_D",
+   "/Game/Map/Btl/00Com/00Com_66/BG/Btl_00Com_66_BG0",
+   "/Game/Map/Event/Com/00Eve_110/BG/Event_00Eve_110_BG",
+   "/Game/Map/Event/Com/00Eve_110/LT/Event_00Eve_110_01_LT",
+   "/Game/Map/Event/Com/00Eve_110/LT/Event_00Eve_110_02_LT",
+   "/Game/Map/Event/Com/00Eve_110/SD/Event_00Eve_110_SD"
+  ],
+  "err": null
+ },
+ "5193": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_74/BG/Btl_00Com_74_BG0",
+   "/Game/Map/Btl/00Com/00Com_74/GD/Btl_00Com_74_01_GD",
+   "/Game/Map/Btl/00Com/00Com_74/LT/Btl_00Com_74_01_LT",
+   "/Game/Map/Event/Com/00Eve_101/BG/Event_00Eve_101_01_BG",
+   "/Game/Map/Event/Com/00Eve_101/LT/Event_00Eve_101_01_LT"
+  ],
+  "err": null
+ },
+ "5199": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_79/BG/Btl_00Com_79_BG0",
+   "/Game/Map/Btl/00Com/00Com_79/LT/Btl_00Com_79_01_LT",
+   "/Game/Map/Event/Com/00Eve_116/BG/Event_00Eve_116_01_BG",
+   "/Game/Map/Event/Com/00Eve_116/LT/Event_00Eve_116_01_LT"
+  ],
+  "err": null
+ },
+ "5194": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_111/BG/Event_00Eve_111_01_BG",
+   "/Game/Map/Event/Com/00Eve_111/LT/Event_00Eve_111_01_LT",
+   "/Game/Map/Event/Com/00Eve_111/SD/Event_00Eve_111_SD"
+  ],
+  "err": null
+ },
+ "5155": {
+  "subs": [
+   "/Game/Map/Btl/02Lan/02lan_62/BG/Btl_02Lan_62_01_BG0",
+   "/Game/Map/Btl/02Lan/02lan_62/LT/Btl_02Lan_62_01_LT",
+   "/Game/Map/Event/Com/00Eve_120/BG/Event_00Eve_120_01_BG",
+   "/Game/Map/Event/Com/00Eve_120/LT/Event_00Eve_120_01_LT"
+  ],
+  "err": null
+ },
+ "10043": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_48/GD/Com_00Com_48_01_GD"
+  ],
+  "err": null
+ },
+ "2000": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_20/BG/Town_01Gra_20_02_BG",
+   "/Game/Map/Town/01Gra/01Gra_20/BG/Town_01Gra_20_BG",
+   "/Game/Map/Town/01Gra/01Gra_20/EV/Town_01Gra_20_EV",
+   "/Game/Map/Town/01Gra/01Gra_20/GD/Town_01Gra_20_GD",
+   "/Game/Map/Town/01Gra/01Gra_20/KD/Town_01Gra_20_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_20/KD/Town_01Gra_20_02_KD",
+   "/Game/Map/Town/01Gra/01Gra_20/LT/Town_01Gra_20_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_20/LT/Town_01Gra_20_02_LT",
+   "/Game/Map/Town/01Gra/01Gra_20/NAV/Town_01Gra_20_NAV",
+   "/Game/Map/Town/01Gra/01Gra_20/SD/Town_01Gra_20_SD"
+  ],
+  "err": null
+ },
+ "2010": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_65/BG/Btl_01Gra_65_BG0",
+   "/Game/Map/Btl/01Gra/01Gra_65/LT/Btl_01Gra_65_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_01/BG/Town_01Gra_01_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_01/EV/Town_01Gra_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_01/GD/Town_01Gra_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_01/KD/Town_01Gra_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_01/LT/Town_01Gra_01_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_01/NAV/Town_01Gra_01_NAV",
+   "/Game/Map/Town/01Gra/01Gra_01/SD/Town_01Gra_01_SD"
+  ],
+  "err": null
+ },
+ "2011": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_02/BG/Town_01Gra_02_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_02/EV/Town_01Gra_02_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_02/EV/Town_01Gra_02_01_EV_02",
+   "/Game/Map/Town/01Gra/01Gra_02/GD/Town_01Gra_02_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_02/GD/Town_01Gra_02_02_GD",
+   "/Game/Map/Town/01Gra/01Gra_02/KD/Town_01Gra_02_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_02/LT/Town_01Gra_02_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_02/NAV/Town_01Gra_02_NAV",
+   "/Game/Map/Town/01Gra/01Gra_02/SD/Town_01Gra_02_01_SD"
+  ],
+  "err": null
+ },
+ "2012": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_21/BG/Town_01Gra_21_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_21/EV/Town_01Gra_21_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_21/GD/Town_01Gra_21_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_21/KD/Town_01Gra_21_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_21/LT/Town_01Gra_21_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_21/NAV/Town_01Gra_21_NAV",
+   "/Game/Map/Town/01Gra/01Gra_21/SD/Town_01Gra_21_SD"
+  ],
+  "err": null
+ },
+ "3000": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_62/BG/Btl_01Gra_62_BG0",
+   "/Game/Map/Btl/01Gra/01Gra_62/LT/Btl_01Gra_62_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_40/BG/Dng_01Gra_40_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_40/BG/Dng_01Gra_40_02_BG",
+   "/Game/Map/Dng/01Gra/01Gra_40/BG/Dng_01Gra_40_03_BG",
+   "/Game/Map/Dng/01Gra/01Gra_40/EV/Dng_01Gra_40_EV",
+   "/Game/Map/Dng/01Gra/01Gra_40/GD/Dng_01Gra_40_GD",
+   "/Game/Map/Dng/01Gra/01Gra_40/KD/Dng_01Gra_40_KD",
+   "/Game/Map/Dng/01Gra/01Gra_40/LT/Dng_01Gra_40_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_40/LT/Dng_01Gra_40_02_LT",
+   "/Game/Map/Dng/01Gra/01Gra_40/NAV/Dng_01Gra_40_NAV",
+   "/Game/Map/Dng/01Gra/01Gra_40/SD/Dng_01Gra_40_SD"
+  ],
+  "err": null
+ },
+ "3001": {
+  "subs": [
+   "/Game/Map/Dng/01Gra/01Gra_43/BG/Dng_01Gra_43_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_43/EV/Dng_01Gra_43_EV",
+   "/Game/Map/Dng/01Gra/01Gra_43/GD/Dng_01Gra_43_GD",
+   "/Game/Map/Dng/01Gra/01Gra_43/KD/Dng_01Gra_43_01_KD",
+   "/Game/Map/Dng/01Gra/01Gra_43/LT/Dng_01Gra_43_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_43/LT/Dng_01Gra_43_02_LT",
+   "/Game/Map/Dng/01Gra/01Gra_43/NAV/Dng_01Gra_43_NAV",
+   "/Game/Map/Dng/01Gra/01Gra_43/SD/Dng_01Gra_43_SD"
+  ],
+  "err": null
+ },
+ "3020": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_64/BG/Btl_01Gra_64_BG0",
+   "/Game/Map/Btl/01Gra/01Gra_64/LT/Btl_01Gra_64_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_42/BG/Dng_01Gra_42_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_42/EV/Dng_01Gra_42_01_EV",
+   "/Game/Map/Dng/01Gra/01Gra_42/GD/Dng_01Gra_42_01_GD",
+   "/Game/Map/Dng/01Gra/01Gra_42/KD/Dng_01Gra_42_01_KD",
+   "/Game/Map/Dng/01Gra/01Gra_42/LT/Dng_01Gra_42_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_42/NAV/Dng_01Gra_42_01_NAV",
+   "/Game/Map/Dng/01Gra/01Gra_42/SD/Dng_01Gra_42_01_SD"
+  ],
+  "err": null
+ },
+ "10001": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Btl/01Gra/01Gra_66/LT/Btl_01Gra_66_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_44/EV/Dng_01Gra_44_01_EV",
+   "/Game/Map/Dng/01Gra/01Gra_44/GD/Dng_01Gra_44_01_GD",
+   "/Game/Map/Dng/01Gra/01Gra_44/KD/Dng_01Gra_44_01_KD",
+   "/Game/Map/Dng/01Gra/01Gra_44/LT/Dng_01Gra_44_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_44/NAV/Dng_01Gra_44_01_NAV",
+   "/Game/Map/Dng/01Gra/01Gra_44/SD/Dng_01Gra_44_01_SD"
+  ],
+  "err": null
+ },
+ "2013": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_03/BG/Town_01Gra_03_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_03/EV/Town_01Gra_03_EV",
+   "/Game/Map/Town/01Gra/01Gra_03/GD/Town_01Gra_03_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_03/KD/Town_01Gra_03_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_03/LT/Town_01Gra_03_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_03/NAV/Town_01Gra_03_NAV",
+   "/Game/Map/Town/01Gra/01Gra_03/SD/Town_01Gra_03_01_SD"
+  ],
+  "err": null
+ },
+ "2014": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_22/BG/Town_01Gra_22_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_22/EV/Town_01Gra_22_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_22/GD/Town_01Gra_22_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_22/KD/Town_01Gra_22_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_22/KD/Town_01Gra_22_02_KD",
+   "/Game/Map/Town/01Gra/01Gra_22/LT/Town_01Gra_22_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_22/NAV/Town_01Gra_22_NAV",
+   "/Game/Map/Town/01Gra/01Gra_22/SD/Town_01Gra_22_SD"
+  ],
+  "err": null
+ },
+ "2015": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_04/BG/Town_01Gra_04_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_04/BG/Town_01Gra_04_02_BG",
+   "/Game/Map/Town/01Gra/01Gra_04/EV/Town_01Gra_04_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_04/EV/Town_01Gra_04_01_EV_02",
+   "/Game/Map/Town/01Gra/01Gra_04/GD/Town_01Gra_04_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_04/KD/Town_01Gra_04_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_04/LT/Town_01Gra_04_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_04/NAV/Town_01Gra_04_01_NAV",
+   "/Game/Map/Town/01Gra/01Gra_04/SD/Town_01Gra_04_01_SD"
+  ],
+  "err": null
+ },
+ "2016": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_05/BG/Town_01Gra_05_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_05/BG/Town_01Gra_05_02_BG",
+   "/Game/Map/Town/01Gra/01Gra_05/EV/Town_01Gra_05_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_05/EV/Town_01Gra_05_01_EV_02",
+   "/Game/Map/Town/01Gra/01Gra_05/GD/Town_01Gra_05_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_05/KD/Town_01Gra_05_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_05/LT/Town_01Gra_05_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_05/NAV/Town_01Gra_05_01_NAV",
+   "/Game/Map/Town/01Gra/01Gra_05/SD/Town_01Gra_05_SD"
+  ],
+  "err": null
+ },
+ "2017": {
+  "subs": [
+   "/Game/Map/Town/01Gra/01Gra_02/EV/Town_01Gra_02_01_EV",
+   "/Game/Map/Town/01Gra/01Gra_02/EV/Town_01Gra_02_01_EV_02",
+   "/Game/Map/Town/01Gra/01Gra_02/GD/Town_01Gra_02_01_GD",
+   "/Game/Map/Town/01Gra/01Gra_02/GD/Town_01Gra_02_02_GD",
+   "/Game/Map/Town/01Gra/01Gra_02/KD/Town_01Gra_02_01_KD",
+   "/Game/Map/Town/01Gra/01Gra_06/BG/Town_01Gra_06_01_BG",
+   "/Game/Map/Town/01Gra/01Gra_06/LT/Town_01Gra_06_01_LT",
+   "/Game/Map/Town/01Gra/01Gra_06/NAV/Town_01Gra_06_NAV",
+   "/Game/Map/Town/01Gra/01Gra_06/SD/Town_01Gra_06_SD"
+  ],
+  "err": null
+ },
+ "5198": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_67/BG/Btl_01Gra_67_BG0",
+   "/Game/Map/Btl/01Gra/01Gra_67/LT/Btl_01Gra_67_01_LT",
+   "/Game/Map/Event/Com/00Eve_115/BG/Event_00Eve_115_01_BG",
+   "/Game/Map/Event/Com/00Eve_115/EV/Event_00Eve_115_01_EV",
+   "/Game/Map/Event/Com/00Eve_115/LT/Event_00Eve_115_01_LT"
+  ],
+  "err": null
+ },
+ "10216": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_216/EV/Com_00Com_216_EV",
+   "/Game/Map/Com/00Com/00Com_216/GD/Com_00Com_216_GD",
+   "/Game/Map/Com/00Com/00Com_216/KD/Com_00Com_216_KD",
+   "/Game/Map/Com/00Com/00Com_216/LT/Com_00Com_216_01_LT",
+   "/Game/Map/Com/00Com/00Com_216/NAV/Com_00Com_216_NAV"
+  ],
+  "err": null
+ },
+ "10020": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_217/BG/Com_00Com_217_01_BG",
+   "/Game/Map/Com/00Com/00Com_217/LT/Com_00Com_217_01_LT"
+  ],
+  "err": null
+ },
+ "10236": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_236/EV/Com_00Com_236_EV",
+   "/Game/Map/Com/00Com/00Com_236/GD/Com_00Com_236_GD",
+   "/Game/Map/Com/00Com/00Com_236/KD/Com_00Com_236_KD",
+   "/Game/Map/Com/00Com/00Com_236/LT/Com_00Com_236_01_LT",
+   "/Game/Map/Com/00Com/00Com_236/NAV/Com_00Com_236_NAV"
+  ],
+  "err": null
+ },
+ "10237": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_217/BG/Com_00Com_217_01_BG",
+   "/Game/Map/Com/00Com/00Com_237/LT/Com_00Com_237_01_LT"
+  ],
+  "err": null
+ },
+ "10218": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_71/BG/Btl_00Com_71_BG0",
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_218/EV/Com_00Com_218_EV",
+   "/Game/Map/Com/00Com/00Com_218/GD/Com_00Com_218_GD",
+   "/Game/Map/Com/00Com/00Com_218/KD/Com_00Com_218_KD",
+   "/Game/Map/Com/00Com/00Com_218/LT/Com_00Com_218_01_LT",
+   "/Game/Map/Com/00Com/00Com_218/LT/Com_00Com_218_02_LT",
+   "/Game/Map/Com/00Com/00Com_218/NAV/Com_00Com_218_NAV"
+  ],
+  "err": null
+ },
+ "2020": {
+  "subs": [
+   "/Game/Map/Town/02Lan/02Lan_20/BG/Town_02Lan_20_01_BG",
+   "/Game/Map/Town/02Lan/02Lan_20/BG/Town_02Lan_20_02_BG",
+   "/Game/Map/Town/02Lan/02Lan_20/EV/Town_02Lan_20_01_EV",
+   "/Game/Map/Town/02Lan/02Lan_20/GD/Town_02Lan_20_01_GD",
+   "/Game/Map/Town/02Lan/02Lan_20/KD/Town_02Lan_20_01_KD",
+   "/Game/Map/Town/02Lan/02Lan_20/LT/Town_02Lan_20_01_LT",
+   "/Game/Map/Town/02Lan/02Lan_20/LT/Town_02Lan_20_02_LT",
+   "/Game/Map/Town/02Lan/02Lan_20/NAV/Town_02Lan_20_NAV",
+   "/Game/Map/Town/02Lan/02Lan_20/SD/Town_02Lan_20_01_SD"
+  ],
+  "err": null
+ },
+ "2030": {
+  "subs": [
+   "/Game/Map/Town/02Lan/02Lan_21/BG/Town_02Lan_21_01_BG",
+   "/Game/Map/Town/02Lan/02Lan_21/BG/Town_02Lan_21_02_BG",
+   "/Game/Map/Town/02Lan/02Lan_21/EV/Town_02Lan_21_01_EV",
+   "/Game/Map/Town/02Lan/02Lan_21/GD/Town_02Lan_21_01_GD",
+   "/Game/Map/Town/02Lan/02Lan_21/KD/Town_02_Lan_21_01_KD",
+   "/Game/Map/Town/02Lan/02Lan_21/LT/Town_02Lan_21_01_LT",
+   "/Game/Map/Town/02Lan/02Lan_21/NAV/Town_02Lan_21_01_NAV",
+   "/Game/Map/Town/02Lan/02Lan_21/SD/Town_02Lan_21_01_SD"
+  ],
+  "err": null
+ },
+ "3030": {
+  "subs": [
+   "/Game/Map/Btl/02Lan/02Lan_60/BG/Btl_02Lan_60_BG0",
+   "/Game/Map/Btl/02Lan/02Lan_60/LT/Btl_02Lan_60_01_LT",
+   "/Game/Map/Dng/02Lan/02Lan_40/BG/Dng_02Lan_40_01_BG",
+   "/Game/Map/Dng/02Lan/02Lan_40/EV/Dng_02Lan_40_01_EV",
+   "/Game/Map/Dng/02Lan/02Lan_40/GD/Dng_02Lan_40_01_GD",
+   "/Game/Map/Dng/02Lan/02Lan_40/KD/Dng_02Lan_40_01_KD",
+   "/Game/Map/Dng/02Lan/02Lan_40/LT/Dng_02Lan_40_01_LT",
+   "/Game/Map/Dng/02Lan/02Lan_40/NAV/Dng_02Lan_40_01_NAV",
+   "/Game/Map/Dng/02Lan/02Lan_40/SD/Dng_02Lan_40_01_SD"
+  ],
+  "err": null
+ },
+ "10051": {
+  "subs": [
+   "/Game/Map/Btl/02Lan/02Lan_61/BG/Btl_02Lan_61_BG0",
+   "/Game/Map/Dng/02Lan/02Lan_41/BG/Dng_02Lan_41_01_BG",
+   "/Game/Map/Dng/02Lan/02Lan_42/EV/Dng_02Lan_42_01_EV",
+   "/Game/Map/Dng/02Lan/02Lan_42/GD/Dng_02Lan_42_01_GD",
+   "/Game/Map/Dng/02Lan/02Lan_42/KD/Dng_02Lan_42_01_KD",
+   "/Game/Map/Dng/02Lan/02Lan_42/LT/Dng_02Lan_42_01_LT",
+   "/Game/Map/Dng/02Lan/02Lan_42/LT/Dng_02Lan_42_02_LT",
+   "/Game/Map/Dng/02Lan/02Lan_42/NAV/Dng_02Lan_42_01_NAV",
+   "/Game/Map/Dng/02Lan/02Lan_42/SD/Dng_02Lan_42_01_SD"
+  ],
+  "err": null
+ },
+ "10203": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_203/EV/Com_00Com_203_EV",
+   "/Game/Map/Com/00Com/00Com_203/GD/Com_00Com_203_GD",
+   "/Game/Map/Com/00Com/00Com_203/KD/Com_00Com_203_KD",
+   "/Game/Map/Com/00Com/00Com_203/LT/Com_00Com_203_01_LT",
+   "/Game/Map/Com/00Com/00Com_203/NAV/Com_00Com_203_NAV"
+  ],
+  "err": null
+ },
+ "10208": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_208/EV/Com_00Com_208_EV",
+   "/Game/Map/Com/00Com/00Com_208/GD/Com_00Com_208_GD",
+   "/Game/Map/Com/00Com/00Com_208/KD/Com_00Com_208_KD",
+   "/Game/Map/Com/00Com/00Com_208/LT/Com_00Com_208_01_LT",
+   "/Game/Map/Com/00Com/00Com_208/NAV/Com_00Com_208_NAV"
+  ],
+  "err": null
+ },
+ "2031": {
+  "subs": [
+   "/Game/Map/Town/02Lan/02Lan_22/BG/Town_02Lan_22_01_BG",
+   "/Game/Map/Town/02Lan/02Lan_22/BG/Town_02Lan_22_02_BG",
+   "/Game/Map/Town/02Lan/02Lan_22/BG/Town_02Lan_22_03_BG",
+   "/Game/Map/Town/02Lan/02Lan_22/BG/Town_02Lan_22_04_BG",
+   "/Game/Map/Town/02Lan/02Lan_22/BG/Town_02Lan_22_05_BG",
+   "/Game/Map/Town/02Lan/02Lan_22/EV/Town_02Lan_22_01_EV",
+   "/Game/Map/Town/02Lan/02Lan_22/GD/Town_02Lan_22_01_GD",
+   "/Game/Map/Town/02Lan/02Lan_22/KD/Town_02Lan_22_01_KD",
+   "/Game/Map/Town/02Lan/02Lan_22/LT/Town_02Lan_22_01_LT",
+   "/Game/Map/Town/02Lan/02Lan_22/NAV/Town_02Lan_22_01_NAV"
+  ],
+  "err": null
+ },
+ "3031": {
+  "subs": [
+   "/Game/Map/Btl/02Lan/02Lan_61/BG/Btl_02Lan_61_BG0",
+   "/Game/Map/Dng/02Lan/02Lan_41/BG/Dng_02Lan_41_01_BG",
+   "/Game/Map/Dng/02Lan/02Lan_44/EV/Dng_02Lan_44_EV",
+   "/Game/Map/Dng/02Lan/02Lan_44/GD/Dng_02Lan_44_01_GD",
+   "/Game/Map/Dng/02Lan/02Lan_44/KD/Dng_02Lan_44_01_KD",
+   "/Game/Map/Dng/02Lan/02Lan_44/LT/Dng_02Lan_44_01_LT",
+   "/Game/Map/Dng/02Lan/02Lan_44/LT/Dng_02Lan_44_02_LT",
+   "/Game/Map/Dng/02Lan/02Lan_44/NAV/Dng_02Lan_44_01_NAV"
+  ],
+  "err": null
+ },
+ "10223": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_223/EV/Com_00Com_223_EV",
+   "/Game/Map/Com/00Com/00Com_223/GD/Com_00Com_223_GD",
+   "/Game/Map/Com/00Com/00Com_223/KD/Com_00Com_223_KD",
+   "/Game/Map/Com/00Com/00Com_223/LT/Com_00Com_223_01_LT",
+   "/Game/Map/Com/00Com/00Com_223/NAV/Com_00Com_223_NAV"
+  ],
+  "err": null
+ },
+ "10228": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_228/EV/Com_00Com_228_EV",
+   "/Game/Map/Com/00Com/00Com_228/GD/Com_00Com_228_GD",
+   "/Game/Map/Com/00Com/00Com_228/KD/Com_00Com_228_KD",
+   "/Game/Map/Com/00Com/00Com_228/LT/Com_00Com_228_01_LT",
+   "/Game/Map/Com/00Com/00Com_228/NAV/Com_00Com_228_NAV"
+  ],
+  "err": null
+ },
+ "2040": {
+  "subs": [
+   "/Game/Map/Town/03Kol/03Kol_20/BG/Town_03Kol_20_01_BG",
+   "/Game/Map/Town/03Kol/03Kol_20/BG/Town_03Kol_20_02_BG",
+   "/Game/Map/Town/03Kol/03Kol_20/EV/Town_03Kol_20_01_EV",
+   "/Game/Map/Town/03Kol/03Kol_20/GD/Town_03Kol_20_01_GD",
+   "/Game/Map/Town/03Kol/03Kol_20/KD/Town_03Kol_20_01_KD",
+   "/Game/Map/Town/03Kol/03Kol_20/LT/Town_03Kol_20_01_LT",
+   "/Game/Map/Town/03Kol/03Kol_20/NAV/Town_03Kol_20_02_NAV",
+   "/Game/Map/Town/03Kol/03Kol_20/SD/Town_03Kol_20_01_SD"
+  ],
+  "err": null
+ },
+ "3040": {
+  "subs": [
+   "/Game/Map/Btl/03Kol/03Kol_60/BG/Btl_03Kol_60_BG0",
+   "/Game/Map/Btl/03Kol/03Kol_60/LT/Btl_03Kol_60_01_LT",
+   "/Game/Map/Dng/03Kol/03Kol_40/BG/Dng_03Kol_40_01_BG",
+   "/Game/Map/Dng/03Kol/03Kol_40/EV/Dng_03Kol_40_01_EV",
+   "/Game/Map/Dng/03Kol/03Kol_40/GD/Dng_03Kol_40_11_GD",
+   "/Game/Map/Dng/03Kol/03Kol_40/KD/Dng_03Kol_40_01_KD",
+   "/Game/Map/Dng/03Kol/03Kol_40/LT/Dng_03Kol_40_01_LT",
+   "/Game/Map/Dng/03Kol/03Kol_40/NAV/Dng_03Kol_40_01_NAV",
+   "/Game/Map/Dng/03Kol/03Kol_40/SD/Dng_03Kol_40_01_SD"
+  ],
+  "err": null
+ },
+ "10201": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_201/EV/Com_00Com_201_EV",
+   "/Game/Map/Com/00Com/00Com_201/GD/Com_00Com_201_GD",
+   "/Game/Map/Com/00Com/00Com_201/KD/Com_00Com_201_KD",
+   "/Game/Map/Com/00Com/00Com_201/LT/Com_00Com_201_01_LT",
+   "/Game/Map/Com/00Com/00Com_201/NAV/Com_00Com_201_NAV"
+  ],
+  "err": null
+ },
+ "10221": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_221/EV/Com_00Com_221_EV",
+   "/Game/Map/Com/00Com/00Com_221/GD/Com_00Com_221_GD",
+   "/Game/Map/Com/00Com/00Com_221/KD/Com_00Com_221_KD",
+   "/Game/Map/Com/00Com/00Com_221/LT/Com_00Com_221_01_LT",
+   "/Game/Map/Com/00Com/00Com_221/NAV/Com_00Com_221_NAV"
+  ],
+  "err": null
+ },
+ "2050": {
+  "subs": [
+   "/Game/Map/Btl/04Dir/04Dir_61/BG/Btl_04Dir_61_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_61/LT/Btl_04Dir_61_01_LT",
+   "/Game/Map/Town/04Dir/04Dir_20/BG/Town_04Dir_20_01_BG",
+   "/Game/Map/Town/04Dir/04Dir_20/EV/Town_04Dir_20_01_EV",
+   "/Game/Map/Town/04Dir/04Dir_20/GD/Town_04Dir_20_01_GD",
+   "/Game/Map/Town/04Dir/04Dir_20/KD/Town_04Dir_20_01_KD",
+   "/Game/Map/Town/04Dir/04Dir_20/LT/Town_04Dir_20_01_LT",
+   "/Game/Map/Town/04Dir/04Dir_20/NAV/Town_04Dir_20_NAV",
+   "/Game/Map/Town/04Dir/04Dir_20/SD/Town_04Dir_20_01_SD"
+  ],
+  "err": null
+ },
+ "2060": {
+  "subs": [
+   "/Game/Map/Town/04Dir/04Dir_01/BG/Town_04Dir_01_02_BG",
+   "/Game/Map/Town/04Dir/04Dir_01/BG/Town_04Dir_01_BG",
+   "/Game/Map/Town/04Dir/04Dir_01/EV/Town_04Dir_01_04_EV",
+   "/Game/Map/Town/04Dir/04Dir_01/GD/Town_04Dir_01_01_GD",
+   "/Game/Map/Town/04Dir/04Dir_01/KD/Town_04Dir_01_01_KD",
+   "/Game/Map/Town/04Dir/04Dir_01/LT/Town_04Dir_01_LT",
+   "/Game/Map/Town/04Dir/04Dir_01/NAV/Town_04Dir_01_NAV",
+   "/Game/Map/Town/04Dir/04Dir_01/SD/Town_04Dir_01_01_SD"
+  ],
+  "err": null
+ },
+ "2061": {
+  "subs": [
+   "/Game/Map/Town/04Dir/04Dir_02/BG/Town_04Dir_02_01_BG",
+   "/Game/Map/Town/04Dir/04Dir_02/EV/Town_04Dir_02_01_EV",
+   "/Game/Map/Town/04Dir/04Dir_02/EV/Town_04Dir_02_02_EV",
+   "/Game/Map/Town/04Dir/04Dir_02/GD/Town_04Dir_02_01_GD",
+   "/Game/Map/Town/04Dir/04Dir_02/LT/Town_04Dir_02_LT",
+   "/Game/Map/Town/04Dir/04Dir_02/NAV/Town_04Dir_02_NAV",
+   "/Game/Map/Town/04Dir/04Dir_02/SD/Town_04Dir_02_01_SD"
+  ],
+  "err": null
+ },
+ "3050": {
+  "subs": [
+   "/Game/Map/Btl/04Dir/04Dir_60/BG/Btl_04Dir_60_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_60/LT/Btl_04Dir_60_LT",
+   "/Game/Map/Dng/04Dir/04Dir_40/BG/Dng_04Dir_40_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_40/EV/Dng_04Dir_40_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_40/GD/Dng_04Dir_40_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_40/KD/Dng_04Dir_40_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_40/LT/Dng_04Dir_40_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_40/NAV/Dng_04Dir_40_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_40/SD/Dng_04Dir_40_01_SD"
+  ],
+  "err": null
+ },
+ "3060": {
+  "subs": [
+   "/Game/Map/Btl/04Dir/04Dir_62/BG/Btl_04Dir_62_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_62/LT/Btl_04Dir_62_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_41/BG/Dng_04Dir_41_02_BG",
+   "/Game/Map/Dng/04Dir/04Dir_41/BG/Dng_04Dir_41_BG",
+   "/Game/Map/Dng/04Dir/04Dir_41/EV/Dng_04Dir_41_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_41/GD/Dng_04Dir_41_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_41/GD/Dng_04Dir_41_02_GD",
+   "/Game/Map/Dng/04Dir/04Dir_41/GD/Dng_04Dir_41_03_GD",
+   "/Game/Map/Dng/04Dir/04Dir_41/KD/Dng_04Dir_41_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_41/LT/Dng_04Dir_41_LT",
+   "/Game/Map/Dng/04Dir/04Dir_41/NAV/Dng_04Dir_41_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_41/SD/Dng_04Dir_41_01_SD"
+  ],
+  "err": null
+ },
+ "3061": {
+  "subs": [
+   "/Game/Map/Dng/04Dir/04Dir_43/BG/Dng_04Dir_43_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_43/EV/Dng_04Dir_43_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_43/GD/Dng_04Dir_43_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_43/KD/Dng_04Dir_43_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_43/LT/Dng_04Dir_43_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_43/NAV/Dng_04Dir_43_01_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_43/SD/Dng_04Dir_43_01_SD"
+  ],
+  "err": null
+ },
+ "3062": {
+  "subs": [
+   "/Game/Map/Dng/04Dir/04Dir_43/GD/Dng_04Dir_43_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_43/KD/Dng_04Dir_43_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_44/BG/Dng_04Dir_44_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_44/GD/Dng_04Dir_44_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_44/LT/Dng_04Dir_44_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_44/NAV/Dng_04Dir_44_01_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_44/SD/Dng_04Dir_44_01_SD"
+  ],
+  "err": null
+ },
+ "3070": {
+  "subs": [
+   "/Game/Map/Btl/04Dir/04Dir_64/BG/Btl_04Dir_64_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_64/LT/Btl_04Dir_64_01_LT",
+   "/Game/Map/Btl/04Dir/04Dir_65/BG/Btl_04Dir_65_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_65/LT/Btl_04Dir_65_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_42/BG/Dng_04Dir_42_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_42/BG/Dng_04Dir_42_02_BG",
+   "/Game/Map/Dng/04Dir/04Dir_42/BG/Dng_04Dir_42_03_BG",
+   "/Game/Map/Dng/04Dir/04Dir_42/EV/Dng_04Dir_42_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_42/GD/Dng_04Dir_42_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_42/KD/Dng_04Dir_42_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_42/LT/Dng_04Dir_42_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_42/NAV/Dng_04Dir_42_01_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_42/SD/Dng_04Dir_42_01_SD"
+  ],
+  "err": null
+ },
+ "5030": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_81/BG/Event_00Eve_81_BG",
+   "/Game/Map/Event/Com/00Eve_81/EV/Event_00Eve_81_01_EV",
+   "/Game/Map/Event/Com/00Eve_81/GD/Event_00Eve_81_01_GD",
+   "/Game/Map/Event/Com/00Eve_81/KD/Event_00Eve_81_01_KD",
+   "/Game/Map/Event/Com/00Eve_81/LT/Event_00Eve_81_01_LT",
+   "/Game/Map/Event/Com/00Eve_81/NAV/Event_00Eve_81_01_NAV",
+   "/Game/Map/Event/Com/00Eve_81/SD/Event_00Eve_81_01_SD"
+  ],
+  "err": null
+ },
+ "5040": {
+  "subs": [
+   "/Game/Map/Btl/04Dir/04Dir_63/BG/Btl_04Dir_63_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_63/LT/Btl_04Dir_63_LT",
+   "/Game/Map/Event/Com/00Eve_93/BG/Event_00Eve_93_BG",
+   "/Game/Map/Event/Com/00Eve_93/LT/Event_00Eve_93_LT"
+  ],
+  "err": null
+ },
+ "5041": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_94/BG/Event_00Eve_94_BG",
+   "/Game/Map/Event/Com/00Eve_94/GD/Event_00Eve_94_GD",
+   "/Game/Map/Event/Com/00Eve_94/LT/Event_00Eve_94_LT"
+  ],
+  "err": null
+ },
+ "3290": {
+  "subs": [
+   "/Game/Map/Btl/00Com/00Com_71/BG/Btl_00Com_71_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_66/BG/Btl_04Dir_66_BG0",
+   "/Game/Map/Btl/04Dir/04Dir_66/LT/Btl_04Dir_66_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_45/BG/Dng_04Dir_45_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_45/EV/Dng_04Dir_45_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_45/GD/Dng_04Dir_45_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_45/KD/Dng_04Dir_45_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_45/LT/Dng_04Dir_45_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_45/LT/Dng_04Dir_45_02_LT",
+   "/Game/Map/Dng/04Dir/04Dir_45/NAV/Dng_04Dir_45_01_NAV",
+   "/Game/Map/Dng/04Dir/04Dir_45/SD/Dng_04Dir_45_01_SD"
+  ],
+  "err": null
+ },
+ "10206": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_206/EV/Com_00Com_206_EV",
+   "/Game/Map/Com/00Com/00Com_206/GD/Com_00Com_206_GD",
+   "/Game/Map/Com/00Com/00Com_206/KD/Com_00Com_206_KD",
+   "/Game/Map/Com/00Com/00Com_206/LT/Com_00Com_206_01_LT",
+   "/Game/Map/Com/00Com/00Com_206/NAV/Com_00Com_206_NAV"
+  ],
+  "err": null
+ },
+ "10207": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_207/EV/Com_00Com_207_EV",
+   "/Game/Map/Com/00Com/00Com_207/GD/Com_00Com_207_GD",
+   "/Game/Map/Com/00Com/00Com_207/KD/Com_00Com_207_KD",
+   "/Game/Map/Com/00Com/00Com_207/LT/Com_00Com_207_01_LT",
+   "/Game/Map/Com/00Com/00Com_207/NAV/Com_00Com_207_NAV"
+  ],
+  "err": null
+ },
+ "10202": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_202/EV/Com_00Com_202_EV",
+   "/Game/Map/Com/00Com/00Com_202/GD/Com_00Com_202_GD",
+   "/Game/Map/Com/00Com/00Com_202/KD/Com_00Com_202_KD",
+   "/Game/Map/Com/00Com/00Com_202/LT/Com_00Com_202_01_LT",
+   "/Game/Map/Com/00Com/00Com_202/NAV/Com_00Com_202_NAV"
+  ],
+  "err": null
+ },
+ "10052": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/04Dir/04Dir_46/EV/Dng_04Dir_46_01_EV",
+   "/Game/Map/Dng/04Dir/04Dir_46/GD/Dng_04Dir_46_01_GD",
+   "/Game/Map/Dng/04Dir/04Dir_46/KD/Dng_04Dir_46_01_KD",
+   "/Game/Map/Dng/04Dir/04Dir_46/LT/Dng_04Dir_46_01_LT",
+   "/Game/Map/Dng/04Dir/04Dir_46/LT/Dng_04Dir_46_02_LT",
+   "/Game/Map/Dng/04Dir/04Dir_46/NAV/Dng_04Dir_46_01_NAV"
+  ],
+  "err": null
+ },
+ "10226": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_226/EV/Com_00Com_226_EV",
+   "/Game/Map/Com/00Com/00Com_226/GD/Com_00Com_226_GD",
+   "/Game/Map/Com/00Com/00Com_226/KD/Com_00Com_226_KD",
+   "/Game/Map/Com/00Com/00Com_226/LT/Com_00Com_226_01_LT",
+   "/Game/Map/Com/00Com/00Com_226/NAV/Com_00Com_226_NAV"
+  ],
+  "err": null
+ },
+ "10227": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_227/EV/Com_00Com_227_EV",
+   "/Game/Map/Com/00Com/00Com_227/GD/Com_00Com_227_GD",
+   "/Game/Map/Com/00Com/00Com_227/KD/Com_00Com_227_KD",
+   "/Game/Map/Com/00Com/00Com_227/LT/Com_00Com_227_01_LT",
+   "/Game/Map/Com/00Com/00Com_227/NAV/Com_00Com_227_NAV"
+  ],
+  "err": null
+ },
+ "10222": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_222/EV/Com_00Com_222_EV",
+   "/Game/Map/Com/00Com/00Com_222/GD/Com_00Com_222_GD",
+   "/Game/Map/Com/00Com/00Com_222/KD/Com_00Com_222_KD",
+   "/Game/Map/Com/00Com/00Com_222/LT/Com_00Com_222_01_LT",
+   "/Game/Map/Com/00Com/00Com_222/NAV/Com_00Com_222_NAV"
+  ],
+  "err": null
+ },
+ "5156": {
+  "subs": [
+   "/Game/Map/Dng/08Gro/08Gro_40/BG/Dng_08Gro_40_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_40/GD/Dng_08Gro_40_01_GD",
+   "/Game/Map/Event/Com/00Eve_121/LT/Event_00Eve_121_01_LT"
+  ],
+  "err": null
+ },
+ "2070": {
+  "subs": [
+   "/Game/Map/Town/05Old/05Old_01/BG/Town_05Old_01_01_BG",
+   "/Game/Map/Town/05Old/05Old_01/BG/Town_05Old_01_03_BG",
+   "/Game/Map/Town/05Old/05Old_01/BG/Town_05Old_01_08_BG",
+   "/Game/Map/Town/05Old/05Old_01/EV/Town_05Old_01_01_EV",
+   "/Game/Map/Town/05Old/05Old_01/GD/Town_05Old_01_01_GD",
+   "/Game/Map/Town/05Old/05Old_01/KD/Town_05Old_01_01_KD",
+   "/Game/Map/Town/05Old/05Old_01/LT/Town_05Old_01_01_LT",
+   "/Game/Map/Town/05Old/05Old_01/NAV/Town_05Old_01_01_NAV",
+   "/Game/Map/Town/05Old/05Old_01/SD/Town_05Old_01_01_SD"
+  ],
+  "err": null
+ },
+ "2080": {
+  "subs": [
+   "/Game/Map/Town/05Old/05Old_20/BG/Town_05Old_20_01_BG",
+   "/Game/Map/Town/05Old/05Old_20/EV/Town_05Old_20_01_EV",
+   "/Game/Map/Town/05Old/05Old_20/GD/Town_05Old_20_01_GD",
+   "/Game/Map/Town/05Old/05Old_20/LT/Town_05Old_20_01_LT",
+   "/Game/Map/Town/05Old/05Old_20/NAV/Town_05Old_20_01_NAV",
+   "/Game/Map/Town/05Old/05Old_20/SD/Town_05Old_20_01_SD"
+  ],
+  "err": null
+ },
+ "2090": {
+  "subs": [
+   "/Game/Map/Town/05Old/05Old_21/BG/Town_05Old_21_02_BG",
+   "/Game/Map/Town/05Old/05Old_21/BG/Town_05Old_21_BG",
+   "/Game/Map/Town/05Old/05Old_21/EV/Town_05Old_21_01_EV",
+   "/Game/Map/Town/05Old/05Old_21/GD/Town_05Old_21_01_GD",
+   "/Game/Map/Town/05Old/05Old_21/KD/Town_05Old_21_01_KD",
+   "/Game/Map/Town/05Old/05Old_21/LT/Town_05Old_21_01_LT",
+   "/Game/Map/Town/05Old/05Old_21/LT/Town_05Old_21_02_LT",
+   "/Game/Map/Town/05Old/05Old_21/NAV/Town_05Old_21_01_NAV",
+   "/Game/Map/Town/05Old/05Old_21/SD/Town_05Old_21_SD"
+  ],
+  "err": null
+ },
+ "3080": {
+  "subs": [
+   "/Game/Map/Btl/05Old/05Old_60/BG/Btl_05Old_60_BG0",
+   "/Game/Map/Btl/05Old/05Old_60/LT/Btl_05Old_60_01_LT",
+   "/Game/Map/Dng/05Old/05Old_40/BG/Dng_05Old_40_01_BG",
+   "/Game/Map/Dng/05Old/05Old_40/EV/Dng_05Old_40_01_EV",
+   "/Game/Map/Dng/05Old/05Old_40/GD/Dng_05Old_40_01_GD",
+   "/Game/Map/Dng/05Old/05Old_40/KD/Dng_05Old_40_01_KD",
+   "/Game/Map/Dng/05Old/05Old_40/LT/Dng_05Old_40_01_LT",
+   "/Game/Map/Dng/05Old/05Old_40/NAV/Dng_05Old_40_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_40/SD/Dng_05Old_40_SD"
+  ],
+  "err": null
+ },
+ "3090": {
+  "subs": [
+   "/Game/Map/Btl/05Old/05Old_61/BG/Btl_05Old_61_BG0",
+   "/Game/Map/Btl/05Old/05Old_61/LT/Btl_05Old_61_01_LT",
+   "/Game/Map/Dng/05Old/05Old_41/BG/Dng_05Old_41_01_BG",
+   "/Game/Map/Dng/05Old/05Old_41/EV/Dng_05Old_41_01_EV",
+   "/Game/Map/Dng/05Old/05Old_41/GD/Dng_05Old_41_01_GD",
+   "/Game/Map/Dng/05Old/05Old_41/KD/Dng_05Old_41_01_KD",
+   "/Game/Map/Dng/05Old/05Old_41/LT/Dng_05Old_41_01_LT",
+   "/Game/Map/Dng/05Old/05Old_41/NAV/Dng_05Old_41_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_41/SD/Dng_05Old_41_01_SD"
+  ],
+  "err": null
+ },
+ "3091": {
+  "subs": [
+   "/Game/Map/Dng/05Old/05Old_42/BG/Dng_05Old_42_01_BG",
+   "/Game/Map/Dng/05Old/05Old_42/EV/Dng_05Old_42_01_EV",
+   "/Game/Map/Dng/05Old/05Old_42/GD/Dng_05Old_42_01_GD",
+   "/Game/Map/Dng/05Old/05Old_42/KD/Dng_05Old_42_01_KD",
+   "/Game/Map/Dng/05Old/05Old_42/LT/Dng_05Old_42_01_LT",
+   "/Game/Map/Dng/05Old/05Old_42/NAV/Dng_05Old_42_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_42/SD/Dng_05Old_42_01_SD"
+  ],
+  "err": null
+ },
+ "3100": {
+  "subs": [
+   "/Game/Map/Btl/05Old/05Old_63/BG/Btl_05Old_63_BG0",
+   "/Game/Map/Btl/05Old/05Old_63/LT/Btl_05Old_63_01_LT",
+   "/Game/Map/Dng/05Old/05Old_43/BG/Dng_05Old_43_01_BG",
+   "/Game/Map/Dng/05Old/05Old_43/EV/Dng_05Old_43_01_EV",
+   "/Game/Map/Dng/05Old/05Old_43/GD/Dng_05Old_43_01_GD",
+   "/Game/Map/Dng/05Old/05Old_43/KD/Dng_05Old_43_01_KD",
+   "/Game/Map/Dng/05Old/05Old_43/LT/Dng_05Old_43_01_LT",
+   "/Game/Map/Dng/05Old/05Old_43/NAV/Dng_05Old_43_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_43/SD/Dng_05Old_43_01_SD"
+  ],
+  "err": null
+ },
+ "3110": {
+  "subs": [
+   "/Game/Map/Btl/05Old/05Old_64/BG/Btl_05Old_64_BG0",
+   "/Game/Map/Btl/05Old/05Old_64/LT/Btl_05Old_64_01_LT",
+   "/Game/Map/Btl/05Old/05Old_65/BG/Btl_05Old_65_BG0",
+   "/Game/Map/Btl/05Old/05Old_65/LT/Btl_05Old_65_01_LT",
+   "/Game/Map/Dng/05Old/05Old_44/BG/Dng_05Old_44_01_BG",
+   "/Game/Map/Dng/05Old/05Old_44/EV/Dng_05Old_44_01_EV",
+   "/Game/Map/Dng/05Old/05Old_44/GD/Dng_05Old_44_01_GD",
+   "/Game/Map/Dng/05Old/05Old_44/KD/Dng_05Old_44_01_KD",
+   "/Game/Map/Dng/05Old/05Old_44/LT/Dng_05Old_44_01_LT",
+   "/Game/Map/Dng/05Old/05Old_44/NAV/Dng_05Old_44_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_44/SD/Dng_05Old_44_01_SD"
+  ],
+  "err": null
+ },
+ "5031": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_90/BG/Event_00Eve_90_BG",
+   "/Game/Map/Event/Com/00Eve_90/EV/Event_00Eve_90_01_EV",
+   "/Game/Map/Event/Com/00Eve_90/GD/Event_00Eve_90_01_GD",
+   "/Game/Map/Event/Com/00Eve_90/KD/Event_00Eve_90_KD",
+   "/Game/Map/Event/Com/00Eve_90/LT/Event_00Eve_90_01_LT",
+   "/Game/Map/Event/Com/00Eve_90/NAV/Event_00Eve_90_01_NAV"
+  ],
+  "err": null
+ },
+ "5130": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_84/BG/Event_00Eve_84_BG",
+   "/Game/Map/Event/Com/00Eve_84/EV/Event_00Eve_84_01_EV",
+   "/Game/Map/Event/Com/00Eve_84/GD/Event_00Eve_84_01_GD",
+   "/Game/Map/Event/Com/00Eve_84/LT/Event_00Eve_84_LT"
+  ],
+  "err": null
+ },
+ "11000": {
+  "subs": [
+   "/Game/Map/Town/05Old/05Old_22/BG/Town_05Old_22_01_BG",
+   "/Game/Map/Town/05Old/05Old_22/EV/Town_05Old_22_01_EV",
+   "/Game/Map/Town/05Old/05Old_22/GD/Town_05Old_22_01_GD",
+   "/Game/Map/Town/05Old/05Old_22/KD/Town_05Old_22_01_KD",
+   "/Game/Map/Town/05Old/05Old_22/LT/Town_05Old_22_01_LT",
+   "/Game/Map/Town/05Old/05Old_22/NAV/Town_05Old_22_01_NAV"
+  ],
+  "err": null
+ },
+ "3111": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/05Old/05Old_45/BG/Dng_05Old_45_01_BG",
+   "/Game/Map/Dng/05Old/05Old_45/EV/Dng_05Old_45_EV",
+   "/Game/Map/Dng/05Old/05Old_45/GD/Dng_05Old_45_GD",
+   "/Game/Map/Dng/05Old/05Old_45/KD/Dng_01Gra_44_01_KD",
+   "/Game/Map/Dng/05Old/05Old_45/LT/Dng_05Old_45_01_LT",
+   "/Game/Map/Dng/05Old/05Old_45/LT/Dng_05Old_45_02_LT",
+   "/Game/Map/Dng/05Old/05Old_45/NAV/Dng_05Old_45_01_NAV",
+   "/Game/Map/Dng/05Old/05Old_45/SD/Dng_01Gra_44_01_SD"
+  ],
+  "err": null
+ },
+ "2081": {
+  "subs": [
+   "/Game/Map/Btl/05Old/05Old_62/BG/Btl_05Old_62_BG0",
+   "/Game/Map/Btl/05Old/05Old_62/LT/Btl_05Old_62_01_LT",
+   "/Game/Map/Town/05Old/05Old_23/BG/Town_05Old_23_01_BG",
+   "/Game/Map/Town/05Old/05Old_23/GD/Town_05Old_23_GD",
+   "/Game/Map/Town/05Old/05Old_23/LT/Town_05Old_23_01_LT",
+   "/Game/Map/Town/05Old/05Old_23/NAV/Town_05Old_23_01_NAV"
+  ],
+  "err": null
+ },
+ "10200": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_200/EV/Com_00Com_200_EV",
+   "/Game/Map/Com/00Com/00Com_200/GD/Com_00Com_200_GD",
+   "/Game/Map/Com/00Com/00Com_200/KD/Com_00Com_200_KD",
+   "/Game/Map/Com/00Com/00Com_200/LT/Com_00Com_200_01_LT",
+   "/Game/Map/Com/00Com/00Com_200/NAV/Com_00Com_200_NAV"
+  ],
+  "err": null
+ },
+ "10205": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_205/EV/Com_00Com_205_EV",
+   "/Game/Map/Com/00Com/00Com_205/GD/Com_00Com_205_GD",
+   "/Game/Map/Com/00Com/00Com_205/KD/Com_00Com_205_KD",
+   "/Game/Map/Com/00Com/00Com_205/LT/Com_00Com_205_01_LT",
+   "/Game/Map/Com/00Com/00Com_205/NAV/Com_00Com_205_NAV"
+  ],
+  "err": null
+ },
+ "10209": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_209/EV/Com_00Com_209_EV",
+   "/Game/Map/Com/00Com/00Com_209/GD/Com_00Com_209_GD",
+   "/Game/Map/Com/00Com/00Com_209/KD/Com_00Com_209_KD",
+   "/Game/Map/Com/00Com/00Com_209/LT/Com_00Com_209_01_LT",
+   "/Game/Map/Com/00Com/00Com_209/NAV/Com_00Com_209_NAV"
+  ],
+  "err": null
+ },
+ "10053": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/05Old/05Old_46/EV/Dng_05Old_46_01_EV",
+   "/Game/Map/Dng/05Old/05Old_46/GD/Dng_05Old_46_01_GD",
+   "/Game/Map/Dng/05Old/05Old_46/KD/Dng_05Old_46_01_KD",
+   "/Game/Map/Dng/05Old/05Old_46/LT/Dng_05Old_46_01_LT",
+   "/Game/Map/Dng/05Old/05Old_46/LT/Dng_05Old_46_02_LT",
+   "/Game/Map/Dng/05Old/05Old_46/NAV/Dng_05Old_46_01_NAV"
+  ],
+  "err": null
+ },
+ "10054": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/05Old/05Old_47/EV/Dng_05Old_47_01_EV",
+   "/Game/Map/Dng/05Old/05Old_47/GD/Dng_05Old_47_01_GD",
+   "/Game/Map/Dng/05Old/05Old_47/KD/Dng_05Old_47_01_KD",
+   "/Game/Map/Dng/05Old/05Old_47/LT/Dng_05Old_47_01_LT",
+   "/Game/Map/Dng/05Old/05Old_47/LT/Dng_05Old_47_02_LT",
+   "/Game/Map/Dng/05Old/05Old_47/NAV/Dng_05Old_47_01_NAV"
+  ],
+  "err": null
+ },
+ "10059": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_46/EV/Dng_01Gra_46_01_EV",
+   "/Game/Map/Dng/01Gra/01Gra_46/GD/Dng_01Gra_46_01_GD",
+   "/Game/Map/Dng/01Gra/01Gra_46/KD/Dng_01Gra_46_01_KD",
+   "/Game/Map/Dng/01Gra/01Gra_46/LT/Dng_01Gra_46_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_46/LT/Dng_01Gra_46_02_LT",
+   "/Game/Map/Dng/01Gra/01Gra_46/NAV/Dng_01Gra_46_01_NAV"
+  ],
+  "err": null
+ },
+ "10220": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_220/EV/Com_00Com_220_EV",
+   "/Game/Map/Com/00Com/00Com_220/GD/Com_00Com_220_GD",
+   "/Game/Map/Com/00Com/00Com_220/KD/Com_00Com_220_KD",
+   "/Game/Map/Com/00Com/00Com_220/LT/Com_00Com_220_01_LT",
+   "/Game/Map/Com/00Com/00Com_220/NAV/Com_00Com_220_NAV"
+  ],
+  "err": null
+ },
+ "10225": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_225/EV/Com_00Com_225_EV",
+   "/Game/Map/Com/00Com/00Com_225/GD/Com_00Com_225_GD",
+   "/Game/Map/Com/00Com/00Com_225/KD/Com_00Com_225_KD",
+   "/Game/Map/Com/00Com/00Com_225/LT/Com_00Com_225_01_LT",
+   "/Game/Map/Com/00Com/00Com_225/NAV/Com_00Com_225_NAV"
+  ],
+  "err": null
+ },
+ "10229": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_229/EV/Com_00Com_229_EV",
+   "/Game/Map/Com/00Com/00Com_229/GD/Com_00Com_229_GD",
+   "/Game/Map/Com/00Com/00Com_229/KD/Com_00Com_229_KD",
+   "/Game/Map/Com/00Com/00Com_229/LT/Com_00Com_229_01_LT",
+   "/Game/Map/Com/00Com/00Com_229/NAV/Com_00Com_229_NAV"
+  ],
+  "err": null
+ },
+ "2100": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_20/BG/Town_06Zol_20_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_20/EV/Town_06Zol_20_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_20/GD/Town_06Zol_20_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_20/KD/Town_06Zol_20_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_20/LT/Town_06Zol_20_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_20/NAV/Town_06Zol_20_NAV",
+   "/Game/Map/Town/06Zol/06Zol_20/SD/Town_06Zol_20_SD"
+  ],
+  "err": null
+ },
+ "2110": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_01/BG/Town_06Zol_01_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_01/BG/Town_06Zol_01_02_BG",
+   "/Game/Map/Town/06Zol/06Zol_01/EV/Town_06Zol_01_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_01/GD/Town_06Zol_01_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_01/KD/Town_06Zol_01_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_01/LT/Town_06Zol_01_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_01/NAV/Town_06Zol_01_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_01/SD/Town_06Zol_01_SD"
+  ],
+  "err": null
+ },
+ "2111": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_02/BG/Town_06Zol_02_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_02/EV/Town_06Zol_02_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_02/GD/Town_06Zol_02_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_02/KD/Town_06Zol_02_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_02/LT/Town_06Zol_02_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_02/NAV/Town_06Zol_02_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_02/SD/Town_06Zol_02_SD"
+  ],
+  "err": null
+ },
+ "2112": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_03/BG/Town_06Zol_03_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_03/BG/Town_06Zol_03_02_BG",
+   "/Game/Map/Town/06Zol/06Zol_03/EV/Town_06Zol_03_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_03/GD/Town_06Zol_03_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_03/KD/Town_06Zol_03_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_03/LT/Town_06Zol_03_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_03/NAV/Town_06Zol_03_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_03/SD/Town_06Zol_03_SD"
+  ],
+  "err": null
+ },
+ "2113": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_04/BG/Town_06Zol_04_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_04/BG/Town_06Zol_04_02_BG",
+   "/Game/Map/Town/06Zol/06Zol_04/EV/Town_06Zol_04_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_04/GD/Town_06Zol_04_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_04/KD/Town_06Zol_04_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_04/LT/Town_06Zol_04_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_04/NAV/Town_06Zol_04_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_04/SD/Town_06Zol_04_SD"
+  ],
+  "err": null
+ },
+ "2114": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_05/BG/Town_06Zol_05_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_05/EV/Town_06Zol_05_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_05/GD/Town_06Zol_05_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_05/KD/Town_06Zol_05_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_05/LT/Town_06Zol_05_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_05/NAV/Town_06Zol_05_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_05/SD/Town_06Zol_05_SD"
+  ],
+  "err": null
+ },
+ "2120": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_21/BG/Town_06Zol_21_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_21/EV/Town_06Zol_21_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_21/GD/Town_06Zol_21_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_21/KD/Town_06Zol_21_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_21/LT/Town_06Zol_21_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_21/NAV/Town_06Zol_21_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_21/SD/Town_06Zol_21_SD"
+  ],
+  "err": null
+ },
+ "3120": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_60/BG/Btl_06Zol_60_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_60/LT/Btl_06Zol_60_LT",
+   "/Game/Map/Dng/06Zol/06Zol_40/BG/Dng_06Zol_40_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_40/EV/Dng_06Zol_40_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_40/GD/Dng_06Zol_40_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_40/KD/Dng_06Zol_40_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_40/LT/Dng_06Zol_40_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_40/NAV/Dng_06Zol_40_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_40/SD/Dng_06Zol_40_SD"
+  ],
+  "err": null
+ },
+ "3130": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_61/BG/Btl_06Zol_61_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_61/LT/Btl_06Zol_61_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_41/BG/Dng_06Zol_41_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_41/EV/Dng_06Zol_41_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_41/GD/Dng_06Zol_41_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_41/KD/Dng_06Zol_41_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_41/LT/Dng_06Zol_41_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_41/NAV/Dng_06Zol_41_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_41/SD/Dng_06Zol_41_SD"
+  ],
+  "err": null
+ },
+ "3140": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_62/BG/Btl_06Zol_62_01_BG",
+   "/Game/Map/Btl/06Zol/06Zol_62/LT/Btl_06Zol_62_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_42/BG/Dng_06Zol_42_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_42/EV/Dng_06Zol_42_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_42/GD/Dng_06Zol_42_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_42/KD/Dng_06Zol_42_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_42/LT/Dng_06Zol_42_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_42/NAV/Dng_06Zol_42_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_42/SD/Dng_06Zol_42_SD"
+  ],
+  "err": null
+ },
+ "3150": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_63/BG/Btl_06Zol_63_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_63/LT/Btl_06Zol_63_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_04_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_08_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_09_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_11_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_14_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/BG/Dng_06Zol_43_15_BG",
+   "/Game/Map/Dng/06Zol/06Zol_43/EV/Dng_06Zol_43_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_43/GD/Dng_06Zol_43_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_43/KD/Dng_06Zol_43_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_43/LT/Dng_06Zol_43_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_43/NAV/Dng_06Zol_43_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_43/SD/Dng_06Zol_43_SD"
+  ],
+  "err": null
+ },
+ "3160": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_64/BG/Btl_06Zol_64_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_64/LT/Btl_06Zol_64_01_LT",
+   "/Game/Map/Btl/06Zol/06Zol_69/BG/Btl_06Zol_69_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_69/LT/Btl_06Zol_69_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_44/BG/Dng_06Zol_44_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_44/EV/Dng_06Zol_44_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_44/GD/Dng_06Zol_44_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_44/KD/Dng_06Zol_44_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_44/LT/Dng_06Zol_44_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_44/NAV/Dng_06Zol_44_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_44/SD/Dng_06Zol_44_SD"
+  ],
+  "err": null
+ },
+ "5100": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_65/BG/Btl_06Zol_65_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_65/LT/Btl_06Zol_65_01_LT",
+   "/Game/Map/Event/Com/00Eve_83/BG/Event_00Eve_83_01_BG",
+   "/Game/Map/Event/Com/00Eve_83/GD/Event_00Eve_83_01_GD",
+   "/Game/Map/Event/Com/00Eve_83/KD/Event_00Eve_83_01_KD",
+   "/Game/Map/Event/Com/00Eve_83/LT/Event_00Eve_83_01_LT",
+   "/Game/Map/Event/Com/00Eve_83/NAV/Event_00Eve_83_01_NAV"
+  ],
+  "err": null
+ },
+ "5050": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_66/BG/Btl_06Zol_66_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_66/LT/Btl_06Zol_66_01_LT",
+   "/Game/Map/Event/Com/00Eve_95/BG/Event_00Eve_95_BG",
+   "/Game/Map/Event/Com/00Eve_95/EV/Event_00Eve_95_EV",
+   "/Game/Map/Event/Com/00Eve_95/LT/Event_00Eve_95_LT"
+  ],
+  "err": null
+ },
+ "5090": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_65/EV/Event_00Eve_65_01_EV",
+   "/Game/Map/Event/Com/00Eve_65/GD/Event_00Eve_65_01_GD",
+   "/Game/Map/Event/Com/00Eve_65/MOCK/Event_00Eve_65_01_MOCK"
+  ],
+  "err": null
+ },
+ "5160": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_89/BG/Event_00Eve_89_01_BG",
+   "/Game/Map/Event/Com/00Eve_89/LT/Event_00Eve_89_01_LT",
+   "/Game/Map/Event/Com/00Eve_89/LT/Event_00Eve_89_02_LT"
+  ],
+  "err": null
+ },
+ "5140": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_85/BG/Event_00Eve_85_01_BG",
+   "/Game/Map/Event/Com/00Eve_85/EV/Event_00Eve_85_01_EV",
+   "/Game/Map/Event/Com/00Eve_85/GD/Event_00Eve_85_01_GD",
+   "/Game/Map/Event/Com/00Eve_85/LT/Event_00Eve_85_01_LT",
+   "/Game/Map/Event/Com/00Eve_85/LT/Event_00Eve_85_02_LT"
+  ],
+  "err": null
+ },
+ "3131": {
+  "subs": [
+   "/Game/Map/Dng/06Zol/06Zol_45/BG/Dng_06Zol_45_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_45/EV/Dng_06Zol_45_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_45/GD/Dng_06Zol_45_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_45/KD/Dng_06Zol_45_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_45/LT/Dng_06Zol_45_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_45/NAV/Dng_06Zol_45_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_45/SD/Dng_06Zol_45_SD"
+  ],
+  "err": null
+ },
+ "10030": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_67/BG/Btl_06Zol_67_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_67/LT/Btl_06Zol_67_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_46/BG/Dng_06Zol_46_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_46/EV/Dng_06Zol_46_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_46/GD/Dng_06Zol_46_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_46/KD/Dng_06Zol_46_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_46/LT/Dng_06Zol_46_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_46/NAV/Dng_06Zol_46_01_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_46/SD/Dng_06Zol_46_SD"
+  ],
+  "err": null
+ },
+ "2101": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_22/BG/Town_06Zol_22_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_22/EV/Town_06Zol_22_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_22/GD/Town_06Zol_22_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_22/KD/Town_06Zol_22_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_22/LT/Town_06Zol_22_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_22/NAV/Town_06Zol_22_NAV",
+   "/Game/Map/Town/06Zol/06Zol_22/SD/Town_06Zol_22_SD"
+  ],
+  "err": null
+ },
+ "3121": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_68/BG/Btl_06Zol_68_BG0",
+   "/Game/Map/Btl/06Zol/06Zol_68/LT/Btl_06Zol_68_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_47/BG/Dng_06Zol_47_BG",
+   "/Game/Map/Dng/06Zol/06Zol_47/EV/Dng_06Zol_47_EV",
+   "/Game/Map/Dng/06Zol/06Zol_47/GD/Dng_06Zol_47_GD",
+   "/Game/Map/Dng/06Zol/06Zol_47/KD/Dng_06Zol_47_KD",
+   "/Game/Map/Dng/06Zol/06Zol_47/LT/Dng_06Zol_47_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_47/NAV/Dng_06Zol_47_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_47/SD/Dng_06Zol_47_SD"
+  ],
+  "err": null
+ },
+ "10031": {
+  "subs": [
+   "/Game/Map/Dng/06Zol/06Zol_46/BG/Dng_06Zol_46_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_48/BG/Dng_06Zol_48_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_48/EV/Dng_06Zol_48_EV",
+   "/Game/Map/Dng/06Zol/06Zol_48/GD/Dng_06Zol_48_GD",
+   "/Game/Map/Dng/06Zol/06Zol_48/KD/Dng_06Zol_48_KD",
+   "/Game/Map/Dng/06Zol/06Zol_48/LT/Dng_06Zol_48_LT",
+   "/Game/Map/Dng/06Zol/06Zol_48/NAV/Dng_06Zol_48_NAV",
+   "/Game/Map/Dng/06Zol/06Zol_48/SD/Dng_06Zol_48_SD"
+  ],
+  "err": null
+ },
+ "2102": {
+  "subs": [
+   "/Game/Map/Town/06Zol/06Zol_20/BG/Town_06Zol_20_01_BG",
+   "/Game/Map/Town/06Zol/06Zol_23/EV/Town_06Zol_23_01_EV",
+   "/Game/Map/Town/06Zol/06Zol_23/GD/Town_06Zol_23_01_GD",
+   "/Game/Map/Town/06Zol/06Zol_23/KD/Town_06Zol_23_01_KD",
+   "/Game/Map/Town/06Zol/06Zol_23/LT/Town_06Zol_23_01_LT",
+   "/Game/Map/Town/06Zol/06Zol_23/NAV/Town_06Zol_23_01_NAV",
+   "/Game/Map/Town/06Zol/06Zol_23/SD/Town_06Zol_23_SD"
+  ],
+  "err": null
+ },
+ "10210": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_210/EV/Com_00Com_210_EV",
+   "/Game/Map/Com/00Com/00Com_210/GD/Com_00Com_210_GD",
+   "/Game/Map/Com/00Com/00Com_210/KD/Com_00Com_210_KD",
+   "/Game/Map/Com/00Com/00Com_210/LT/Com_00Com_210_01_LT",
+   "/Game/Map/Com/00Com/00Com_210/NAV/Com_00Com_210_NAV"
+  ],
+  "err": null
+ },
+ "10211": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_211/EV/Com_00Com_211_EV",
+   "/Game/Map/Com/00Com/00Com_211/GD/Com_00Com_211_GD",
+   "/Game/Map/Com/00Com/00Com_211/KD/Com_00Com_211_KD",
+   "/Game/Map/Com/00Com/00Com_211/LT/Com_00Com_211_01_LT",
+   "/Game/Map/Com/00Com/00Com_211/NAV/Com_00Com_211_NAV"
+  ],
+  "err": null
+ },
+ "10212": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_212/EV/Com_00Com_212_EV",
+   "/Game/Map/Com/00Com/00Com_212/GD/Com_00Com_212_GD",
+   "/Game/Map/Com/00Com/00Com_212/KD/Com_00Com_212_KD",
+   "/Game/Map/Com/00Com/00Com_212/LT/Com_00Com_212_01_LT",
+   "/Game/Map/Com/00Com/00Com_212/NAV/Com_00Com_212_NAV"
+  ],
+  "err": null
+ },
+ "10055": {
+  "subs": [
+   "/Game/Map/Btl/02Lan/02Lan_61/BG/Btl_02Lan_61_BG0",
+   "/Game/Map/Dng/02Lan/02Lan_41/BG/Dng_02Lan_41_01_BG",
+   "/Game/Map/Dng/06Zol/06ZoL_49/EV/Dng_06Zol_49_01_EV",
+   "/Game/Map/Dng/06Zol/06ZoL_49/GD/Dng_06Zol_49_01_GD",
+   "/Game/Map/Dng/06Zol/06ZoL_49/KD/Dng_06Zol_49_01_KD",
+   "/Game/Map/Dng/06Zol/06ZoL_49/LT/Dng_06Zol_49_01_LT",
+   "/Game/Map/Dng/06Zol/06ZoL_49/LT/Dng_06Zol_49_02_LT",
+   "/Game/Map/Dng/06Zol/06ZoL_49/NAV/Dng_06Zol_49_01_NAV"
+  ],
+  "err": null
+ },
+ "10056": {
+  "subs": [
+   "/Game/Map/Btl/06Zol/06Zol_67/BG/Btl_06Zol_67_BG0",
+   "/Game/Map/Dng/06Zol/06Zol_46/BG/Dng_06Zol_46_01_BG",
+   "/Game/Map/Dng/06Zol/06Zol_50/EV/Dng_06Zol_50_01_EV",
+   "/Game/Map/Dng/06Zol/06Zol_50/GD/Dng_06Zol_50_01_GD",
+   "/Game/Map/Dng/06Zol/06Zol_50/KD/Dng_06Zol_50_01_KD",
+   "/Game/Map/Dng/06Zol/06Zol_50/LT/Dng_06Zol_50_01_LT",
+   "/Game/Map/Dng/06Zol/06Zol_50/LT/Dng_06Zol_50_02_LT",
+   "/Game/Map/Dng/06Zol/06Zol_50/NAV/Dng_06Zol_50_01_NAV"
+  ],
+  "err": null
+ },
+ "10230": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_230/EV/Com_00Com_230_EV",
+   "/Game/Map/Com/00Com/00Com_230/GD/Com_00Com_230_GD",
+   "/Game/Map/Com/00Com/00Com_230/KD/Com_00Com_230_KD",
+   "/Game/Map/Com/00Com/00Com_230/LT/Com_00Com_230_01_LT",
+   "/Game/Map/Com/00Com/00Com_230/NAV/Com_00Com_230_NAV"
+  ],
+  "err": null
+ },
+ "10231": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_231/EV/Com_00Com_231_EV",
+   "/Game/Map/Com/00Com/00Com_231/GD/Com_00Com_231_GD",
+   "/Game/Map/Com/00Com/00Com_231/KD/Com_00Com_231_KD",
+   "/Game/Map/Com/00Com/00Com_231/LT/Com_00Com_231_01_LT",
+   "/Game/Map/Com/00Com/00Com_231/NAV/Com_00Com_231_NAV"
+  ],
+  "err": null
+ },
+ "10232": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_232/EV/Com_00Com_232_EV",
+   "/Game/Map/Com/00Com/00Com_232/GD/Com_00Com_232_GD",
+   "/Game/Map/Com/00Com/00Com_232/KD/Com_00Com_232_KD",
+   "/Game/Map/Com/00Com/00Com_232/LT/Com_00Com_232_01_LT",
+   "/Game/Map/Com/00Com/00Com_232/NAV/Com_00Com_232_NAV"
+  ],
+  "err": null
+ },
+ "2130": {
+  "subs": [
+   "/Game/Map/Town/07Mys/07Mys_01/BG/Town_07Mys_01_01_BG",
+   "/Game/Map/Town/07Mys/07Mys_01/EV/Town_07Mys_01_01_EV",
+   "/Game/Map/Town/07Mys/07Mys_01/GD/Town_07Mys_01_01_GD",
+   "/Game/Map/Town/07Mys/07Mys_01/KD/Town_07Mys_01_01_KD",
+   "/Game/Map/Town/07Mys/07Mys_01/LT/Town_07Mys_01_01_LT",
+   "/Game/Map/Town/07Mys/07Mys_01/NAV/Town_07Mys_01_01_NAV",
+   "/Game/Map/Town/07Mys/07Mys_01/SD/Town_07Mys_01_SD"
+  ],
+  "err": null
+ },
+ "2140": {
+  "subs": [
+   "/Game/Map/Town/07Mys/07Mys_20/BG/Town_07Mys_20_01_BG",
+   "/Game/Map/Town/07Mys/07Mys_20/BG/Town_07Mys_20_02_BG",
+   "/Game/Map/Town/07Mys/07Mys_20/EV/Town_07Mys_20_EV",
+   "/Game/Map/Town/07Mys/07Mys_20/GD/Town_07Mys_20_GD",
+   "/Game/Map/Town/07Mys/07Mys_20/KD/Town_07Mys_20_01_KD",
+   "/Game/Map/Town/07Mys/07Mys_20/LT/Town_07Mys_20_LT",
+   "/Game/Map/Town/07Mys/07Mys_20/NAV/Town_07Mys_20_NAV",
+   "/Game/Map/Town/07Mys/07Mys_20/SD/Town_07Mys_20_SD"
+  ],
+  "err": null
+ },
+ "3170": {
+  "subs": [
+   "/Game/Map/Dng/07Mys/07Mys_40/EV/Dng_07Mys_40_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_40/GD/Dng_07Mys_40_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_40/MOCK/Dng_07Mys_40_01_MOCK"
+  ],
+  "err": null
+ },
+ "3180": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_60/BG/Btl_07Mys_60_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_60/LT/Btl_07Mys_60_01_LT",
+   "/Game/Map/Btl/07Mys/07Mys_64/BG/Btl_07Mys_64_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_64/LT/Btl_07Mys_64_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_41/BG/Dng_07Mys_41_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_41/EV/Dng_07Mys_41_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_41/GD/Dng_07Mys_41_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_41/KD/Dng_07Mys_41_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_41/LT/Dng_07Mys_41_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_41/NAV/Dng_07Mys_41_01_NAV",
+   "/Game/Map/Dng/07Mys/07Mys_41/SD/Dng_07Mys_41_SD"
+  ],
+  "err": null
+ },
+ "3190": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_61/BG/Btl_07Mys_61_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_61/LT/Btl_07Mys_61_01_LT",
+   "/Game/Map/Btl/07Mys/07Mys_65/BG/Btl_07Mys_65_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_65/LT/Btl_07Mys_65_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_42/BG/Dng_07Mys_42_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_42/EV/Dng_07Mys_42_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_42/GD/Dng_07Mys_42_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_42/KD/Dng_07Mys_42_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_42/LT/Dng_07Mys_42_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_42/NAV/Dng_07Mys_42_01_NAV",
+   "/Game/Map/Dng/07Mys/07Mys_42/SD/Dng_07Mys_42_SD"
+  ],
+  "err": null
+ },
+ "3200": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_62/BG/Btl_07Mys_62_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_62/LT/Btl_07Mys_62_01_LT",
+   "/Game/Map/Btl/07Mys/07Mys_66/BG/Btl_07Mys_66_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_66/LT/Btl_07Mys_66_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_43/BG/Dng_07Mys_43_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_43/EV/Dng_07Mys_43_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_43/GD/Dng_07Mys_43_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_43/KD/Dng_07Mys_43_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_43/LT/Dng_07Mys_43_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_43/NAV/Dng_07Mys_43_01_NAV",
+   "/Game/Map/Dng/07Mys/07Mys_43/SD/Dng_07Mys_43_SD"
+  ],
+  "err": null
+ },
+ "3210": {
+  "subs": [
+   "/Game/Map/Dng/07Mys/07Mys_44/BG/Dng_07Mys_44_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_44/EV/Dng_07Mys_44_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_44/GD/Dng_07Mys_44_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_44/KD/Dng_07Mys_44_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_44/LT/Dng_07Mys_44_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_44/NAV/Dng_07Mys_44_01_NAV",
+   "/Game/Map/Dng/07Mys/07Mys_44/SD/Dng_07Mys_44_SD"
+  ],
+  "err": null
+ },
+ "3211": {
+  "subs": [
+   "/Game/Map/Dng/07Mys/07Mys_45/BG/Dng_07Mys_45_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_45/BG/Dng_07Mys_45_02_BG",
+   "/Game/Map/Dng/07Mys/07Mys_45/EV/Dng_07Mys_45_EV",
+   "/Game/Map/Dng/07Mys/07Mys_45/GD/Dng_07Mys_45_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_45/KD/Dng_07Mys_45_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_45/LT/Dng_07Mys_45_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_45/LT/Dng_07Mys_45_02_LT",
+   "/Game/Map/Dng/07Mys/07Mys_45/LT/Dng_07Mys_45_03_LT",
+   "/Game/Map/Dng/07Mys/07Mys_45/NAV/Dng_07Mys_45_01_NAV"
+  ],
+  "err": null
+ },
+ "3212": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_63/BG/Btl_07Mys_63_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_63/LT/Btl_07Mys_63_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_46/BG/Dng_07Mys_46_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_46/BG/Dng_07Mys_46_02_BG",
+   "/Game/Map/Dng/07Mys/07Mys_46/EV/Dng_07Mys_46_EV",
+   "/Game/Map/Dng/07Mys/07Mys_46/GD/Dng_07Mys_46_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_46/KD/Dng_07Mys_46_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_46/LT/Dng_07Mys_46_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_46/NAV/Dng_07Mys_46_01_NAV"
+  ],
+  "err": null
+ },
+ "5195": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_112/BG/Event_00Eve_112_01_BG",
+   "/Game/Map/Event/Com/00Eve_112/GD/Event_00Eve_112_01_GD",
+   "/Game/Map/Event/Com/00Eve_112/LT/Event_00Eve_112_01_LT",
+   "/Game/Map/Event/Com/00Eve_112/NAV/Event_00Eve_112_01_NAV",
+   "/Game/Map/Event/Com/00Eve_112/SD/Event_00Eve_112_SD"
+  ],
+  "err": null
+ },
+ "5197": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_114/BG/Event_00Eve_114_01_BG",
+   "/Game/Map/Event/Com/00Eve_114/BG/Event_00Eve_114_02_BG",
+   "/Game/Map/Event/Com/00Eve_114/BG/Event_00Eve_114_03_BG",
+   "/Game/Map/Event/Com/00Eve_114/LT/Event_00Eve_114_01_LT",
+   "/Game/Map/Event/Com/00Eve_114/LT/Event_00Eve_114_02_LT",
+   "/Game/Map/Event/Com/00Eve_114/SD/Event_00Eve_114_SD"
+  ],
+  "err": null
+ },
+ "10057": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_67/BG/Btl_07Mys_67_BG0",
+   "/Game/Map/Btl/07Mys/07Mys_67/LT/Btl_07Mys_67_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_47/BG/Dng_07Mys_47_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_47/EV/Dng_07Mys_47_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_47/GD/Dng_07Mys_47_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_47/KD/Dng_07Mys_47_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_47/LT/Dng_07Mys_47_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_47/NAV/Dng_07Mys_47_01_NAV"
+  ],
+  "err": null
+ },
+ "10058": {
+  "subs": [
+   "/Game/Map/Btl/07Mys/07Mys_67/BG/Btl_07Mys_67_BG0",
+   "/Game/Map/Dng/07Mys/07Mys_47/BG/Dng_07Mys_47_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_48/EV/Dng_07Mys_48_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_48/GD/Dng_07Mys_48_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_48/KD/Dng_07Mys_48_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_48/LT/Dng_07Mys_48_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_48/LT/Dng_07Mys_48_02_LT",
+   "/Game/Map/Dng/07Mys/07Mys_48/NAV/Dng_07Mys_48_01_NAV"
+  ],
+  "err": null
+ },
+ "10213": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_213/EV/Com_00Com_213_EV",
+   "/Game/Map/Com/00Com/00Com_213/GD/Com_00Com_213_GD",
+   "/Game/Map/Com/00Com/00Com_213/KD/Com_00Com_213_KD",
+   "/Game/Map/Com/00Com/00Com_213/LT/Com_00Com_213_01_LT",
+   "/Game/Map/Com/00Com/00Com_213/NAV/Com_00Com_213_NAV"
+  ],
+  "err": null
+ },
+ "10214": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_214/EV/Com_00Com_214_EV",
+   "/Game/Map/Com/00Com/00Com_214/GD/Com_00Com_214_GD",
+   "/Game/Map/Com/00Com/00Com_214/KD/Com_00Com_214_KD",
+   "/Game/Map/Com/00Com/00Com_214/LT/Com_00Com_214_01_LT",
+   "/Game/Map/Com/00Com/00Com_214/NAV/Com_00Com_214_NAV"
+  ],
+  "err": null
+ },
+ "10215": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_215/EV/Com_00Com_215_EV",
+   "/Game/Map/Com/00Com/00Com_215/GD/Com_00Com_215_GD",
+   "/Game/Map/Com/00Com/00Com_215/KD/Com_00Com_215_KD",
+   "/Game/Map/Com/00Com/00Com_215/LT/Com_00Com_215_01_LT",
+   "/Game/Map/Com/00Com/00Com_215/NAV/Com_00Com_215_NAV"
+  ],
+  "err": null
+ },
+ "3213": {
+  "subs": [
+   "/Game/Map/Dng/07Mys/07Mys_47/BG/Dng_07Mys_47_01_BG",
+   "/Game/Map/Dng/07Mys/07Mys_49/EV/Dng_07Mys_49_01_EV",
+   "/Game/Map/Dng/07Mys/07Mys_49/GD/Dng_07Mys_49_01_GD",
+   "/Game/Map/Dng/07Mys/07Mys_49/KD/Dng_07Mys_49_01_KD",
+   "/Game/Map/Dng/07Mys/07Mys_49/LT/Dng_07Mys_49_01_LT",
+   "/Game/Map/Dng/07Mys/07Mys_49/NAV/Dng_07Mys_49_01_NAV"
+  ],
+  "err": null
+ },
+ "10233": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_233/EV/Com_00Com_233_EV",
+   "/Game/Map/Com/00Com/00Com_233/GD/Com_00Com_233_GD",
+   "/Game/Map/Com/00Com/00Com_233/KD/Com_00Com_233_KD",
+   "/Game/Map/Com/00Com/00Com_233/LT/Com_00Com_233_01_LT",
+   "/Game/Map/Com/00Com/00Com_233/NAV/Com_00Com_233_NAV"
+  ],
+  "err": null
+ },
+ "10234": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_234/EV/Com_00Com_234_EV",
+   "/Game/Map/Com/00Com/00Com_234/GD/Com_00Com_234_GD",
+   "/Game/Map/Com/00Com/00Com_234/KD/Com_00Com_234_KD",
+   "/Game/Map/Com/00Com/00Com_234/LT/Com_00Com_234_01_LT",
+   "/Game/Map/Com/00Com/00Com_234/NAV/Com_00Com_234_NAV"
+  ],
+  "err": null
+ },
+ "10235": {
+  "subs": [
+   "/Game/Map/Com/00Com/00Com_200/BG/Com_00Com_200_01_BG",
+   "/Game/Map/Com/00Com/00Com_235/EV/Com_00Com_235_EV",
+   "/Game/Map/Com/00Com/00Com_235/GD/Com_00Com_235_GD",
+   "/Game/Map/Com/00Com/00Com_235/KD/Com_00Com_235_KD",
+   "/Game/Map/Com/00Com/00Com_235/LT/Com_00Com_235_01_LT",
+   "/Game/Map/Com/00Com/00Com_235/NAV/Com_00Com_235_NAV"
+  ],
+  "err": null
+ },
+ "2150": {
+  "subs": [
+   "/Game/Map/Town/08Gro/08Gro_01/BG/Town_08Gro_01_01_BG",
+   "/Game/Map/Town/08Gro/08Gro_01/BG/Town_08Gro_01_02_BG",
+   "/Game/Map/Town/08Gro/08Gro_01/EV/Town_08Gro_01_01_EV",
+   "/Game/Map/Town/08Gro/08Gro_01/GD/Town_08Gro_01_01_GD",
+   "/Game/Map/Town/08Gro/08Gro_01/KD/Town_08Gro_01_KD",
+   "/Game/Map/Town/08Gro/08Gro_01/LT/Town_08Gro_01_01_LT",
+   "/Game/Map/Town/08Gro/08Gro_01/NAV/Town_08Gro_01_02_NAV",
+   "/Game/Map/Town/08Gro/08Gro_01/SD/Town_08Gro_01_01_SD"
+  ],
+  "err": null
+ },
+ "2160": {
+  "subs": [
+   "/Game/Map/Town/08Gro/08Gro_20/BG/Town_08Gro_20_01_BG",
+   "/Game/Map/Town/08Gro/08Gro_20/BG/Town_08Gro_20_02_BG",
+   "/Game/Map/Town/08Gro/08Gro_20/EV/Town_08Gro_20_01_EV",
+   "/Game/Map/Town/08Gro/08Gro_20/GD/Town_08Gro_20_01_GD",
+   "/Game/Map/Town/08Gro/08Gro_20/KD/Town_08Gro_20_01_KD",
+   "/Game/Map/Town/08Gro/08Gro_20/LT/Town_08Gro_20_01_LT",
+   "/Game/Map/Town/08Gro/08Gro_20/NAV/Town_08Gro_20_01_NAV",
+   "/Game/Map/Town/08Gro/08Gro_20/SD/Town_08Gro_20_SD"
+  ],
+  "err": null
+ },
+ "3220": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_60/BG/Btl_08Gro_60_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_60/LT/Btl_08Gro_60_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_40/BG/Dng_08Gro_40_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_40/EV/Dng_08Gro_40_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_40/GD/Dng_08Gro_40_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_40/KD/Dng_08Gro_40_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_40/LT/Dng_08Gro_40_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_40/NAV/Dng_08Gro_40_01_NAV",
+   "/Game/Map/Dng/08Gro/08Gro_40/SD/Dng_08Gro_40_SD"
+  ],
+  "err": null
+ },
+ "3230": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_61/BG/Btl_08Gro_61_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_61/LT/Btl_08Gro_61_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_41/BG/Dng_08Gro_41_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_41/EV/Dng_08Gro_41_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_41/GD/Dng_08Gro_41_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_41/KD/Dng_08Gro_41_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_41/LT/Dng_08Gro_41_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_41/NAV/Dng_08Gro_41_01_NAV",
+   "/Game/Map/Dng/08Gro/08Gro_41/SD/Dng_08Gro_41_SD"
+  ],
+  "err": null
+ },
+ "3240": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_62/BG/Btl_08Gro_62_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_62/LT/Btl_08Gro_62_01_LT",
+   "/Game/Map/Btl/08Gro/08Gro_68/BG/Btl_08Gro_68_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_68/LT/Btl_08Gro_68_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_42/BG/Dng_08Gro_42_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_42/EV/Dng_08Gro_42_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_42/GD/Dng_08Gro_42_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_42/KD/Dng_08Gro_42_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_42/LT/Dng_08Gro_42_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_42/NAV/Dng_08Gro_42_01_NAV",
+   "/Game/Map/Dng/08Gro/08Gro_42/SD/Dng_08Gro_42_SD"
+  ],
+  "err": null
+ },
+ "3250": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_64/BG/Btl_08Gro_64_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_64/LT/Btl_08Gro_64_01_LT",
+   "/Game/Map/Btl/08Gro/08Gro_65/BG/Btl_08Gro_65_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_65/LT/Btl_08Gro_65_01_LT",
+   "/Game/Map/Btl/08Gro/08Gro_66/BG/Btl_08Gro_66_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_66/LT/Btl_08Gro_66_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_43/BG/Dng_08Gro_43_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_43/EV/Dng_08Gro_43_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_43/GD/Dng_08Gro_43_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_43/KD/Dng_08Gro_43_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_43/LT/Dng_08Gro_43_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_43/NAV/Dng_08Gro_43_01_NAV",
+   "/Game/Map/Dng/08Gro/08Gro_43/SD/Dng_08Gro_43_SD"
+  ],
+  "err": null
+ },
+ "10060": {
+  "subs": [
+   "/Game/Map/Dng/08Gro/08Gro_44/BG/Dng_08Gro_44_BG",
+   "/Game/Map/Dng/08Gro/08Gro_44/EV/Dng_08Gro_44_EV",
+   "/Game/Map/Dng/08Gro/08Gro_44/GD/Dng_08Gro_44_GD",
+   "/Game/Map/Dng/08Gro/08Gro_44/KD/Dng_08Gro_44_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_44/LT/Dng_08Gro_44_LT",
+   "/Game/Map/Dng/08Gro/08Gro_44/NAV/Dng_08Gra_44_01_NAV",
+   "/Game/Map/Dng/08Gro/08Gro_44/SD/Dng_08Gro_44_SD",
+   "/Game/Map/Dng/08Gro/08Gro_45/BG/Dng_08Gro_45_01_BG"
+  ],
+  "err": null
+ },
+ "10063": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_69/BG/Btl_08Gro_69_BG0",
+   "/Game/Map/Dng/08Gro/08Gro_45/BG/Dng_08Gro_45_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_45/EV/Dng_08Gro_45_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_45/GD/Dng_08Gro_45_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_45/KD/Dng_08Gro_45_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_45/LT/Dng_08Gro_45_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_45/LT/Dng_08Gro_45_02_LT",
+   "/Game/Map/Dng/08Gro/08Gro_45/NAV/Dng_08Gro_45_01_NAV"
+  ],
+  "err": null
+ },
+ "10064": {
+  "subs": [
+   "/Game/Map/Btl/08Gro/08Gro_69/BG/Btl_08Gro_69_BG0",
+   "/Game/Map/Btl/08Gro/08Gro_69/LT/Btl_08Gro_69_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_45/BG/Dng_08Gro_45_01_BG",
+   "/Game/Map/Dng/08Gro/08Gro_46/EV/Dng_08Gro_46_01_EV",
+   "/Game/Map/Dng/08Gro/08Gro_46/GD/Dng_08Gro_46_01_GD",
+   "/Game/Map/Dng/08Gro/08Gro_46/KD/Dng_08Gro_46_01_KD",
+   "/Game/Map/Dng/08Gro/08Gro_46/LT/Dng_08Gro_46_01_LT",
+   "/Game/Map/Dng/08Gro/08Gro_46/NAV/Dng_08Gro_46_01_NAV"
+  ],
+  "err": null
+ },
+ "10062": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/02Lan/02Lan_43/EV/Dng_02Lan_43_01_EV",
+   "/Game/Map/Dng/02Lan/02Lan_43/GD/Dng_02Lan_43_01_GD",
+   "/Game/Map/Dng/02Lan/02Lan_43/KD/Dng_02Lan_43_01_KD",
+   "/Game/Map/Dng/02Lan/02Lan_43/LT/Dng_02Lan_43_01_LT",
+   "/Game/Map/Dng/02Lan/02Lan_43/LT/Dng_02Lan_43_02_LT",
+   "/Game/Map/Dng/02Lan/02Lan_43/NAV/Dng_02Lan_43_01_NAV"
+  ],
+  "err": null
+ },
+ "2170": {
+  "subs": [
+   "/Game/Map/Town/09Pha/09Pha_01/BG/Town_09Pha_01_01_BG",
+   "/Game/Map/Town/09Pha/09Pha_01/BG/Town_09Pha_01_02_BG",
+   "/Game/Map/Town/09Pha/09Pha_01/EV/Town_09Pha_01_01_EV",
+   "/Game/Map/Town/09Pha/09Pha_01/GD/Town_09Pha_01_01_GD",
+   "/Game/Map/Town/09Pha/09Pha_01/KD/Town_09Pha_01_01_KD",
+   "/Game/Map/Town/09Pha/09Pha_01/LT/Town_09Pha_01_01_LT",
+   "/Game/Map/Town/09Pha/09Pha_01/NAV/Town_09Pha_01_01_NAV",
+   "/Game/Map/Town/09Pha/09Pha_01/SD/Town_09Pha_01_SD"
+  ],
+  "err": null
+ },
+ "2180": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_61/BG/Btl_09Pha_61_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_61/LT/Btl_09Pha_61_LT",
+   "/Game/Map/Town/09Pha/09Pha_20/BG/Town_09Pha_20_01_BG",
+   "/Game/Map/Town/09Pha/09Pha_20/GD/Town_09Pha_20_GD",
+   "/Game/Map/Town/09Pha/09Pha_20/LT/Town_09Pha_20_LT",
+   "/Game/Map/Town/09Pha/09Pha_20/NAV/Town_09Pha_20_NAV",
+   "/Game/Map/Town/09Pha/09Pha_20/SD/Town_09Pha_20_SD"
+  ],
+  "err": null
+ },
+ "3260": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_60/BG/Btl_09Pha_60_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_60/LT/Btl_09Pha_60_01_LT",
+   "/Game/Map/Btl/09Pha/09Pha_64/BG/Btl_09Pha_64_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_64/LT/Btl_09Pha_64_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_40/BG/Dng_09Pha_40_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_40/EV/Dng_09Pha_40_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_40/GD/Dng_09Pha_40_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_40/KD/Dng_09Pha_40_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_40/LT/Dng_09Pha_40_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_40/NAV/Dng_09Pha_40_01_NAV",
+   "/Game/Map/Dng/09Pha/09Pha_40/SD/Dng_09Pha_40_SD"
+  ],
+  "err": null
+ },
+ "3270": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_62/BG/Btl_09Pha_62_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_62/LT/Btl_09Pha_62_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_41/BG/Dng_09Pha_41_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_41/EV/Dng_09Pha_41_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_41/GD/Dng_09Pha_41_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_41/KD/Dng_09Pha_41_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_41/LT/Dng_09Pha_41_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_41/NAV/Dng_09Pha_41_01_NAV",
+   "/Game/Map/Dng/09Pha/09Pha_41/SD/Dng_09Pha_41_SD"
+  ],
+  "err": null
+ },
+ "3271": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_63/BG/Btl_09Pha_63_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_63/LT/Btl_09Pha_63_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_42/BG/Dng_09Pha_42_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_42/BG/Dng_09Pha_42_02_BG",
+   "/Game/Map/Dng/09Pha/09Pha_42/EV/Dng_09Pha_42_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_42/GD/Dng_09Pha_42_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_42/KD/Dng_09Pha_42_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_42/LT/Dng_09Pha_42_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_42/NAV/Dng_09Pha_42_01_NAV",
+   "/Game/Map/Dng/09Pha/09Pha_42/SD/Dng_09Pha_42_SD"
+  ],
+  "err": null
+ },
+ "5180": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_96/BG/Event_00Eve_96_01_BG",
+   "/Game/Map/Event/Com/00Eve_96/LT/Event_00Eve_96_01_LT"
+  ],
+  "err": null
+ },
+ "5181": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_62/BG/Btl_09Pha_62_BG0",
+   "/Game/Map/Event/Com/00Eve_97/BG/Event_00Eve_97_01_BG",
+   "/Game/Map/Event/Com/00Eve_97/GD/Event_00Eve_97_01_GD",
+   "/Game/Map/Event/Com/00Eve_97/KD/Event_00Eve_97_01_KD",
+   "/Game/Map/Event/Com/00Eve_97/LT/Event_00Eve_97_01_LT",
+   "/Game/Map/Event/Com/00Eve_97/LT/Event_00Eve_97_02_LT",
+   "/Game/Map/Event/Com/00Eve_97/NAV/Event_00Eve_97_01_NAV"
+  ],
+  "err": null
+ },
+ "2190": {
+  "subs": [
+   "/Game/Map/Town/09Pha/09Pha_21/BG/Town_09Pha_21_01_BG",
+   "/Game/Map/Town/09Pha/09Pha_21/EV/Town_09Pha_21_01_EV",
+   "/Game/Map/Town/09Pha/09Pha_21/GD/Town_09Pha_21_01_GD",
+   "/Game/Map/Town/09Pha/09Pha_21/KD/Town_09Pha_21_01_KD",
+   "/Game/Map/Town/09Pha/09Pha_21/LT/Town_09Pha_21_01_LT",
+   "/Game/Map/Town/09Pha/09Pha_21/NAV/Town_09Pha_21_01_NAV",
+   "/Game/Map/Town/09Pha/09Pha_21/SD/Town_09Pha_21_SD"
+  ],
+  "err": null
+ },
+ "3010": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_41/BG/Dng_01Gra_41_01_BG",
+   "/Game/Map/Dng/01Gra/01Gra_41/BG/Dng_01Gra_41_02_BG",
+   "/Game/Map/Dng/01Gra/01Gra_41/EV/Dng_01Gra_41_EV",
+   "/Game/Map/Dng/01Gra/01Gra_41/GD/Dng_01Gra_41_GD",
+   "/Game/Map/Dng/01Gra/01Gra_41/KD/Dng_01Gra_41_KD",
+   "/Game/Map/Dng/01Gra/01Gra_41/LT/Dng_01Gra_41_01_LT",
+   "/Game/Map/Dng/01Gra/01Gra_41/LT/Dng_01Gra_41_02_LT",
+   "/Game/Map/Dng/01Gra/01Gra_41/NAV/Dng_01Gra_41_NAV",
+   "/Game/Map/Dng/01Gra/01Gra_41/SD/Dng_01Gra_41_SD"
+  ],
+  "err": null
+ },
+ "3272": {
+  "subs": [
+   "/Game/Map/Btl/09Pha/09Pha_65/BG/Btl_09Pha_65_BG0",
+   "/Game/Map/Btl/09Pha/09Pha_65/LT/Btl_09Pha_65_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_43/BG/Dng_09Pha_43_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_43/BG/Dng_09Pha_43_02_BG",
+   "/Game/Map/Dng/09Pha/09Pha_43/EV/Dng_09Pha_43_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_43/GD/Dng_09Pha_43_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_43/KD/Dng_09Pha_43_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_43/LT/Dng_09Pha_43_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_43/LT/Dng_09Pha_43_02_LT",
+   "/Game/Map/Dng/09Pha/09Pha_43/NAV/Dng_09Pha_43_01_NAV",
+   "/Game/Map/Dng/09Pha/09Pha_43/SD/Dng_09Pha_43_SD"
+  ],
+  "err": null
+ },
+ "10065": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_44/EV/Dng_09Pha_44_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_44/GD/Dng_09Pha_44_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_44/KD/Dng_09Pha_44_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_44/LT/Dng_09Pha_44_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_44/LT/Dng_09Pha_44_02_LT",
+   "/Game/Map/Dng/09Pha/09Pha_44/NAV/Dng_09Pha_44_01_NAV"
+  ],
+  "err": null
+ },
+ "10066": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/09Pha/09Pha_45/EV/Dng_09Pha_45_01_EV",
+   "/Game/Map/Dng/09Pha/09Pha_45/GD/Dng_09Pha_45_01_GD",
+   "/Game/Map/Dng/09Pha/09Pha_45/KD/Dng_09Pha_45_01_KD",
+   "/Game/Map/Dng/09Pha/09Pha_45/LT/Dng_09Pha_45_01_LT",
+   "/Game/Map/Dng/09Pha/09Pha_45/LT/Dng_09Pha_45_02_LT",
+   "/Game/Map/Dng/09Pha/09Pha_45/NAV/Dng_09Pha_45_01_NAV"
+  ],
+  "err": null
+ },
+ "10061": {
+  "subs": [
+   "/Game/Map/Btl/01Gra/01Gra_66/BG/Btl_01Gra_66_BG0",
+   "/Game/Map/Dng/01Gra/01Gra_44/BG/Dng_01Gra_44_01_BG",
+   "/Game/Map/Dng/05Old/05Old_48/EV/Dng_05Old_48_01_EV",
+   "/Game/Map/Dng/05Old/05Old_48/GD/Dng_05Old_48_01_GD",
+   "/Game/Map/Dng/05Old/05Old_48/KD/Dng_05Old_48_01_KD",
+   "/Game/Map/Dng/05Old/05Old_48/LT/Dng_05Old_48_01_LT",
+   "/Game/Map/Dng/05Old/05Old_48/LT/Dng_05Old_48_02_LT",
+   "/Game/Map/Dng/05Old/05Old_48/NAV/Dng_05Old_48_01_NAV"
+  ],
+  "err": null
+ },
+ "3280": {
+  "subs": [
+   "/Game/Map/Btl/10Cry/10Cry_60/BG/Btl_10Cry_60_BG0",
+   "/Game/Map/Btl/10Cry/10Cry_60/LT/Btl_10Cry_60_01_LT",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_01_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_02_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_03_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_04_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_05_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/BG/Dng_10Cry_40_06_BG",
+   "/Game/Map/Dng/10Cry/10Cry_40/EV/Dng_10Cry_40_01_EV",
+   "/Game/Map/Dng/10Cry/10Cry_40/GD/Dng_10Cry_40_01_GD",
+   "/Game/Map/Dng/10Cry/10Cry_40/KD/Dng_10Cry_40_01_KD",
+   "/Game/Map/Dng/10Cry/10Cry_40/LT/Dng_10Cry_40_01_LT",
+   "/Game/Map/Dng/10Cry/10Cry_40/NAV/Dng_10Cry_40_01_NAV",
+   "/Game/Map/Dng/10Cry/10Cry_40/SD/Dng_10Cry_40_SD"
+  ],
+  "err": null
+ },
+ "3281": {
+  "subs": [
+   "/Game/Map/Btl/10Cry/10Cry_61/BG/Btl_10Cry_61_BG0",
+   "/Game/Map/Btl/10Cry/10Cry_61/LT/Btl_10Cry_61_01_LT",
+   "/Game/Map/Dng/10Cry/10Cry_41/BG/Dng_10Cry_41_01_BG",
+   "/Game/Map/Dng/10Cry/10Cry_41/BG/Dng_10Cry_41_02_BG",
+   "/Game/Map/Dng/10Cry/10Cry_41/EV/Dng_10Cry_41_01_EV",
+   "/Game/Map/Dng/10Cry/10Cry_41/GD/Dng_10Cry_41_01_GD",
+   "/Game/Map/Dng/10Cry/10Cry_41/KD/Dng_10Cry_41_01_KD",
+   "/Game/Map/Dng/10Cry/10Cry_41/LT/Dng_10Cry_41_01_LT",
+   "/Game/Map/Dng/10Cry/10Cry_41/NAV/Dng_10Cry_41_01_NAV",
+   "/Game/Map/Dng/10Cry/10Cry_41/SD/Dng_10Cry_41_SD"
+  ],
+  "err": null
+ },
+ "5190": {
+  "subs": [
+   "/Game/Map/Btl/10Cry/10Cry_62/BG/Btl_10Cry_62_BG0",
+   "/Game/Map/Btl/10Cry/10Cry_62/LT/Btl_10Cry_62_01_LT",
+   "/Game/Map/Event/Com/00Eve_98/BG/Event_00Eve_98_01_BG",
+   "/Game/Map/Event/Com/00Eve_98/EV/Event_00Eve_98_01_EV",
+   "/Game/Map/Event/Com/00Eve_98/GD/Event_00Eve_98_01_GD",
+   "/Game/Map/Event/Com/00Eve_98/LT/Event_00Eve_98_01_LT",
+   "/Game/Map/Event/Com/00Eve_98/SD/Event_00Eve_98_01_SD"
+  ],
+  "err": null
+ },
+ "5191": {
+  "subs": [
+   "/Game/Map/Btl/10Cry/10Cry_63/BG/Btl_10Cry_63_BG0",
+   "/Game/Map/Btl/10Cry/10Cry_63/LT/Btl_10Cry_63_01_LT",
+   "/Game/Map/Event/Com/00Eve_99/BG/Event_00Eve_99_01_BG",
+   "/Game/Map/Event/Com/00Eve_99/EV/Event_00Eve_99_01_EV",
+   "/Game/Map/Event/Com/00Eve_99/GD/Event_00Eve_99_01_GD",
+   "/Game/Map/Event/Com/00Eve_99/LT/Event_00Eve_99_01_LT",
+   "/Game/Map/Event/Com/00Eve_99/SD/Event_00Eve_99_01_SD"
+  ],
+  "err": null
+ },
+ "5192": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_100/BG/Event_00Eve_100_01_BG",
+   "/Game/Map/Event/Com/00Eve_100/EV/Event_00Eve_100_01_EV",
+   "/Game/Map/Event/Com/00Eve_100/LT/Event_00Eve_100_01_LT"
+  ],
+  "err": null
+ },
+ "5150": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_88/BG/Event_00Eve_88_01_BG",
+   "/Game/Map/Event/Com/00Eve_88/GD/Event_00Eve_88_01_GD",
+   "/Game/Map/Event/Com/00Eve_88/LT/Event_00Eve_88_01_LT"
+  ],
+  "err": null
+ },
+ "5152": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_117/BG/Event_00Eve_117_01_BG",
+   "/Game/Map/Event/Com/00Eve_117/LT/Event_00Eve_117_01_LT"
+  ],
+  "err": null
+ },
+ "5153": {
+  "subs": [
+   "/Game/Map/Btl/10Cry/10Cry_64/BG/Btl_10Cry_64_BG0",
+   "/Game/Map/Btl/10Cry/10Cry_64/LT/Btl_10Cry_64_01_LT",
+   "/Game/Map/Event/Com/00Eve_118/BG/Event_00Eve_118_01_BG",
+   "/Game/Map/Event/Com/00Eve_118/LT/Event_00Eve_118_01_LT"
+  ],
+  "err": null
+ },
+ "5154": {
+  "subs": [
+   "/Game/Map/Event/Com/00Eve_119/BG/Event_00Eve_119_01_BG",
+   "/Game/Map/Event/Com/00Eve_119/LT/Event_00Eve_119_01_LT"
+  ],
+  "err": null
+ }
+}
