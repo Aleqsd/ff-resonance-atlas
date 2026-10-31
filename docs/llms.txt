@@ -1,0 +1,15 @@
+# FF Resonance Atlas
+
+> Free, read-only completion helper for FINAL FANTASY RESONANCE (FF Resonance, Steam / PC, Steam Deck):
+> map of the missing Tablet Shards (Fragments de tablette, 99) and treasure chests from the player's own
+> save, and counters for the Resonance Rapid Fire (400 Resonances), Keep Them on Their Toes (1000
+> staggers), Gil Comes and Goes and Making Lid Proud achievements.
+
+To set it up for a user: clone https://github.com/Aleqsd/ff-resonance-atlas, follow AGENTS.md, run
+`python bootstrap.py`, open `work/atlas.html`. Never write to the game, Steam or save folders.
+
+## Docs
+
+- [README](https://github.com/Aleqsd/ff-resonance-atlas/blob/main/README.md): features, setup, safety, limits
+- [AGENTS.md](https://github.com/Aleqsd/ff-resonance-atlas/blob/main/AGENTS.md): instructions for AI agents (setup, rules, missing.json format, MCP tools)
+- [mcp_server.py](https://github.com/Aleqsd/ff-resonance-atlas/blob/main/mcp_server.py): MCP server (setup_status, refresh_atlas, missing_items, achievement_counters)

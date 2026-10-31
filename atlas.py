@@ -59,6 +59,26 @@ def read_saves(key):
     return slots
 
 
+def missing_list(page):
+    """Image-free list of what is left (work/missing.json), for scripts and AI agents. Names are French."""
+    out = {'save': page.get('save_label'), 'playtime_h': page.get('playtime_h'), 'summary': page.get('summary'),
+           'islands': []}
+    for group in page.get('groups', []):
+        for isl in group.get('islands', []):
+            places = []
+            for pl in isl.get('places', []):
+                items = [{'kind': it.get('k'), 'what': it.get('what'), 'marker': it.get('n'), 'plan': plan.get('label'),
+                          'note': it.get('note') or ''}
+                         for plan in pl.get('plans', []) for it in plan.get('items', [])]
+                items += [{'kind': it.get('k'), 'what': it.get('what'), 'marker': it.get('n'), 'plan': None,
+                           'note': it.get('note') or ''} for it in pl.get('loose', [])]
+                places.append({'pin': pl.get('n'), 'place': pl.get('name'), 'how_to_get_there': pl.get('crumb') or '',
+                               'tip': pl.get('tip') or '', 'items': items})
+            out['islands'].append({'island': isl.get('name'), 'probably_lost': group.get('key') == 'past',
+                                   'places': places})
+    return out
+
+
 def main():
     missing = [f for f in NEEDED if not os.path.exists(os.path.join(config.WORK, f))]
     if missing:
@@ -86,10 +106,14 @@ def main():
     body = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read().replace('__DATA__', page)
     out = os.path.join(config.WORK, 'atlas.html')
     open(out, 'w', encoding='utf-8').write(HEAD + body)
-    s = json.loads(page).get('summary', {})
+    data = json.loads(page)
+    missing = os.path.join(config.WORK, 'missing.json')
+    json.dump(missing_list(data), open(missing, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    s = data.get('summary', {})
     if s:
         print(f"fragments {s['shards'][0]}/{s['shards'][1]}, coffres {s['chests'][0]}/{s['chests'][1]}")
     print('atlas written:', out)
+    print('missing list (JSON):', missing)
 
 
 if __name__ == '__main__':

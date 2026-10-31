@@ -12,6 +12,19 @@ what you still have to do.
 
 **[Download and instructions on GitHub](https://github.com/Aleqsd/ff-resonance-atlas)**
 
+![The atlas: tablet shards and chests left, island by island, with the world map](img/atlas-light.png)
+
+## Set it up with an AI agent
+
+Paste this to your coding agent:
+
+> Set up https://github.com/Aleqsd/ff-resonance-atlas for me: clone it, follow its AGENTS.md, then open
+> my atlas of missing tablet shards and chests for FINAL FANTASY RESONANCE.
+
+The repository has an `AGENTS.md` with the setup steps and safety rules, a one-command installer
+(`python bootstrap.py`) and an **MCP server** (`mcp_server.py`) so any MCP client can list your missing
+shards and chests or read your achievement counters.
+
 ## Where are my missing tablet shards and chests?
 
 The atlas (`atlas.py`) builds an offline page listing the **Tablet Shards** (*Fragments de tablette*,
@@ -19,7 +32,11 @@ The atlas (`atlas.py`) builds an offline page listing the **Tablet Shards** (*Fr
 map plans with numbered markers. It always uses your newest save slot, and you can tick items off while
 you play.
 
+![A place card with the island map pins and the in-game map plan with numbered markers](img/plan-light.png)
+
 ## How many Resonances have I used?
+
+![Counter window: Resonances 340 / 400](img/counter-en.png)
 
 The live counter (`counter.py`) is a small always-on-top window that updates every second while you play:
 

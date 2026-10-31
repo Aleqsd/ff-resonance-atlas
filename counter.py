@@ -102,7 +102,7 @@ class Game:
         self.addrs = []
 
     def attach(self):
-        out = subprocess.run(['tasklist', '/FI', f'IMAGENAME eq {EXE}', '/FO', 'CSV', '/NH'], capture_output=True,
+        out = subprocess.run(['tasklist', '/FI', f'IMAGENAME eq {EXE}', '/FO', 'CSV', '/NH'], capture_output=True, stdin=subprocess.DEVNULL,
                              text=True, errors='ignore', creationflags=0x08000000).stdout
         for row in out.splitlines():
             cols = row.strip('"').split('","')
@@ -181,26 +181,56 @@ class Game:
         return best
 
 
-def once():
+ACHIEVEMENTS = {'resonances': ('Resonance Rapid Fire', 'Adepte des résonances'),
+                'breaks': ('Keep Them on Their Toes', 'Quel choc !'),
+                'spent': ('Gil Comes and Goes', "Ça s'en va et ça revient"),
+                'earned': ('Making Lid Proud', 'Rendre Lid fière')}
+
+
+def progress(values):
+    """Structured progress (used by the MCP server)."""
+    return [{'counter': en, 'counter_fr': fr, 'achievement': ACHIEVEMENTS[k][0], 'achievement_fr': ACHIEVEMENTS[k][1],
+             'value': values[k], 'goal': goal, 'remaining': max(0, goal - values[k]), 'done': values[k] >= goal}
+            for k, goal, en, fr in COUNTERS]
+
+
+def live_values():
+    """Values read from the running game (Windows, read-only). Raises RuntimeError if not available."""
     g = Game()
     if not g.attach():
-        sys.exit(T['nogame'])
-    g.scan()
-    v = g.values()
-    g.close()
+        raise RuntimeError(T['nogame'])
+    try:
+        g.scan()
+        v = g.values()
+    finally:
+        g.close()
     if not v:
-        sys.exit(T['notfound'])
-    print('\n'.join(lines(v)))
+        raise RuntimeError(T['notfound'])
+    return v
 
 
-def from_save():
+def save_values():
+    """(values, save file name, save time) from the newest save. Needs the same setup as the atlas."""
     import config, atlas
     from savekey import save_key
     os.makedirs(config.WORK, exist_ok=True)
     t, name, d = atlas.read_saves(save_key())[0]
     p = d['props']['Player']
-    print(f'{name} ({atlas.fmt(t)})')
-    print('\n'.join(lines({k: int(p.get(f, 0)) for k, f in SAVE_FIELDS.items()})))
+    return {k: int(p.get(f, 0)) for k, f in SAVE_FIELDS.items()}, name, atlas.fmt(t)
+
+
+def once():
+    try:
+        v = live_values()
+    except RuntimeError as e:
+        sys.exit(str(e))
+    print('\n'.join(lines(v)))
+
+
+def from_save():
+    v, name, when = save_values()
+    print(f'{name} ({when})')
+    print('\n'.join(lines(v)))
 
 
 # ---------------------------------------------------------------- small always-on-top window
