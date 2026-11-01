@@ -15,6 +15,7 @@
   <img src="docs/img/atlas-light.png" alt="FF Resonance Atlas: 17 tablet shards and 22 chests left, island by island, with the world map" width="860">
 </picture>
 
+[Project page](https://ff-resonance-atlas.zqsdev.com) ·
 [Set it up with an AI agent](#set-it-up-with-an-ai-agent) ·
 [Quick start](#quick-start) ·
 [Atlas](#atlas-of-missing-tablet-shards-and-chests) ·

@@ -4,8 +4,10 @@ description: >-
   and a live counter for the Resonance Rapid Fire (400 Resonances), stagger and gil achievements.
 theme: jekyll-theme-cayman
 lang: en
-url: https://aleqsd.github.io
-baseurl: /ff-resonance-atlas
+url: https://ff-resonance-atlas.zqsdev.com
+baseurl: ""
+# _headers is read by Cloudflare, not served.
+include: ["_headers"]
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

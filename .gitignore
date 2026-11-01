@@ -11,3 +11,9 @@ tools/*/target/
 __pycache__/
 *.pyc
 .venv/
+
+# project page build (tools/build-site.sh)
+_site/
+.jekyll-cache/
+.bundle/
+vendor/

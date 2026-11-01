@@ -87,6 +87,7 @@ client. A project-level `.mcp.json` is included. Tools: `setup_status`, `refresh
 | `build_data.py`, `build_page.py`, `template.html` | cross-reference with the save and page generation |
 | `curated/` | hand-made French labels and fixes for the tested game build |
 | `tools/ooz_cli`, `tools/texdec` | Rust helpers (Oodle decompression, BCn texture decoding) |
+| `docs/`, `tools/build-site.sh`, `Gemfile`, `wrangler.jsonc` | project page https://ff-resonance-atlas.zqsdev.com: Jekyll (same theme and plugins as GitHub Pages) built and served by a Cloudflare Worker; Workers Builds redeploys it on every push to `main` |
 
 ## After changing code
 
